@@ -1,6 +1,6 @@
 ## Welcome to DShadow Index
 
-![Profile Picture](https://graph.facebook.com/100011369547476/profile_pic)
+![Profile Picture](http://graph.facebook.com/100011369547476/picture?type=square)
 
 ### Markdown
 
