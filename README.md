@@ -22,10 +22,9 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
 ### Support or Contact
 
 * GCash: 09225205353
 * Paypal: digitalshadow@icloud.com
 * Skrill: draftencode@gmail.com
+* Email: binarykorra@icloud.com
