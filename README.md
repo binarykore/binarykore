@@ -26,3 +26,4 @@ https://netwire.herokuapp.com/cli.sh
 * Paypal: digitalshadow@icloud.com
 * Skrill: draftencode@gmail.com
 * Email: binarykorra@icloud.com
+* Contact Number: 09225205353
