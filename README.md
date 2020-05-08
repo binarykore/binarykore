@@ -1,5 +1,5 @@
 ## DShadow - Programmer, Hacker, Developer
-[Zero](https://github.com/binarykorra/dshadow/blob/branch/README.md)
+[Works](https://github.com/binarykorra/dshadow/blob/master/works.md)
 
 ![Profile Picture](http://graph.facebook.com/100011369547476/picture?type=large)
 
