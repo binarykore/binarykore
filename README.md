@@ -10,7 +10,7 @@
 
 I am a PHP Developer, InfoSec, Reverse Engineering, Security Engineering Hacker. Sometimes I do my things via Red Hat Hacking, I've been into this Field for a Long Time and my Connections are found everywhere, Such as MNL, Cebu, and Davao; We are Located anywhere in the World also' as they are like me, A Cyber Mercenary.
 
-# Samples of my Work:
+## Samples of my Work:
 
 ### Facebook Profile Guard
 ```markdown
@@ -24,7 +24,7 @@ NetWire Chat Client
 https://netwire.herokuapp.com/cli.sh
 ```
 
-### Support or Contact
+### Contact me for Support
 
 * GCash: 09225205353
 * Paypal: digitalshadow@icloud.com
