@@ -1,5 +1,5 @@
 ## DShadow - Programmer, Hacker, Developer
-[Works](/works) [Zero](/zero) [WireChat](/wirechat)
+[ [Works](/works) ] [ [Zero](/zero) ] [ [WireChat](/wirechat) ]
 
 ![Profile Picture](http://graph.facebook.com/100011369547476/picture?type=large)
 
