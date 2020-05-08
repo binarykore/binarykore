@@ -1,4 +1,4 @@
-## Welcome to the DShadow Index
+## DShadow, Programmer - Hacker - Developer
 
 ![Profile Picture](http://graph.facebook.com/100011369547476/picture?type=large)
 
