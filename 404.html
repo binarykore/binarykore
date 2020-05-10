@@ -1,54 +1,61 @@
-<head>
-  <title>[ 404 ]</title>
-  <style>
-  body{margin: 0;width: 1200px;max-width: 100%;text-align: center;font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;position: absolute;top: 50%;left: 50%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);}
-  .moji{width: 120px;height: 120px;margin: 15px 15px 40px;background: #FFDA6A;display: inline-block;border-radius: 50%;position: relative;}
-  .moji:after{position: absolute;bottom: -40px;font-size: 18px;width: 60px;left: calc(50% - 30px);color: #8A8A8A;}
-  .face,.eyebrows,.eyes,.mouth,.tongue{position: absolute;}
-  .face:before,.face:after,.eyebrows:before,.eyebrows:after,.eyes:before,.eyes:after,.mouth:before,.mouth:after,.tongue:before,.tongue:after{position: absolute;content: '';}
-  .face{width: inherit;height: inherit;}
-  .error:after{content: '404';}
-  .error .face{-webkit-animation: face 3s linear infinite;animation: face 3s linear infinite;}
-  .error .eyebrows{left: calc(50% - 3px);height: 6px;width: 6px;border-radius: 50%;background: transparent;box-shadow: -18px 0 0 0 #000000, -33px 0 0 0 #000000, 18px 0 0 0 #000000, 33px 0 0 0 #000000;-webkit-animation: brow 3s linear infinite;animation: brow 3s linear infinite;}
-  .error .eyebrows:before,.error .eyebrows:after{width: 24px;height: 20px;border: 6px solid #000000;box-sizing: border-box;border-radius: 50%;border-bottom-color: transparent;border-left-color: transparent;border-right-color: transparent;top: -3px;left: calc(50% - 12px);}
-  .error .eyebrows:before{margin-left: -25px;}
-  .error .eyebrows:after{margin-left: 25px;}
-  .error .eyes{width: 16px;height: 24px;left: calc(50% - 8px);top: 35px;border-radius: 50%;background: transparent;box-shadow: 25px 0 0 0 #000000, -25px 0 0 0 #000000;}
-  .error .mouth{width: 30px;height: 45px;left: calc(50% - 15px);top: 50%;border-radius: 50%;background: #000000;-webkit-animation: mouth 3s linear infinite;animation: mouth 3s linear infinite;}
-  @-webkit-keyframes face{
-    15%,25%{-webkit-transform: rotate(20deg) translateX(-25px);transform: rotate(20deg) translateX(-25px);}
-    45%,65%{-webkit-transform: rotate(-20deg) translateX(25px);transform: rotate(-20deg) translateX(25px);}
-    75%,100%{-webkit-transform: rotate(0deg) translateX(0);transform: rotate(0deg) translateX(0);}
-  }
-  @keyframes face{
-    15%,25%{-webkit-transform: rotate(20deg) translateX(-25px);transform: rotate(20deg) translateX(-25px);}
-    45%,65%{-webkit-transform: rotate(-20deg) translateX(25px);transform: rotate(-20deg) translateX(25px);}
-    75%,100% {-webkit-transform: rotate(0deg) translateX(0);transform: rotate(0deg) translateX(0);}
-  }
-  @-webkit-keyframes brow{
-    15%,65%{top: 25px;}
-    75%,100%,0%{top: 15px;}
-  }
-  @keyframes brow{
-    15%,65%{top: 25px;}
-    75%,100%,0%{top: 15px;}
-  }
-  @-webkit-keyframes mouth{
-    10%,30%{width: 20px;height: 20px;left: calc(50% - 10px);}
-    50%,70%{width: 30px;height: 40px;left: calc(50% - 15px);}
-    75%,100%{height: 50px;}
-  }
-  @keyframes mouth{
-    10%,30%{width: 20px;height: 20px;left: calc(50% - 10px);}
-    50%,70%{width: 30px;height: 40px;left: calc(50% - 15px);}
-    75%,100%{height: 50px;}
-  }
-  </style>
-</head>
-<div class="moji  error">
-  <div class="face">
-    <div class="eyebrows"></div>
-    <div class="eyes"></div>
-    <div class="mouth"></div>
+<html>
+  <head>
+    <title>[ 404 ]</title>
+    <style>
+    html{opacity:0.4;background-image:url("/404");background-repeat:no-repeat;background-size:100% 100%;background-position:100% 100%;}
+    div,body,html{margin:0%;padding:0%;width:100vw;height:100vh;display:inline-block;background-color:rgba(0,0,0,0.2);}
+    body{margin: 0;width: 1200px;max-width: 100%;text-align: center;font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;position: absolute;top: 50%;left: 50%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);}
+    .moji{width: 120px;height: 120px;margin: 15px 15px 40px;background: #FFDA6A;display: inline-block;border-radius: 50%;position: relative;}
+    .moji:after{position: absolute;bottom: -40px;font-size: 18px;width: 60px;left: calc(50% - 30px);color: #8A8A8A;}
+    .face,.eyebrows,.eyes,.mouth,.tongue{position: absolute;}
+    .face:before,.face:after,.eyebrows:before,.eyebrows:after,.eyes:before,.eyes:after,.mouth:before,.mouth:after,.tongue:before,.tongue:after{position: absolute;content: '';}
+    .face{width: inherit;height: inherit;}
+    .error:after{content: '404';}
+    .error .face{-webkit-animation: face 3s linear infinite;animation: face 3s linear infinite;}
+    .error .eyebrows{left: calc(50% - 3px);height: 6px;width: 6px;border-radius: 50%;background: transparent;box-shadow: -18px 0 0 0 #000000, -33px 0 0 0 #000000, 18px 0 0 0 #000000, 33px 0 0 0 #000000;-webkit-animation: brow 3s linear infinite;animation: brow 3s linear infinite;}
+    .error .eyebrows:before,.error .eyebrows:after{width: 24px;height: 20px;border: 6px solid #000000;box-sizing: border-box;border-radius: 50%;border-bottom-color: transparent;border-left-color: transparent;border-right-color: transparent;top: -3px;left: calc(50% - 12px);}
+    .error .eyebrows:before{margin-left: -25px;}
+    .error .eyebrows:after{margin-left: 25px;}
+    .error .eyes{width: 16px;height: 24px;left: calc(50% - 8px);top: 35px;border-radius: 50%;background: transparent;box-shadow: 25px 0 0 0 #000000, -25px 0 0 0 #000000;}
+    .error .mouth{width: 30px;height: 45px;left: calc(50% - 15px);top: 50%;border-radius: 50%;background: #000000;-webkit-animation: mouth 3s linear infinite;animation: mouth 3s linear infinite;}
+    @-webkit-keyframes face{
+      15%,25%{-webkit-transform: rotate(20deg) translateX(-25px);transform: rotate(20deg) translateX(-25px);}
+      45%,65%{-webkit-transform: rotate(-20deg) translateX(25px);transform: rotate(-20deg) translateX(25px);}
+      75%,100%{-webkit-transform: rotate(0deg) translateX(0);transform: rotate(0deg) translateX(0);}
+    }
+    @keyframes face{
+      15%,25%{-webkit-transform: rotate(20deg) translateX(-25px);transform: rotate(20deg) translateX(-25px);}
+      45%,65%{-webkit-transform: rotate(-20deg) translateX(25px);transform: rotate(-20deg) translateX(25px);}
+      75%,100% {-webkit-transform: rotate(0deg) translateX(0);transform: rotate(0deg) translateX(0);}
+    }
+    @-webkit-keyframes brow{
+      15%,65%{top: 25px;}
+      75%,100%,0%{top: 15px;}
+    }
+    @keyframes brow{
+      15%,65%{top: 25px;}
+      75%,100%,0%{top: 15px;}
+    }
+    @-webkit-keyframes mouth{
+      10%,30%{width: 20px;height: 20px;left: calc(50% - 10px);}
+      50%,70%{width: 30px;height: 40px;left: calc(50% - 15px);}
+      75%,100%{height: 50px;}
+    }
+    @keyframes mouth{
+      10%,30%{width: 20px;height: 20px;left: calc(50% - 10px);}
+      50%,70%{width: 30px;height: 40px;left: calc(50% - 15px);}
+      75%,100%{height: 50px;}
+    }
+    </style>
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <div class="moji  error">
+      <div class="face">
+        <div class="eyebrows"></div>
+        <div class="eyes"></div>
+        <div class="mouth"></div>
+      </div>
   </div>
-</div>
+  </body>
+</html>
