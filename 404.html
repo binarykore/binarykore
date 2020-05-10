@@ -5,6 +5,7 @@
 		<script onLoad="console.log('Config Loaded ...');" src="/app.js"></script>
     <title>[ 404 ]</title>
     <style>
+        a{text-decoration: none;}a:hover{}
         html,body{overflow-x:hidden;overflow-y:hidden;position:relative;z-index:1;}
         .landing{z-index:1;position:relative;width:450px;height:450px;display:inline-block;}
         .block{z-index:2;position:absolute;left:0%;right:0%;bottom:0%;top:0%;width:100%;height:100%;display:inline-flex;justify-content:center;text-align:center;align-items:center;}
@@ -16,6 +17,7 @@
         .face,.eyebrows,.eyes,.mouth,.tongue{position: absolute;}
         .face:before,.face:after,.eyebrows:before,.eyebrows:after,.eyes:before,.eyes:after,.mouth:before,.mouth:after,.tongue:before,.tongue:after{position: absolute;content: '';}
         .face{width: inherit;height: inherit;}
+        h2{color: rgba(255,255,255,0.8);font-weight: bold;width: 100%;}
         .error:after{content: '404';font-weight: bold;color: rgba(255,255,255,0.8);font-size: 32;}
         .error .face{-webkit-animation: face 3s linear infinite;animation: face 3s linear infinite;}
         .error .eyebrows{left: calc(50% - 3px);height: 6px;width: 6px;border-radius: 50%;background: transparent;box-shadow: -18px 0 0 0 #000000, -33px 0 0 0 #000000, 18px 0 0 0 #000000, 33px 0 0 0 #000000;-webkit-animation: brow 3s linear infinite;animation: brow 3s linear infinite;}
@@ -58,6 +60,10 @@
     <div id="particles-js"></div>
     <div class="block">
     <div class="landing">
+      <br/>
+      <h2>Notice!</h2>
+      <br/>
+      <br/>
       <div class="moji  error">
         <div class="face">
           <div class="eyebrows"></div>
@@ -65,6 +71,10 @@
           <div class="mouth"></div>
         </div>
       </div>
+      <br/>
+      <h2>A Page was here, but deleted!</h2>
+      <hr/>
+      <a href="/"><h2>Go Home</h2></a>
     </div>
     </div>
   </body>
