@@ -17,7 +17,7 @@
         .face,.eyebrows,.eyes,.mouth,.tongue{position: absolute;}
         .face:before,.face:after,.eyebrows:before,.eyebrows:after,.eyes:before,.eyes:after,.mouth:before,.mouth:after,.tongue:before,.tongue:after{position: absolute;content: '';}
         .face{width: inherit;height: inherit;}
-        h2{color: rgba(255,255,255,0.8);font-weight: bold;width: 100%;}
+        a,h2{user-select: none;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;color: rgba(255,255,255,0.8);font-weight: bold;width: 100%;}
         .error:after{content: '404';font-weight: bold;color: rgba(255,255,255,0.8);font-size: 32;}
         .error .face{-webkit-animation: face 3s linear infinite;animation: face 3s linear infinite;}
         .error .eyebrows{left: calc(50% - 3px);height: 6px;width: 6px;border-radius: 50%;background: transparent;box-shadow: -18px 0 0 0 #000000, -33px 0 0 0 #000000, 18px 0 0 0 #000000, 33px 0 0 0 #000000;-webkit-animation: brow 3s linear infinite;animation: brow 3s linear infinite;}
@@ -61,8 +61,8 @@
     <div class="block">
     <div class="landing">
       <br/>
-      <h2>Notice!</h2>
-      <br/>
+      <h2>Notice</h2>
+      <hr/>
       <br/>
       <div class="moji  error">
         <div class="face">
