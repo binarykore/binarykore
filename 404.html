@@ -2,8 +2,9 @@
   <head>
     <title>[ 404 ]</title>
     <style>
+    .landing{position:relative;width:450px;height:450px;display:inline-block;}
     html{opacity:0.4;background-image:url("/404");background-repeat:no-repeat;background-size:100% 100%;background-position:100% 100%;}
-    div,html{margin:0%;padding:0%;width:100vw;height:100vh;display:inline-block;background-color:rgba(0,0,0,0.2);}
+    html{margin:0%;padding:0%;width:100vw;height:100vh;display:inline-block;background-color:rgba(0,0,0,0.2);display:inline-flex;justify-content:center;align-items:center;text-align:center;}
     body{margin: 0;width: 1200px;max-width: 100%;text-align: center;font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;position: absolute;top: 50%;left: 50%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);}
     .moji{width: 120px;height: 120px;margin: 15px 15px 40px;background: #FFDA6A;display: inline-block;border-radius: 50%;position: relative;}
     .moji:after{position: absolute;bottom: -40px;font-size: 18px;width: 60px;left: calc(50% - 30px);color: #8A8A8A;}
@@ -50,12 +51,14 @@
   </head>
   <body>
     <div id="particles-js"></div>
+    <div class="landing">
     <div class="moji  error">
       <div class="face">
         <div class="eyebrows"></div>
         <div class="eyes"></div>
         <div class="mouth"></div>
       </div>
+    </div>
   </div>
   </body>
 </html>
