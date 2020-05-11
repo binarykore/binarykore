@@ -1,9 +1,9 @@
 ## DShadow - Programmer, Hacker, Developer
-[ [Works](binarykorra.github.io/dshadow/works) ] [ [Zero](binarykorra.github.io/dshadow/zero) ] [ [WireChat](binarykorra.github.io/dshadow/wirechat) ]
+[ [Works](http://binarykorra.github.io/dshadow/works) ] [ [Zero](http://binarykorra.github.io/dshadow/zero) ] [ [WireChat](http://binarykorra.github.io/dshadow/wirechat) ]
 
 ![Profile Picture](http://graph.facebook.com/100011369547476/picture?type=large)
 
-[ [Music Player - Podcast](binarykorra.github.io/dshadow/music) ]
+[ [Music Player - Podcast](http://binarykorra.github.io/dshadow/music) ]
 
 
 ### About Me
