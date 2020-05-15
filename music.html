@@ -1,59 +1,5 @@
 <html>
   <head>
-    <script src="https://sdk.scdn.co/spotify-player.js"></script>
-		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-		<script>
-		const hash = window.location.hash.substring(1).split("&").reduce(function (initial, item) {
-		  if (item) {
-		    var parts = item.split("=");
-		    initial[parts[0]] = decodeURIComponent(parts[1]);
-		  }
-		  return initial;
-		}, {});
-		window.location.hash = "";
-		let _token = hash.access_token;
-		const authEndpoint = "https://accounts.spotify.com/authorize";
-		const clientId = "2fa7a68673df4cf8a00756ca33bc1fda";
-		const redirectUri = "http://dshadow.ml/music";
-		const scopes = [
-		  "streaming",
-		  "user-modify-playback-state"
-		];
-		if(!_token){
-		  window.location = `${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join("+")}&response_type=token&show_dialog=true`;
-		}
-		window.onSpotifyPlayerAPIReady = () => {
-		  const player = new Spotify.Player({
-		    name: "Web Playback SDK Template",
-		    getOAuthToken: cb => { cb(_token); }
-		  });
-		  player.on("initialization_error", e => console.error(e));
-		  player.on("authentication_error", e => console.error(e));
-		  player.on("account_error", e => console.error(e));
-		  player.on("playback_error", e => console.error(e));
-		  player.on("player_state_changed", state => {
-		    console.log(state)
-		    $("#current-track").attr("src", state.track_window.current_track.album.images[0].url);
-		    $("#current-track-name").text(state.track_window.current_track.name);
-		  });
-		  player.on("ready", data => {
-		    console.log("Ready with Device ID", data.device_id);
-		    play(data.device_id);
-		  });
-		  player.connect();
-		}
-		function play(device_id) {
-		  $.ajax({
-		   url: "https://api.spotify.com/v1/me/player/play?device_id=" + device_id,
-		   type: "PUT",
-		   data: "{"uris": ["spotify:track:5ya2gsaIhTkAuWYEMB0nw5"]}",
-		   beforeSend: function(xhr){xhr.setRequestHeader("Authorization", "Bearer " + _token );},
-		   success: function(data) {
-		     console.log(data)
-		   }
-		  });
-		}
-		</script>
     <title>[ Podcast ]</title>
     <script>window.fbAsyncInit = function(){FB.init({xfbml: true,autoLogAppEvents : true,xfbml: true,version: "v2.11"});};(function(d,s,id){var js,fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s);js.id = id;js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";fjs.parentNode.insertBefore(js,fjs);js.onLoad="console.log('Config Loaded for Messenger ...');";}(document,"script","facebook-jssdk"));</script>
     <script onLoad="console.log('Config Loaded ...');" src="/particles.min.js"></script>
@@ -64,7 +10,5 @@
     <div id="fb-root"></div>
     <div class="fb-customerchat" attribution=setup_tool page_id="104991084196119" theme_color="#272727" logged_in_greeting="Hi there. I Freelance creating Websites, What can I do for you?" logged_out_greeting="Hi there. I Freelance creating Websites, What can I do for you?"></div>
     <div id="particles-js"></div>
-    <img id="current-track"/>
-		<h3 id="current-track-name"></h3>
   </body>
 </html>
