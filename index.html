@@ -16,7 +16,7 @@
       var player = new Spotify.Player({
         name: 'A Spotify Web SDK Player',
         getOAuthToken: callback => {
-          callback('".($session->getAccessToken())."');
+          callback('BQDvv1wdTgWRF4MFEN1Az4yc39Y6LlWpSu0LAaNRFu9ZLAAUiFJcZ1QIVynpzUA61BqgYrM3qX0xRpySlLgLGv4eLJThr2--Jjvcul-_d81SMQH6LlCEMXHuysFZ3_ZT2Ha_lF955whACxl1vf_lYv5DSVZ2KQ');
         },
         volume: 1
       });
@@ -32,12 +32,12 @@
           }
         }) => {
           getOAuthToken(access_token => {
-            fetch('https://api.spotify.com/v1/me/player/play?device_id=47d3a42d1aee3661d975de709938e68cfc9ab745', {
+            fetch('https://api.spotify.com/v1/me/player/play?device_id=${id}', {
               method: 'PUT',
               body: JSON.stringify({ uris: [spotify_uri] }),
               headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer ".($session->getAccessToken())."'
+                'Authorization': 'Bearer ${access_token}'
               },
             });
           });
