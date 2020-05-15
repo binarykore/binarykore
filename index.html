@@ -26,9 +26,9 @@
 			<code skills>I use PDO (Portable Data Object) as my Primary Recipe for PHP Programming / Software Engineering.</code>
 			<br/>
 			<br/>
-			<code skills>$this->_pdo = new PDO("mysql:host=127.0.0.1;dbname=home;","chef","cooker");</code>
+			<code skills>class::pdo() = new PDO("mysql:host=127.0.0.1;dbname=home;","chef","cooker");</code>
 			<br/>
-			<code skills>$_cook = $this->_pdo -> prepare("SELECT meal AS dinner FROM `home`.`kitchen` WHERE food=:recipe");</code>
+			<code skills>$_cook = class::pdo() -> prepare("SELECT meal AS dinner FROM `home`.`kitchen` WHERE food=:recipe");</code>
 			<br/>
 			<code skills>$_cook -> execute(["recipe"=>"crabs"]);</code>
 			<br/>
