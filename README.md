@@ -1,4 +1,4 @@
-## DShadow - Programmer, Hacker, Developer
+## BinaryKorra - Programmer, Hacker, Developer
 [ [Works](http://binarykorra.github.io/binarykorra/works) ] [ [Zero](http://binarykorra.github.io/binarykorra/zero) ] [ [WireChat](http://binarykorra.github.io/binarykorra/wirechat) ]
 
 ![Profile Picture](https://graph.facebook.com/v9.0/104991084196119/picture?type=large)
