@@ -4,7 +4,7 @@
 ![Profile Picture](https://graph.facebook.com/v9.0/104991084196119/picture?type=large)
 
 
-[![GitHub Watches](https://statusfin.herokuapp.com/relocate.cgi?style=social&label=Spotify&maxAge=2)](https://statusfin.herokuapp.com/spotify.cgi)
+<img src="https://statusfin.herokuapp.com/relocate.cgi"/>
 
 
 ### About Me
