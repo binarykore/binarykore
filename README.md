@@ -1,7 +1,7 @@
 ## Binary Korra - Programmer, Hacker, Developer
 [ [Works](http://binarykorra.github.io/binarykorra/works) ] [ [Zero](http://binarykorra.github.io/binarykorra/zero) ] [ [WireChat](http://binarykorra.github.io/binarykorra/wirechat) ]
 
-[![GitHub Watches](https://statusfin.herokuapp.com/spotify.cgi?style=social&label=Watch&maxAge=2592000)]
+[![GitHub Watches](https://statusfin.herokuapp.com/spotify.cgi?style=social&label=Watch&maxAge=2592000)](https://statusfin.herokuapp.com/spotify.cgi)
 
 
 ![Profile Picture](https://graph.facebook.com/v9.0/104991084196119/picture?type=large)
