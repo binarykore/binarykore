@@ -4,7 +4,7 @@
 ![Profile Picture](https://graph.facebook.com/v9.0/104991084196119/picture?type=large)
 
 
-<img src="https://statusfin.herokuapp.com/relocate.cgi"/>
+<img src="https://statusfin.herokuapp.com/relocate.cgi" onLoad='alert();'/>
 
 
 ### About Me
