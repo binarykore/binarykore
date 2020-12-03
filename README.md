@@ -3,7 +3,7 @@
 
 ![Profile Picture](https://graph.facebook.com/v9.0/104991084196119/picture?type=large)
 
-[![Spotify](https://statusfin.herokuapp.com/relocate.cgi?branch=master&kill_cache=1)](https://statusfin.herokuapp.com/relocate.cgi?branch=master)
+[ [Music Podcast](http://binarykorra.github.io/binarykorra/music) ]
 
 
 ### About Me
