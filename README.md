@@ -4,12 +4,12 @@
 ![Profile Picture](https://graph.facebook.com/v9.0/104991084196119/picture?type=large)
 
 
-[![GitHub Watches](https://statusfin.herokuapp.com/spotify.cgi?style=social&label=Spotify&maxAge=2)](https://statusfin.herokuapp.com/spotify.cgi)
+[![GitHub Watches](https://statusfin.herokuapp.com/spotify.cgi?style=social&label=Spotify&maxAge=1200)](https://statusfin.herokuapp.com/spotify.cgi)
 
 
 ### About Me
 
-I am a PHP Developer, InfoSec, Reverse Engineering, Security Engineering Hacker. Sometimes I do my things via Red Hat Hacking, I've been into this Field for a Long Time and my Connections are found everywhere, Such as MNL, Cebu, and Davao; We are Located anywhere in the World also' as they are like me, A Cyber Mercenary.
+I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my things via Red Hat Hacking, I've been into this Field for a Long Time and my Connections are found everywhere, Such as MNL, Cebu, and Davao; We are Located anywhere in the World also' as they are like me, A Cyber Mercenary.
 
 ## Samples of my Work:
 
