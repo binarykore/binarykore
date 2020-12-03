@@ -5,8 +5,6 @@
 
 [![Spotify](https://statusfin.herokuapp.com/relocate.cgi?branch=master&kill_cache=1)](https://statusfin.herokuapp.com/relocate.cgi?branch=master)
 
-<img src=""/>
-
 
 ### About Me
 
