@@ -3,7 +3,7 @@
 
 ![Profile Picture](https://graph.facebook.com/v9.0/104991084196119/picture?type=large)
 
-[![Podcast](https://statusfin.herokuapp.com/spotify.cgi?killcache=1)
+![Podcast](https://statusfin.herokuapp.com/spotify.cgi?killcache=1)
 
 
 
