@@ -3,7 +3,7 @@
 
 
 ![Music Player - Podcast](?playlist=spotify)
-[![GitHub Watches](https://statusfin.herokuapp.com/spotify.cgi?style=social&label=Watch&maxAge=2592000)](https://github.com/goncaloperes/Project-CodeIgniter-CMS/watchers)
+[![GitHub Watches](https://statusfin.herokuapp.com/spotify.cgi?style=social&label=Watch&maxAge=2592000)](https://statusfin.herokuapp.com/spotify.cgi)
 
 
 ![Profile Picture](https://graph.facebook.com/v9.0/104991084196119/picture?type=large)
