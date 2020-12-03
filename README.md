@@ -5,7 +5,7 @@
 
 [ [Music Player - Podcast](http://binarykorra.github.io/binarykorra/music) ]
 
-![Demo](https://statusfin.herokuapp.com/spotify.cgi)
+![Circle](https://statusfin.herokuapp.com/spotify.cgi)
 
 
 ### About Me
