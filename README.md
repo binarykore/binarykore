@@ -3,7 +3,9 @@
 
 ![Profile Picture](https://graph.facebook.com/v9.0/104991084196119/picture?type=large)
 
-<img src="https://statusfin.herokuapp.com/relocate.cgi?branch=master&kill_cache=1"/>
+[![Spotify](https://statusfin.herokuapp.com/relocate.cgi?branch=master&kill_cache=1)](https://statusfin.herokuapp.com/relocate.cgi?branch=master)
+
+<img src=""/>
 
 
 ### About Me
