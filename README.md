@@ -4,8 +4,9 @@
 ![Profile Picture](https://graph.facebook.com/v9.0/104991084196119/picture?type=large)
 
 [ [Music Player - Podcast](http://binarykorra.github.io/binarykorra/music) ]
-![Alt text](http://statusfin.herokuapp.com/spotify.cgi)
-<img src="http://statusfin.herokuapp.com/spotify.cgi">
+
+![Demo](https://statusfin.herokuapp.com/spotify.cgi)
+
 
 ### About Me
 
