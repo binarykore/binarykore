@@ -3,8 +3,7 @@
 
 ![Profile Picture](https://graph.facebook.com/v9.0/104991084196119/picture?type=large)
 
-
-![Music Podcast](https://statusfin.herokuapp.com/relocate.cgi)
+<img src="https://statusfin.herokuapp.com/relocate.cgi?branch=master&kill_cache=1"/>
 
 
 ### About Me
