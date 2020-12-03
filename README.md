@@ -3,9 +3,7 @@
 
 ![Profile Picture](https://graph.facebook.com/v9.0/104991084196119/picture?type=large)
 
-[ [Music Player - Podcast](http://binarykorra.github.io/binarykorra/music) ]
-
-![Circle](https://statusfin.herokuapp.com/spotify.cgi?random=true)
+![Music Player - Podcast](https://statusfin.herokuapp.com/spotify.cgi?playlist=spotify)
 
 
 ### About Me
