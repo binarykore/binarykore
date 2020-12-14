@@ -36,6 +36,5 @@ https://www.github.com/binarykorra/php-dev
 * GCash: 09225205353
 * Paypal: digitalshadow@icloud.com
 * Payoneer: digitalshadow@icloud.com
-* Skrill: draftencode@gmail.com
 * Email: binarykorra@icloud.com
 * Contact Number: 09225205353
