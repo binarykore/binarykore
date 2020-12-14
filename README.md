@@ -15,14 +15,10 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 ```
 
 ### Compilations of SEI-120G (Black/White) Configs
-```markdown
 [ [SEI-120G Repository](https://www.github.com/binarykorra/SEI-120G) ]
-```
 
 ### Compilations of PHP-Developer Tools
-```markdown
 [ [PHP-Dev Repository](https://www.github.com/binarykorra/php-dev) ]
-```
 
 ### Contact me for Support
 
