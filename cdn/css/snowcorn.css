@@ -64,6 +64,7 @@ hr[block]{
 }
 code[snowcorn],a[snowcorn],h2[snowcorn],h4[snowcorn]{
   margin:1%;
+  color:rgba(255,255,255,0.6);
   user-select:none;
   -webkit-user-select:none;
   -moz-user-select:none;
