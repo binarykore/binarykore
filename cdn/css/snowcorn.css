@@ -24,6 +24,9 @@ body{
   overflow-y:auto;
 }
 audio{
+  width:100%;
+  height:auto;
+  padding:1%;
   display:inline-block;
 }
 code[mainpage]{
