@@ -23,6 +23,16 @@ body{
   overflow-x:hidden;
   overflow-y:auto;
 }
+audio{
+  display:inline-block;
+  width:100%;
+  height:100%;
+  position:absolute;
+  right:0%;
+  left:0%;
+  right:0%;
+  top:0%;
+}
 code[mainpage]{
   width:40%;
   display:inline-block;
