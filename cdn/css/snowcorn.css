@@ -59,7 +59,7 @@ hr[block]{
   width:40%;
   display:inline-block;
 }
-code,a,h2,h4{
+code[snowcorn],a[snowcorn],h2[snowcorn],h4[snowcorn]{
   margin:1%;
   user-select:none;
   -webkit-user-select:none;
@@ -67,7 +67,7 @@ code,a,h2,h4{
   -ms-user-select:none;
   text-decoration:none;
 }
-a[snowcorn]{
+a[snowflex]{
   color:rgba(255,255,255,0.6);
   font-size:14;
   font-weight:bold;
