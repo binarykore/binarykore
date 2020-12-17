@@ -1,16 +1,65 @@
 <html>
   <head>
-    <audio src='/tadhana.song' controls loop autoplay></audio>
-    <title>[ Podcast ]</title>
-    <script>window.fbAsyncInit = function(){FB.init({xfbml: true,autoLogAppEvents : true,xfbml: true,version: "v2.11"});};(function(d,s,id){var js,fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s);js.id = id;js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";fjs.parentNode.insertBefore(js,fjs);js.onLoad="console.log('Config Loaded for Messenger ...');";}(document,"script","facebook-jssdk"));</script>
     <script onLoad="console.log('Config Loaded ...');" src="/particles.min.js"></script>
     <script onLoad="console.log('Config Loaded ...');" src="/app.js"></script>
     <script onLoad="console.log('Google Adsense Loaded ...');" data-ad-client="ca-pub-6110526720774717" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <style>code[template]{padding:4%;width:80%;height:auto;display:inline-block;}code,a,h2{margin:2%;user-select: none;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;}code[mainpage]{color:rgba(0,0,0,0.8);font-weight:bold;font-size:14;}code[skills]{color:rgba(255,255,255,0.6);font-weight:bold;}div[id="particles-js"],canvas{position:fixed;top:0%;right:0%;left:0%;bottom:0%;z-index:-100;}code{color:rgba(255,255,255,0.8);}div[block]{width:100%;height:100%;display:inline-flex;justify-content:center;text-align:center;align-items:center;}div[mainpage]{background-color:rgba(255,255,255,0.4);}div[skills]{text-align:left;background-color:rgba(0,0,0,0.8);}html{background-image:url('/001100');background-size:100% 100%;background-position:100% 100%;background-repeat:no-repeat;}body{background:linear-gradient(65deg,rgba(255,255,255,0.8) 0%,rgba(0,0,0,0.8) 50%,transparent 50%);background-attachment:fixed;}body,html{margin:0%;padding:0%;width:100vw;height:100vh;display:inline-block;background-color:rgba(0,0,0,0.2);}body{width:100%;height:100%;display:inline-block;overflow-x:hidden;overflow-y:auto;}audio{display:inline-block;width:100vw;position:fixed;left:0%;right:0%;top:0%;}</style>
+    <script async src="../cdn/js/facebook.js"></script>
+		<link rel="stylesheet" href="../cdn/css/snowcorn.css?raw=true"/>
+		<link rel="stylesheet" href="//elixircss.herokuapp.com/cdn/css/elixir.elements.css.php"/>
+		<link rel="stylesheet" href="//elixircss.herokuapp.com/cdn/css/build.elements.css.php"/>
+		<link rel="stylesheet" href="//elixircss.herokuapp.com/cdn/css/sidebar.elements.css.php"/>
+		<link rel="stylesheet" href="//elixircss.herokuapp.com/cdn/css/mediaquery.css.php"/>
+		<link rel="stylesheet" href="//elixircss.herokuapp.com/cdn/css/widthbase.css.php"/>
+		<link rel="stylesheet" href="//elixircss.herokuapp.com/cdn/css/elements.css.php"/>
+		<link rel="stylesheet" href="//elixircss.herokuapp.com/cdn/css/remotefork.css.php"/>
+    <title>[ Podcast ]</title>
   </head>
   <body>
-    <div id="fb-root"></div>
-    <div class="fb-customerchat" attribution=setup_tool page_id="104991084196119" theme_color="#272727" logged_in_greeting="Hi there. I Freelance creating Websites, What can I do for you?" logged_out_greeting="Hi there. I Freelance creating Websites, What can I do for you?"></div>
     <div id="particles-js"></div>
+		<div id="fb-root"></div>
+    <div class="fb-customerchat" attribution=setup_tool page_id="104991084196119" theme_color="#272727" logged_in_greeting="Hi there. I freelance creating Websites, What can I do for you?" logged_out_greeting="Hi there. I freelance creating Websites, What can I do for you?"></div>
+		<label for="mobile">
+			<div navbar pos="stcky">
+        <input type="checkbox" mobile id="mobile"/>
+        <div desktop>
+          <div stretch>
+            <code desktop>
+              <code horizontal sling="left"><a href="/" active sidebar>Home</a></code>
+              <code horizontal sling="left"><a href="/music" sidebar>Podcast</a></code>
+              <code horizontal sling="left"><a href="/new" sidebar>New</a></code>
+              <code horizontal sling="right"><audio src='/tadhana.song' controls loop autoplay></audio></code>
+            </code>
+          </div>
+        </div>
+        <div mobile>
+          <div stretch>
+            <code mobile>
+              <div width="20" height="100" pos="rel" align="center" sling="left">
+                <code vertical><a href="/" active sidebar>Home</a></code>
+              </div>
+              <div width="60" height="100" flat dropdown sling="left" overflow="hidden">
+                <div collapse>
+                  <code vertical sling="left"><a href="/music" sidebar>Podcast</a></code>
+                  <code vertical sling="left"><a href="/new" sidebar>New</a></code>
+                  <code vertical sling="right"><audio src='/tadhana.song' controls loop autoplay></audio></code>
+                </div>
+              </div>
+              <div width="20" align="center" height="100" pos="rel" sling="right">
+                <code sidebar toggle="sidebar"><label for="mobile" sidebar></label></code>
+              </div>
+            </code>
+          </div>
+        </div>
+      </div>
+      <div footer>
+        <code footer>
+          <a footer>Developed by:</a>
+          <code margin> | </code>
+          <a footer-link href='//www.twitter.com/technicalgeekio'>@technicalgeekio</a>
+          <code margin> | </code>
+          <a remote="fork"></a>
+        </code>
+      </div>
+    </label>
   </body>
 </html>
