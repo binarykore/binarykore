@@ -23,15 +23,6 @@ body{
   overflow-x:hidden;
   overflow-y:auto;
 }
-audio{
-  width:94%;
-  height:8%;
-  margin:0%;
-  margin-top:1%;
-  margin-bottom:1%;
-  padding:1%;
-  display:inline-block;
-}
 code[mainpage]{
   width:40%;
   display:inline-block;
