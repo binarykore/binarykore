@@ -1,6 +1,6 @@
 <html>
   <head>
-    <script>window.fbAsyncInit = function(){FB.init({xfbml: true,autoLogAppEvents : true,xfbml: true,version: "v2.11"});};(function(d,s,id){var js,fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s);js.id = id;js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";fjs.parentNode.insertBefore(js,fjs);js.onLoad="console.log('Config Loaded for Messenger ...');";}(document,"script","facebook-jssdk"));</script>
+    <script>window.fbAsyncInit = function(){FB.init({xfbml: true,autoLogAppEvents : true,xfbml: true,version: "v2.11"});};(function(d,s,id){var js,fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s);js.id = id;js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";fjs.parentNode.insertBefore(js,fjs);js.onLoad="console.log("Config Loaded for Messenger ...");";}(document,"script","facebook-jssdk"));</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <link rel="stylesheet" href="//elixircss.herokuapp.com/cdn/css/elixir.elements.css.php"/>
@@ -16,6 +16,7 @@
 		<div class="fb-customerchat" attribution=setup_tool page_id="104991084196119" theme_color="#272727" logged_in_greeting="Hi there. I freelance creating Websites, What can I do for you?" logged_out_greeting="Hi there. I freelance creating Websites, What can I do for you?"></div>
     <label for="mobile">
       <div navbar pos="stcky">
+        <input type="checkbox" mobile id="mobile"/>
         <div desktop>
           <div stretch>
             <code desktop>
@@ -43,6 +44,12 @@
             </code>
           </div>
         </div>
+      </div>
+      <div footer>
+        <code footer>
+          <a footer>Developed by:</a>
+          <a footer-link href='//www.twitter.com/technicalgeekio'>@technicalgeekio</a>
+        </code>
       </div>
     </label>
   </body>
