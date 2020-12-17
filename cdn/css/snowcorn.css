@@ -59,6 +59,20 @@ hr[block]{
   width:40%;
   display:inline-block;
 }
+code,a,h2,h4{
+  margin:1%;
+  user-select:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  text-decoration:none;
+}
+a[snowcorn]{
+  color:rgba(255,255,255,0.6);
+  font-size:14;
+  font-weight:bold;
+  cursor:pointer;
+}
 div[block]{
   width:100vw;
   height:auto;
