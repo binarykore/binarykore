@@ -23,11 +23,6 @@ body{
   overflow-x:hidden;
   overflow-y:auto;
 }
-audio::-webkit-media-controls-play-button,audio::-webkit-media-controls-panel{
-  background-color:#000;
-  color:#000;
-  border:1px solid rgba(0,0,0,0.4);
-}
 audio{
   width:94%;
   height:8%;
