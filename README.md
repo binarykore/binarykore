@@ -1,4 +1,4 @@
-## Binary Korra (Jaede Sy) - Programmer, Hacker, Developer
+## Binary Korra ( Jaede Sy ) - Programmer, Hacker, Developer
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=binarykorra)](https://github.com/binarykorra)
 
