@@ -7,6 +7,8 @@
 
 ![Profile Picture](https://github.com/binarykorra/binarykorra/blob/master/php_7.png?raw=true)
 
+* [ [Chat Support](https://github.com/binarykorra/binarykorra/issues) ]
+
 ### About Me
 
 I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my things via Red Hat Hacking, I've been into this Field for a Long Time and my Connections are found everywhere, Such as MNL, Cebu, and Davao; We are Located anywhere in the World also' as they are like me, A Cyber Mercenary.
