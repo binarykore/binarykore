@@ -1,4 +1,8 @@
 ## Binary Korra - Programmer, Hacker, Developer
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=binarykorra)](https://github.com/ryo-ma/github-profile-trophy)
+
+
 [ [Works](http://binarykorra.github.io/binarykorra/works) ] [ [Zero](http://binarykorra.github.io/binarykorra/zero) ] [ [WireChat](http://binarykorra.github.io/binarykorra/wirechat) ] [ [Music Podcast](http://binarykorra.github.io/binarykorra/music) ] [ [Certificates](http://binarykorra.github.io/binarykorra/certificates) ]
 
 ![Profile Picture](https://github.com/binarykorra/binarykorra/blob/master/php_7.png?raw=true)
