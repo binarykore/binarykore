@@ -24,6 +24,9 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 ### Compilations of PHP-Developer Tools
 * [ [PHP-Dev Repository](https://www.github.com/binarykorra/php-dev) ]
 
+### Compilations of W3C - HTML5 Elements
+* [ [HTML5 Elements - Repo](https://www.github.com/binarykorra/html5elements) ]
+
 ### Contact me for Support
 
 * GCash: 09225205353
