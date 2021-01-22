@@ -29,7 +29,7 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 
 ### Official Discord Server
 
-![Discord Banner 2](https://discordapp.com/api/guilds/513374828191809536/widget.png?style=banner2)
+![MD5 Central](https://discordapp.com/api/guilds/513374828191809536/widget.png?style=banner2)
 
 ### Contact me for Support
 
