@@ -27,6 +27,10 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 ### Compilations of W3C - HTML5 Elements
 * [ [HTML5 Elements - Repo](https://www.github.com/binarykorra/html5elements) ]
 
+### Official Discord Server
+
+![Discord Banner 2](https://discordapp.com/api/guilds/513374828191809536/widget.png?style=banner2)
+
 ### Contact me for Support
 
 * GCash: 09225205353
