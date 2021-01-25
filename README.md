@@ -5,9 +5,7 @@
 
 [ [Works](http://binarykorra.github.io/binarykorra/works) ] [ [Zero](http://binarykorra.github.io/binarykorra/zero) ] [ [WireChat](http://binarykorra.github.io/binarykorra/wirechat) ] [ [Music Podcast](http://binarykorra.github.io/binarykorra/music) ] [ [Certificates](http://binarykorra.github.io/binarykorra/certificates) ]
 
-![Profile Picture](https://github.com/binarykorra/binarykorra/blob/master/php_7.png?raw=true)
-
-* [ [Chat Support](https://github.com/binarykorra/binarykorra/issues) ]
+![Profile Picture](https://avatars3.githubusercontent.com/u/36190934?v=4&raw=true)
 
 ### About Me
 
@@ -26,6 +24,13 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 ### Compilations of PHP-Developer Tools
 * [ [PHP-Dev Repository](https://www.github.com/binarykorra/php-dev) ]
 
+### Compilations of W3C - HTML5 Elements
+* [ [HTML5 Elements - Repo](https://www.github.com/binarykorra/html5elements) ]
+
+### Official Discord Server
+
+[ ![MD5 Central](https://discordapp.com/api/guilds/513374828191809536/widget.png?style=banner2) ](https://bit.ly/md5discord)
+
 ### Contact me for Support
 
 * GCash: 09225205353
@@ -34,3 +39,4 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 * Skrill: digitalshadow@icloud.com
 * Email: binarykorra@icloud.com
 * Contact Number: 09225205353
+* [ [Chat Support](https://github.com/binarykorra/binarykorra/issues) ]
