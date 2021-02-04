@@ -2,10 +2,9 @@
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=binarykorra)](https://github.com/binarykorra)
 
-### Badges
+### Social Media
 
-<a href="https://dev.to/binarykorra"><img src="https://img.shields.io/badge/DEV-%23000000.svg?&style=flat-square&logo=dev.to&logoColor=white" alt="Binary Korra's DEV Community Profile" height="45" width="45"></a>
-
+[![Binary Korra's DEV Community Profile](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/binarykorra)
 
 
 [ [Works](http://binarykorra.github.io/binarykorra/works) ] [ [Zero](http://binarykorra.github.io/binarykorra/zero) ] [ [WireChat](http://binarykorra.github.io/binarykorra/wirechat) ] [ [Music Podcast](http://binarykorra.github.io/binarykorra/music) ] [ [Certificates](http://binarykorra.github.io/binarykorra/certificates) ]
