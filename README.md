@@ -10,8 +10,7 @@
 
 [![Binary Korra's Github Profile](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://www.github.com/binarykorra)
 
-https://img.shields.io/badge/Buy Me a Coffee-FFDD00.svg?&style=flat-square&logo=buy-me-a-coffee&logoColor=black
-[![Binary Korra's BMC Profile](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://www.bmc.xyz/binarykorra)
+[![Binary Korra's DEV Community Profile](https://img.shields.io/badge/Buy Me a Coffee-FFDD00.svg?&style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://dev.to/binarykorra)
 
 
 [ [Works](http://binarykorra.github.io/binarykorra/works) ] [ [Zero](http://binarykorra.github.io/binarykorra/zero) ] [ [WireChat](http://binarykorra.github.io/binarykorra/wirechat) ] [ [Music Podcast](http://binarykorra.github.io/binarykorra/music) ] [ [Certificates](http://binarykorra.github.io/binarykorra/certificates) ]
