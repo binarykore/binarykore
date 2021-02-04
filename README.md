@@ -4,7 +4,7 @@
 
 ### Badges
 
-[![Binary Korra's DEV Community Profile](https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg =65x65)](https://dev.to/binarykorra)
+[![Binary Korra's DEV Community Profile](https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg | width=65)](https://dev.to/binarykorra)
 
 
 
