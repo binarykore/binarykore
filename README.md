@@ -4,7 +4,7 @@
 
 ### Badges
 
-<a href="https://dev.to/binarykorra"><img src="https://img.shields.io/badge/DEV-%23000000.svg?&style=flat-square&logo=dev.to&logoColor=white" alt="Binary Korra's DEV Community Profile" height="30" width="30"></a>
+<a href="https://dev.to/binarykorra"><img src="https://img.shields.io/badge/DEV-%23000000.svg?&style=flat-square&logo=dev.to&logoColor=white" alt="Binary Korra's DEV Community Profile" height="65" width="65"></a>
 
 
 
