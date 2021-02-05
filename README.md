@@ -31,6 +31,9 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 ### Compilations of W3C - HTML5 Elements
 * [ [HTML5 Elements - Repo](https://www.github.com/binarykorra/html5elements) ]
 
+### Compilations of Audio-webkit Gist
+* [ [Audio-webkit Elements - Gist](https://gist.github.com/binarykorra/508b05eb4b58a378c850cbe0463d3e68) ]
+
 ### Official Discord Server
 
 [ ![MD5 Central](https://discordapp.com/api/guilds/513374828191809536/widget.png?style=banner2) ](https://bit.ly/md5discord)
