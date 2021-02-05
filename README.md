@@ -31,6 +31,11 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 ### Compilations of W3C - HTML5 Elements
 * [ [HTML5 Elements - Repo](https://www.github.com/binarykorra/html5elements) ]
 
+Alternative
+
+* [ [HTML5 Elements - Gist](https://gist.github.com/binarykorra/0a76edf863877caba444a2e57d1a9e28) ]
+
+
 ### Compilations of Audio-webkit Gist
 * [ [Audio-webkit Elements - Gist](https://gist.github.com/binarykorra/508b05eb4b58a378c850cbe0463d3e68) ]
 
