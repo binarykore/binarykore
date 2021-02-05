@@ -52,3 +52,6 @@ Alternative
 * Email: binarykorra@icloud.com
 * Contact Number: 09225205353
 * [ [Chat Support](https://github.com/binarykorra/binarykorra/issues) ]
+
+### Copyright since (2019)
+( C ) - [BinaryKorra](https://github.com/binarykorra), 09225205353
