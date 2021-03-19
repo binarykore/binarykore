@@ -43,13 +43,13 @@ code[template]{
 }
 code[prof]{
   margin:2%;
-  width:250px;
-  height:250px;
+  width:65px;
+  height:65px;
   display:inline-block;
   border-radius:100%;
   border:2px solid rgba(0,0,0,0.8);
   background-color:rgba(255,255,255,0.6);
-  background-image:url("http://graph.facebook.com/104991084196119/picture?type=large");
+  background-image:url("https://avatars.githubusercontent.com/u/36190934?v=4");
   background-size:100% 100%;
   background-position:100% 100%;
   background-repeat:no-repeat;
