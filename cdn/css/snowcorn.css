@@ -54,6 +54,19 @@ code[prof]{
   background-position:100% 100%;
   background-repeat:no-repeat;
 }
+code[prof="facebook"]{
+  margin:2%;
+  width:65px;
+  height:65px;
+  display:inline-block;
+  border-radius:100%;
+  border:2px solid rgba(0,0,0,0.8);
+  background-color:rgba(255,255,255,0.6);
+  background-image:url("http://graph.facebook.com/104991084196119/picture?type=large");
+  background-size:100% 100%;
+  background-position:100% 100%;
+  background-repeat:no-repeat;
+}
 hr[block]{
   margin:1%;
   width:40%;
