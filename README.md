@@ -1,11 +1,11 @@
 ## Binary Korra ( Jaede Sy ) - Programmer, Hacker, Developer
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=binarykorra)](https://github.com/binarykorra)
-
 ### Social Media
 
 [![Binary Korra's DEV Community Profile](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/binarykorra) [![Binary Korra's YouTube Profile](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCYbraPQtWy2k-2xGiLzl5WA) [![Binary Korra's Github Profile](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://www.github.com/binarykorra) [![Binary Korra's BMC Profile](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00.svg?&style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://bmc.xyz/binarykorra)
 
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=binarykorra)](https://github.com/binarykorra)
 
 [![Podcast](https://spotify-github-profile.vercel.app/api/view?uid=snowdraft&cover_image=false&theme=default)](https://spotify-github-profile.vercel.app/api/view?uid=snowdraft&redirect=true)
 
