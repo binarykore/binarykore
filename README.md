@@ -15,6 +15,8 @@
 
 ![BinaryKorra](https://www.hackthebox.eu/badge/image/529594)
 
+[![MySpotify](https://spotify-github-profile.vercel.app/api/view?uid=snowdraft&cover_image=true&theme=default)](https://spotify-github-profile.vercel.app/api/view?uid=snowdraft&redirect=true)
+
 ### About Me
 
 I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my things via Red Hat Hacking, I've been into this Field for a Long Time and my Connections are found everywhere, Such as MNL (Manila), Cebu, and Davao; We are Located anywhere in the World also' as they are like me, A Cyber Mercenary.
