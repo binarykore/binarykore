@@ -1,6 +1,6 @@
 ## Binary Korra ( Jaede Sy ) - Programmer, Hacker, Developer
 
-[![Podcast](https://spotify-flax.vercel.app/api/view?uid=snowdraft&cover_image=false&theme=default)](https://open.spotify.com/user/snowdraft)
+[![Podcast](http://amberstonecss.herokuapp.com/spotify/snowdraft)](https://open.spotify.com/user/snowdraft)
 
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=binarykorra)](https://github.com/binarykorra)
