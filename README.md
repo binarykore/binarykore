@@ -1,9 +1,5 @@
 ## Binary Korra ( Jaede Sy ) - Programmer, Hacker, Developer
 
-### Official HackTheBox Account:
-
-![BinaryKorra](https://www.hackthebox.eu/badge/image/529594)
-
 [![Podcast](http://amberstonecss.herokuapp.com/spotify/snowdraft)](https://open.spotify.com/user/snowdraft)
 
 
@@ -52,6 +48,10 @@ Alternative
 ### Official Discord Server
 
 [ ![MD5 Central](https://discordapp.com/api/guilds/513374828191809536/widget.png?style=banner2) ](https://bit.ly/md5discord)
+
+### Official HackTheBox Account:
+
+![BinaryKorra](https://www.hackthebox.eu/badge/image/529594)
 
 ### Contact me for Support
 
