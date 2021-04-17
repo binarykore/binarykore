@@ -14,7 +14,6 @@
 
 ![Profile Picture](https://avatars3.githubusercontent.com/u/36190934?v=4&raw=true)
 
-![BinaryKorra](https://www.hackthebox.eu/badge/image/529594)
 
 ### About Me
 
