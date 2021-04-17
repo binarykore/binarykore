@@ -1,6 +1,7 @@
 ## Binary Korra ( Jaede Sy ) - Programmer, Hacker, Developer
 
-Official HackTheBox Account:
+### Official HackTheBox Account:
+
 ![BinaryKorra](https://www.hackthebox.eu/badge/image/529594)
 
 [![Podcast](http://amberstonecss.herokuapp.com/spotify/snowdraft)](https://open.spotify.com/user/snowdraft)
