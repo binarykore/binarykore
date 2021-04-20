@@ -27,6 +27,7 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 
 ### Compilations of my Web Dev Works
 * [ [Amberstone.css](https://github.com/binarykorra/amberstone.css) ]
+* [ [Spotify.md](https://github.com/binarykorra/SpotifyPodcast) ]
 
 ### Compilations of SEI-120G (Black/White) Configs
 * [ [SEI-120G Repository](https://www.github.com/binarykorra/SEI-120G) ]
