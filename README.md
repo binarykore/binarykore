@@ -1,8 +1,8 @@
 ## Binary Korra ( Jaede Sy ) - Programmer, Hacker, Developer
 
-[![Header](https://amberstonelib.herokuapp.com/cdn/icons/animation/light/beta)](https://github.com/binarykorra)
+[![Header](http://amberstonelib.herokuapp.com/cdn/icons/animation/light/beta)](https://github.com/binarykorra)
 
-[![Podcast](https://amberstonelib.herokuapp.com/spotify/snowdraft)](https://open.spotify.com/user/snowdraft)
+[![Podcast](http://amberstonelib.herokuapp.com/spotify/snowdraft)](https://open.spotify.com/user/snowdraft)
 
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=binarykorra)](https://github.com/binarykorra)
