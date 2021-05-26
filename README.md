@@ -24,12 +24,12 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 ## Samples of my Work:
 
 ### Compilations of Facebook Hacks and Tricks
-* [ [Facebook Profile Lock](https://github.com/binarykorra/profilelock.fb) ]
-* [ [Facebook Profile Guard](https://github.com/binarykorra/profileguard.fb) ]
+* [ [Facebook Profile Lock](https://www.github.com/binarykorra/profilelock.fb) ]
+* [ [Facebook Profile Guard](https://www.github.com/binarykorra/profileguard.fb) ]
 
 ### Compilations of my Web Dev Works
-* [ [Amberstone CSS](https://github.com/binarykorra/amberstone.css) ]
-* [ [Spotify Podcast](https://github.com/binarykorra/spotify.podcast) ]
+* [ [Amberstone CSS](https://www.github.com/binarykorra/amberstone.css) ]
+* [ [Spotify Podcast](https://www.github.com/binarykorra/spotify.podcast) ]
 
 ### Compilations of SEI-120G (Black/White) Configs
 * [ [SEI-120G Repository](https://www.github.com/binarykorra/SEI-120G) ]
@@ -38,7 +38,7 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 * [ [PHP-Dev Repository](https://www.github.com/binarykorra/php-dev) ]
 
 ### Compilations of W3C - HTML5 Elements
-* [ [HTML5 Elements - Repo](https://www.github.com/binarykorra/html5elements) ]
+* [ [HTML5 Elements - Repo](https://www.github.com/binarykorra/html5.elements) ]
 
 Alternative
 
