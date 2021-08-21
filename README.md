@@ -2,7 +2,7 @@
 
 [![Header](http://amberstonelib.herokuapp.com/cdn/icons/animation/light/beta)](https://github.com/binarykorra)
 
-[![Podcast](https://shadowfin.herokuapp.com/spotify/templates/view.php?user=snowdraft)](https://open.spotify.com/user/snowdraft)
+[![Playlist](http://shadowfin.herokuapp.com/spotify/templates/view.php?user=snowdraft)](https://open.spotify.com/user/snowdraft)
 
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=binarykorra)](https://github.com/binarykorra)
