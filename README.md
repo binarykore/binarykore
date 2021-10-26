@@ -2,9 +2,6 @@
 
 [![Header](http://amberstonelib.herokuapp.com/cdn/icons/animation/light/beta)](https://github.com/binarykorra)
 
-[![Podcast](http://musicninja.herokuapp.com/spotify/templates/cache.php?user=snowdraft&sanitize=true)](https://open.spotify.com/user/snowdraft)
-
-
 [![trophy](https://github-profile-trophy.vercel.app/?username=binarykorra)](https://github.com/binarykorra)
 
 ### Social Media
