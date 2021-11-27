@@ -29,6 +29,7 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 * [ [Spotify Podcast](https://www.github.com/binarykorra/spotify.podcast) ]
 * [ [Heroku Pages](https://github.com/binarykorra/maintenance_mode) ]
 * [ [ Image Cropping Tool ](https://github.com/binarykorra/imagecropping.tool)]
+* [ [ CSS Text Portrait Generator ](https://github.com/binarykorra/corsair.tg)]
 
 ### Compilations of my Cyber Security works (InfoSec):
 * [ [ Rabbit Hole Algorithm ](https://github.com/binarykorra/rabbit.hole)]
