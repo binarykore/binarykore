@@ -54,7 +54,7 @@ Alternative
 
 ### Official Discord Server
 
-[ ![MD5 Central](https://discordapp.com/api/guilds/513374828191809536/widget.png?style=banner2) ](https://bit.ly/md5discord)
+[ ![MD5 Central](https://discordapp.com/api/guilds/953149401428275211/widget.png?style=banner2) ](https://dsc.gg/itdenphilippines)
 
 ### Official HackTheBox Account
 
