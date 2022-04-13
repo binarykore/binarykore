@@ -2,15 +2,6 @@
 
 [![Header](http://amberstonelib.herokuapp.com/cdn/icons/animation/light/beta)](https://github.com/binarykorra)
 
-<details open>
-<summary>Github Stats:</summary>
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=binarykorra)](https://github.com/binarykorra)
-
-</details>
-
-
-
 ### Social Media
 
 [![Binary Korra's DEV Community Profile](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/binarykorra) [![Binary Korra's YouTube Profile](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCYbraPQtWy2k-2xGiLzl5WA) [![Binary Korra's Github Profile](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://www.github.com/binarykorra) [![Binary Korra's BMC Profile](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00.svg?&style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://bmc.xyz/binarykorra)
@@ -25,7 +16,15 @@
 
 I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my things via Red Hat Hacking, I've been into this Field for a Long Time and my Connections are found everywhere, Such as MNL (Manila), Cebu, and Davao; We are Located anywhere in the World also' as they are like me, A Cyber Mercenary.
 
-<details open>
+
+<details>
+<summary>Github Stats:</summary>
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=binarykorra)](https://github.com/binarykorra)
+
+</details>
+
+<details>
 <summary>Samples of my Work:</summary>
 
 ### Compilations of Facebook Hacks and Tricks
