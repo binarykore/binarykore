@@ -60,16 +60,11 @@ Alternative
 * [ [Audio-webkit Elements - Gist](https://gist.github.com/binarykorra/508b05eb4b58a378c850cbe0463d3e68) ]
 
 </details>
-  
-### Official Discord Server
-
-[ ![MD5 Central](https://discordapp.com/api/guilds/953149401428275211/widget.png?style=banner2) ](https://dsc.gg/itdenphilippines)
-
-### Official HackTheBox Account
-
-![BinaryKorra](https://www.hackthebox.eu/badge/image/529594)
 
 ### Contact me for Support
+
+<details>
+<summary>Contact Details</summary>
 
 * GCash: 09225205353
 * Paypal: digitalshadow@icloud.com
@@ -81,3 +76,14 @@ Alternative
 
 ### Copyright since ( 2019 )
 ( C ) - [BinaryKorra](https://github.com/binarykorra), 09225205353
+
+</details>
+
+  
+### Official Discord Server
+
+[ ![MD5 Central](https://discordapp.com/api/guilds/953149401428275211/widget.png?style=banner2) ](https://dsc.gg/itdenphilippines)
+
+### Official HackTheBox Account
+
+![BinaryKorra](https://www.hackthebox.eu/badge/image/529594)
