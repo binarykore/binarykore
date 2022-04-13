@@ -4,7 +4,7 @@
 
 ### Social Media
 
-[![Binary Korra's DEV Community Profile](https://img.shields.io/badge/DEV-%23000000.svg?&style=flat-square&logo=dev.to&logoColor=white)](https://dev.to/binarykorra) [![Binary Korra's YouTube Profile](https://img.shields.io/badge/YouTube-%23FF0000.svg?&style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCYbraPQtWy2k-2xGiLzl5WA) [![Binary Korra's BMC Profile](https://img.shields.io/badge/BuyMeaCoffee-%23FFDD00.svg?&style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://bmc.xyz/binarykorra)
+[![Binary Korra's DEV Community Profile](https://img.shields.io/badge/DEV-%23000000.svg?&style=flat-square&logo=dev.to&logoColor=black)](https://dev.to/binarykorra) [![Binary Korra's YouTube Profile](https://img.shields.io/badge/YouTube-%23FF0000.svg?&style=flat-square&logo=youtube&logoColor=black)](https://www.youtube.com/channel/UCYbraPQtWy2k-2xGiLzl5WA) [![Binary Korra's BMC Profile](https://img.shields.io/badge/BuyMeaCoffee-%23FFDD00.svg?&style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://bmc.xyz/binarykorra) [![Github Profile](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=black)](https://github.com/binarykorra)
 
 
 [ [Works](http://binarykorra.github.io/binarykorra/works) ] [ [Zero](http://binarykorra.github.io/binarykorra/zero) ] [ [WireChat](http://binarykorra.github.io/binarykorra/wirechat) ] [ [Music Podcast](http://binarykorra.github.io/binarykorra/music) ] [ [Certificates](http://binarykorra.github.io/binarykorra/certificates) ]
