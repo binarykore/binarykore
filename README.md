@@ -2,7 +2,10 @@
 
 [![Header](http://amberstonelib.herokuapp.com/cdn/icons/animation/light/beta)](https://github.com/binarykorra)
 
+<details>
+<summary>Github Stats</summary>
 [![trophy](https://github-profile-trophy.vercel.app/?username=binarykorra)](https://github.com/binarykorra)
+</details>
 
 ### Social Media
 
