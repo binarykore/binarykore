@@ -61,10 +61,8 @@ Alternative
 
 </details>
 
-### Contact me for Support
-
 <details>
-<summary>Contact Details</summary>
+<summary>Contact me for Support</summary>
 
 * GCash: 09225205353
 * Paypal: digitalshadow@icloud.com
