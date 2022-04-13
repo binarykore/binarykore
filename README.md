@@ -3,7 +3,7 @@
 [![Header](http://amberstonelib.herokuapp.com/cdn/icons/animation/light/beta)](https://github.com/binarykorra)
 
 <details open>
-<summary>Shopping list</summary>
+<summary>Github Stats:</summary>
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=binarykorra)](https://github.com/binarykorra)
 
@@ -25,7 +25,8 @@
 
 I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my things via Red Hat Hacking, I've been into this Field for a Long Time and my Connections are found everywhere, Such as MNL (Manila), Cebu, and Davao; We are Located anywhere in the World also' as they are like me, A Cyber Mercenary.
 
-## Samples of my Work:
+<details open>
+<summary>Samples of my Work:</summary>
 
 ### Compilations of Facebook Hacks and Tricks
 * [ [Facebook Profile Lock](https://www.github.com/binarykorra/profilelock.fb) ]
@@ -59,6 +60,8 @@ Alternative
 ### Compilations of Audio-webkit Gist
 * [ [Audio-webkit Elements - Gist](https://gist.github.com/binarykorra/508b05eb4b58a378c850cbe0463d3e68) ]
 
+</details>
+  
 ### Official Discord Server
 
 [ ![MD5 Central](https://discordapp.com/api/guilds/953149401428275211/widget.png?style=banner2) ](https://dsc.gg/itdenphilippines)
