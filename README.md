@@ -5,13 +5,10 @@
 <details open>
 <summary>Shopping list</summary>
 
-* Vegetables
-* Fruits
-* Fish
+[![trophy](https://github-profile-trophy.vercel.app/?username=binarykorra)](https://github.com/binarykorra)
 
 </details>
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=binarykorra)](https://github.com/binarykorra)
 
 
 ### Social Media
