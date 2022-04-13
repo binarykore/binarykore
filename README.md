@@ -13,8 +13,9 @@
 
 [ [Works](http://binarykorra.github.io/binarykorra/works) ] [ [Zero](http://binarykorra.github.io/binarykorra/zero) ] [ [WireChat](http://binarykorra.github.io/binarykorra/wirechat) ] [ [Music Podcast](http://binarykorra.github.io/binarykorra/music) ] [ [Certificates](http://binarykorra.github.io/binarykorra/certificates) ]
 
-
-<img align="right" width="245" height="245" src="https://avatars3.githubusercontent.com/u/36190934?v=4&raw=true">
+<a href="https://github.com/binarykorra" rel="nofollow">
+  <img align="right" width="245" height="245" src="https://avatars3.githubusercontent.com/u/36190934?v=4&raw=true">
+</a>
 
 
 ### About Me
