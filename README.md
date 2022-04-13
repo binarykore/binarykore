@@ -3,9 +3,16 @@
 [![Header](http://amberstonelib.herokuapp.com/cdn/icons/animation/light/beta)](https://github.com/binarykorra)
 
 <details open>
-<summary>Github Stats</summary>
-[![trophy](https://github-profile-trophy.vercel.app/?username=binarykorra)](https://github.com/binarykorra)
+<summary>Shopping list</summary>
+
+* Vegetables
+* Fruits
+* Fish
+
 </details>
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=binarykorra)](https://github.com/binarykorra)
+
 
 ### Social Media
 
