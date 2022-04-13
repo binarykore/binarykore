@@ -21,9 +21,18 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 
 
 <details>
-<summary>Github Stats:</summary>
+<summary>Github Awards:</summary>
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=binarykorra)](https://github.com/binarykorra)
+
+</details>
+
+<details>
+<summary>Github Stats:</summary>
+
+[![stats](https://github-readme-stats.vercel.app/api?username=binarykorra)](https://github.com/binarykorra)
+  
+[![languages](https://github-readme-stats.vercel.app/api/top-langs/?username=binarykorra)](https://github.com/binarykorra)
 
 </details>
 
