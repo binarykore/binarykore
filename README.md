@@ -33,19 +33,23 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 <details>
 <summary>Forex and Stocks:</summary>
 
-[ [NAVPU Calculator](https://tools.technicalgeek.ml/calculator/navpu) ]
+* [ [NAVPU Calculator](https://tools.technicalgeek.ml/calculator/navpu) ]
   
-[ [ALFM BPI / GInvest Calculator](https://tools.technicalgeek.ml/calculator/alfmcalc) ]
+* [ [ALFM BPI / GInvest Calculator](https://tools.technicalgeek.ml/calculator/alfmcalc) ]
   
-[ [Charge Calculator](https://tools.technicalgeek.ml/calculator/charge) ]
+* [ [Charge Calculator](https://tools.technicalgeek.ml/calculator/charge) ]
   
-[ [Commission Calculator](https://tools.technicalgeek.ml/calculator/commission) ]
+* [ [Commission Calculator](https://tools.technicalgeek.ml/calculator/commission) ]
   
-[ [Hashrate Calculator](https://tools.technicalgeek.ml/calculator/hashrate) ]
+* [ [Hashrate Calculator](https://tools.technicalgeek.ml/calculator/hashrate) ]
   
-[ [CPM (Click per Minute) Calculator](https://tools.technicalgeek.ml/calculator/cpm) ]
+* [ [CPM (Click per Minute) Calculator](https://tools.technicalgeek.ml/calculator/cpm) ]
 
-[ [Simple Interest Calculator](https://tools.technicalgeek.ml/calculator/si) ]
+* [ [Simple Interest Calculator](https://tools.technicalgeek.ml/calculator/si) ]
+  
+* [ [Whitepaper Beta](https://tools.technicalgeek.ml/whitepaper.beta) ]
+
+* Password for Whitepaper is "whitepaper" all small letters.
 
 </details>
 
