@@ -28,7 +28,7 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 
 * [ [Corsair CSS Text Portrait Generator](https://corsair.technicalgeek.ml/) ]
   
-* [ [Nova TTS / Audio Blogs Generator (WIP)](https://nova.technicalgeek.ml/) ]
+* [ [Nova TTS / Audio Blogs Generator](https://nova.technicalgeek.ml/) ] (Note: This is a Work on Progress)
   
 </details>
 
@@ -51,7 +51,7 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
   
 * [ [Whitepaper Beta](https://tools.technicalgeek.ml/whitepaper.beta) ]
 
-* Password for Whitepaper is "whitepaper" all small letters.
+* Password for the Whitepaper is "whitepaper", all small letters.
 
 </details>
 
