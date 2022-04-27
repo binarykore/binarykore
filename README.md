@@ -28,6 +28,8 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 
 * [ [Corsair CSS Text Portrait Generator](https://corsair.technicalgeek.ml/) ]
   
+* [ [Nova TTS / Audio Blogs Generator (WIP)](https://nova.technicalgeek.ml/) ]
+  
 </details>
 
 <details>
