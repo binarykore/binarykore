@@ -31,6 +31,17 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 </details>
 
 <details>
+<summary>Forex and Stocks:</summary>
+
+[ [NAVPU Calculator](https://tools.technicalgeek.ml/calculator/navpu) ]
+[ [ALFM BPI / GInvest Calculator](https://tools.technicalgeek.ml/calculator/alfm) ]
+[ [Charge Calculator](https://tools.technicalgeek.ml/calculator/charge) ]
+[ [Commissions Calculator](https://tools.technicalgeek.ml/calculator/commissions) ]
+[ [Hashrate Calculator](https://tools.technicalgeek.ml/calculator/hashrate) ]
+  
+</details>
+
+<details>
 <summary>Github Awards:</summary>
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=binarykorra)](https://github.com/binarykorra)
