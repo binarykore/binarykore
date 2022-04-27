@@ -39,7 +39,7 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
   
 [ [Charge Calculator](https://tools.technicalgeek.ml/calculator/charge) ]
   
-[ [Commissions Calculator](https://tools.technicalgeek.ml/calculator/commissions) ]
+[ [Commission Calculator](https://tools.technicalgeek.ml/calculator/commission) ]
   
 [ [Hashrate Calculator](https://tools.technicalgeek.ml/calculator/hashrate) ]
   
