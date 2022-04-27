@@ -26,7 +26,7 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 <details>
 <summary>Tools and Works:</summary>
 
-[ [Corsair CSS Text Portrait Generator](https://corsair.technicalgeek.ml/) ]
+* [ [Corsair CSS Text Portrait Generator](https://corsair.technicalgeek.ml/) ]
   
 </details>
 
