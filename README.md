@@ -43,6 +43,10 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
   
 [ [Hashrate Calculator](https://tools.technicalgeek.ml/calculator/hashrate) ]
   
+[ [CPM (Click per Minute) Calculator](https://tools.technicalgeek.ml/calculator/cpm) ]
+
+[ [Simple Interest Calculator](https://tools.technicalgeek.ml/calculator/si) ]
+
 </details>
 
 <details>
