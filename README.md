@@ -24,6 +24,13 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 
 
 <details>
+<summary>Tools and Works:</summary>
+
+[ [Corsair CSS Text Portrait Generator](https://corsair.technicalgeek.ml/) ]
+  
+</details>
+
+<details>
 <summary>Github Awards:</summary>
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=binarykorra)](https://github.com/binarykorra)
