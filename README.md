@@ -35,7 +35,7 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 
 [ [NAVPU Calculator](https://tools.technicalgeek.ml/calculator/navpu) ]
   
-[ [ALFM BPI / GInvest Calculator](https://tools.technicalgeek.ml/calculator/alfm) ]
+[ [ALFM BPI / GInvest Calculator](https://tools.technicalgeek.ml/calculator/alfmcalc) ]
   
 [ [Charge Calculator](https://tools.technicalgeek.ml/calculator/charge) ]
   
