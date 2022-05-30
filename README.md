@@ -49,6 +49,8 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 
 * [ [Simple Interest Calculator](https://tools.technicalgeek.ml/calculator/si) ]
   
+* [ [Simple Interest Calculator](https://tools.technicalgeek.ml/calculator/debt) ]
+  
 * [ [Whitepaper Beta](https://tools.technicalgeek.ml/whitepaper.beta) ]
 
 * Password for the Whitepaper is "whitepaper", all small letters.
