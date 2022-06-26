@@ -51,7 +51,9 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
   
 * [ [Store Debt Calculator](https://tools.technicalgeek.ml/calculator/debt) ]
   
-* [ [Whitepaper Beta](https://tools.technicalgeek.ml/whitepaper.beta) ]
+* [ [Age Calculator](https://tools.technicalgeek.ml/calculator/age) ]
+  
+* [ [Whitepaper Beta](https://tools.technicalgeek.ml/whitepaper) ]
 
 * Password for the Whitepaper is "whitepaper", all small letters.
 
