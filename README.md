@@ -14,6 +14,10 @@
 
 [ [Works](http://binarykorra.github.io/binarykorra/works) ] [ [Zero](http://binarykorra.github.io/binarykorra/zero) ] [ [WireChat](http://binarykorra.github.io/binarykorra/wirechat) ] [ [Music Podcast](http://binarykorra.github.io/binarykorra/music) ] [ [Certificates](http://binarykorra.github.io/binarykorra/certificates) ]
 
+## Currently Listening to these Music Sets:
+[![Acoustic](https://img.shields.io/badge/Acoustic-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykorra)
+[![Pop Rock](https://img.shields.io/badge/Pop%20Rock-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykorra)
+
 <a href="https://github.com/binarykorra" rel="nofollow">
   <img align="left" width="120" height="120" src="https://github.com/binarykorra.png">
 </a>
