@@ -25,6 +25,7 @@
   "homepage": "https://github.com/binarykorra/binarykorra#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "mustache": "^4.0.1"
+    "mustache": "^4.0.1",
+    "puppeteer": "^16.1.1"
   }
 }
