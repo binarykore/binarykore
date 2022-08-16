@@ -143,7 +143,7 @@ Alternative
 
 ### Profile
 
-My name is  and today is 
+My name is Jaede Sy and today is Wednesday, 17 August, 01:59 GMT+8
 
 ### Official HackTheBox Account
 
