@@ -22,10 +22,10 @@
 
 ## Visits
 
-<p><img width="200" src="{{img1}}" /> <img width="200" src="{{img2}}" /> <img width="200" src="{{img3}}" /></p>
+<p><img width="200" src="" /> <img width="200" src="" /> <img width="200" src="" /></p>
 
-* Profile Name: {{profile_name}}
-* Philippine Time: {{refresh_date}}
+* Profile Name: Jaede Sy
+* Philippine Time: Wednesday, 17 August, 03:33 GMT+8
 
 <a href="https://github.com/binarykorra" rel="nofollow">
   <img align="left" width="120" height="120" src="https://github.com/binarykorra.png">
