@@ -25,7 +25,6 @@ async function generateReadMe() {
 }
 
 async function action() {
-  await setWeatherInformation();
   await generateReadMe();
 }
 
