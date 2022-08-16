@@ -26,7 +26,7 @@
 
 
 ### About Me
-Yo, Hey there! I am {{name}} and today is {{date}} ..
+Yo, Hey there! I am Jaede Sy and today is Wednesday, 17 August, 02:02 GMT+8 ..
 
 I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my things via Red Hat Hacking, I've been into this Field for a Long Time and my Connections are found everywhere, Such as MNL (Manila), Cebu, and Davao; We are Located anywhere in the World also' as they are like me, A Cyber Mercenary.
 
