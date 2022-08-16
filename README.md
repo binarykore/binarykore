@@ -26,6 +26,7 @@
 
 
 ### About Me
+Yo, Hey there! I am {{name}} and today is {{date}} ..
 
 I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my things via Red Hat Hacking, I've been into this Field for a Long Time and my Connections are found everywhere, Such as MNL (Manila), Cebu, and Davao; We are Located anywhere in the World also' as they are like me, A Cyber Mercenary.
 
@@ -140,10 +141,6 @@ Alternative
 ### Official Discord Server
 
 [ ![MD5 Central](https://discordapp.com/api/guilds/953149401428275211/widget.png?style=banner2) ](https://dsc.gg/itdenphilippines)
-
-### Profile
-
-My name is  and today is 
 
 ### Official HackTheBox Account
 
