@@ -19,10 +19,10 @@ let DATA = {
 
 async function setInstagramPosts() {
   const instagramImages = await puppeteerService.getLatestInstagramPostsFromAccount('binarymako.ph', 4);
-  DATA.img1 = instagramImages[Math.floor(Math.random()*items.length)];
-  DATA.img2 = instagramImages[Math.floor(Math.random()*items.length)];
-  DATA.img3 = instagramImages[Math.floor(Math.random()*items.length)];
-  DATA.img4 = instagramImages[Math.floor(Math.random()*items.length)];
+  DATA.img1 = instagramImages[Math.floor(Math.random()*instagramImages.length)];
+  DATA.img2 = instagramImages[Math.floor(Math.random()*instagramImages.length)];
+  DATA.img3 = instagramImages[Math.floor(Math.random()*instagramImages.length)];
+  DATA.img4 = instagramImages[Math.floor(Math.random()*instagramImages.length)];
 }
 
 async function generateReadMe() {
