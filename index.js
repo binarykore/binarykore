@@ -57,20 +57,13 @@ async function generateReadMe() {
 
 async function action() {
   /**
-   * Fetch Weather
-   */
-  await setWeatherInformation();
-
-  /**
    * Get pictures
    */
   await setInstagramPosts();
-
   /**
    * Generate README
    */
   await generateReadMe();
-
   /**
    * Fermeture de la boutique 👋
    */
