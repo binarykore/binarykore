@@ -103,7 +103,6 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
   
 ### Compilations of SEI-120G (Black/White) Configs
 * [ [SEI-120G Repository](https://www.github.com/binarykorra/SEI-120G) ]
-* [ [SEI-120G Dev Repo](https://www.github.com/binarykorra/SEI120GT-Dev) ]
 
 ### Compilations of PHP-Developer Tools
 * [ [PHP-Dev Repository](https://www.github.com/binarykorra/php-dev) ]
@@ -144,7 +143,7 @@ Alternative
 
 ### Profile
 
-My name is {{name}} and today is {{date}}
+My name is  and today is 
 
 ### Official HackTheBox Account
 
