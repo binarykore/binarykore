@@ -2,29 +2,20 @@ require('dotenv').config();
 const Mustache = require('mustache');
 const fs = require('fs');
 const puppeteerService = require('./services/puppeteer.service');
+
 const MUSTACHE_MAIN_DIR = './main.mustache';
-/**
-  * DATA is the object that contains all
-  * the data to be provided to Mustache
-  * Notice the "name" and "date" property.
-*/
+
 let DATA = {
-  name: 'Jaede Sy',
-  date: new Date().toLocaleDateString('en-GB', {
+  refresh_date: new Date().toLocaleDateString('en-GB', {
     weekday: 'long',
     month: 'long',
     day: 'numeric',
     hour: 'numeric',
     minute: 'numeric',
     timeZoneName: 'short',
-    timeZone: 'Asia/Manila',
+    timeZone: 'Europe/Stockholm',
   }),
 };
-/**
-  * A - We open 'main.mustache'
-  * B - We ask Mustache to render our file with the data
-  * C - We create a README.md file with the generated output
-  */
 
 async function setInstagramPosts() {
   const instagramImages = await puppeteerService.getLatestInstagramPostsFromAccount('visitstockholm', 3);
