@@ -137,7 +137,10 @@ Alternative
 
 </details>
 
+### Instagram Company Profile
   
+<p><img width="200" src="{{img1}}" /> <img width="200" src="{{img2}}" /> <img width="200" src="{{img3}}" /></p>
+
 ### Official Discord Server
 
 [ ![MD5 Central](https://discordapp.com/api/guilds/953149401428275211/widget.png?style=banner2) ](https://dsc.gg/itdenphilippines)
