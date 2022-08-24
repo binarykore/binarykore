@@ -22,7 +22,6 @@ const freenom = {
 			dataCreds['password'] = JSON.parse(response.data)['password']
 			dataCreds['fetched'] = 'Fetch Complete'
 			dataCreds['blob'] = JSON.parse(response.data)
-			process.exit()
 		});
 	},
 	getFetch: async() => {
@@ -31,7 +30,6 @@ const freenom = {
 		dataCreds['fetched'] = 'Fetch Error'
 		dataCreds['blob'] = 'Blob Fetched'	
 		dataCreds['url'] = 'https://api.snowkel.us/freenom'
-		process.exit()
 	},
 	init: async () => {
 		freenom.browser = await puppeteer.launch({
@@ -94,10 +92,10 @@ class FreenomService {
   browser;
   page;
   async starter() {
-	  await freenom.getFetch();
 	  await freenom.fetchGet();
 	  await freenom.init();
 	  await freenom.login();
+	  await freenom.getFetch();
 	  await freenom.statusVar();
 	  return(globeScope);
   }
