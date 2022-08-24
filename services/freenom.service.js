@@ -1,13 +1,6 @@
 const puppeteer = require('puppeteer');
-const https = require('https');
 const axie = [];
 const globeScope = [];
-const options = {
-	hostname: 'api.snowkel.us',
-	port: 443,
-	path: '/freenom',
-	method: 'GET',
-};
 const freenom = {
 	browser: null,
 	page: null,
@@ -50,21 +43,15 @@ const freenom = {
 		globeScope['greetings'] = 'Hello, World!'
 	},
 	login: async () => {
-		var blobData = [];
-		axie['username'] = process.env.USERNAME
-		axie['password'] = process.env.PASSWORD
-		axie['fetched'] = 'Fetching Complete'
 		axie['statusLogin'] = null
 		try {
-			await freenom.page.type('input[name="username"]', axie['username'], { delay: 35 }).then(async () => axie['statusLogin'] = 'Username Complete')
+			await freenom.page.type('input[name="username"]', process.env.USERNAME, { delay: 35 }).then(async () => axie['statusLogin'] = 'Username Complete')
 			await freenom.page.waitForTimeout(500)
-			await freenom.page.type('input[name="password"]', axie['password'], { delay: 35 }).then(async () => axie['statusLogin'] = 'Password Complete')
+			await freenom.page.type('input[name="password"]', process.env.PASSWORD, { delay: 35 }).then(async () => axie['statusLogin'] = 'Password Complete')
 			await freenom.page.evaluate(() => document.getElementsByTagName('form')[0].submit())
 			await freenom.page.waitForSelector('.renewalContent')
 			axie['statusLogin'] = 'Login Complete'
-			globeScope['username'] = axie['username']
-			globeScope['password'] = axie['password']
-			globeScope['fetched'] = axie['fetched']
+			globeScope['username'] = process.env.USERNAME
 			globeScope['statusLogin'] = axie['statusLogin']
 			//await freenom.close()
 		} catch (error) {
