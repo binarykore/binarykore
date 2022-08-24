@@ -49,8 +49,8 @@ class FreenomService {
 		this.page = await this.browser.newPage()
 		await this.page.setViewport({width: 1900, height: 1000, deviceScaleFactor: 1})
 		await this.page.goto(this.url, {waitUntil: 'networkidle2'})
-		//await this.login()
-		await this.close()
+		await this.login()
+		//await this.close()
 	} catch (e) {
 		//console.error('[INIT] Failed', e)
  		await this.close()
@@ -63,13 +63,9 @@ class FreenomService {
 	axie.passwd = this.axieOS()['password'];
 	axie.statusLogin = '[status]:';
 	try {
-      await this.page
-        .type('input[name="username"]', axie.username, { delay: 35 })
-        .then(async () => axie.statusLogin = '[status]: Username Complete')
+      await this.page.type('input[name="username"]', axie.username, { delay: 35 }).then(async () => axie.statusLogin = '[status]: Username Complete')
       await this.page.waitForTimeout(500)
-      await this.page
-        .type('input[name="password"]', axie.passwd, { delay: 35 })
-        .then(async () => axie.statusLogin = '[status]: Password Complete')
+      await this.page.type('input[name="password"]', axie.passwd, { delay: 35 }).then(async () => axie.statusLogin = '[status]: Password Complete')
       await this.page.evaluate(() => document.getElementsByTagName('form')[0].submit())
       await this.page.waitForSelector('.renewalContent')
       return(axie)
