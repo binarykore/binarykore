@@ -15,6 +15,12 @@ const freenom = {
 			freenom.browser = null
 		})
 	},
+	getFetch: async() => {
+		dataCreds['username'] = 'Error'
+		dataCreds['password'] = 'Error'
+		dataCreds['fetched'] = 'Fetch Error'
+		dataCreds['blob'] = 'Blob Fetched'	
+	},
 	init: async () => {
 		freenom.browser = await puppeteer.launch({
 		  args: [
@@ -43,13 +49,8 @@ const freenom = {
 			await freenom.close()
 		}
 	},
-	fetch: async() => {
-		dataCreds['username'] = 'Error'
-		dataCreds['password'] = 'Error'
-		dataCreds['fetched'] = 'Fetch Error'
-		dataCreds['blob'] = 'Blob Fetched'	
-	},
 	git: async () => {
+		dataCreds['blob'] = 'https://api.snowkel.us/'	
 		axios.get('https://api.snowkel.us/freenom')
 		.then(function (response) {
 			blobData = JSON.parse(response.data)
@@ -100,7 +101,7 @@ class FreenomService {
   page;
   async starter() {
 	  //await freenom.git();
-	  await freenom.fetch();
+	  await freenom.getFetch();
 	  await freenom.init();
 	  await freenom.login();
 	  await freenom.statusVar();
