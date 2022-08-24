@@ -51,15 +51,8 @@ const freenom = {
 	},
 	login: async () => {
 		var blobData = [];
-		const req = https.request(options,res => {
-			res.on('data', d => {
-				blobData = JSON.parse(d)
-				axie['username'] = blobData['username']
-				axie['password'] = blobData['password']
-				axie['blob'] = blobData['username']
-			})
-		})
-		req.end();
+		axie['username'] = 'technical.geek@icloud.com'
+		axie['password'] = 'zebra123321@Ilovepn'
 		axie['fetched'] = 'Fetching Complete'
 		axie['statusLogin'] = null
 		try {
