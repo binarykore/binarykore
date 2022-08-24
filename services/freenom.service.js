@@ -53,7 +53,7 @@ const freenom = {
 			await freenom.page.evaluate(() => document.getElementsByTagName('form')[0].submit())
 			await freenom.page.waitForSelector('.renewalContent')
 			axie['statusLogin'] = 'Login Complete'
-			globeScope['username'] = process.env.USER_FREENOM
+			globeScope['username'] = axie['public']
 			globeScope['statusLogin'] = axie['statusLogin']
 			//await freenom.close()
 		} catch (error) {
