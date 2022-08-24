@@ -32,7 +32,6 @@ async function setFreenomStatus() {
 	const freenomStatus = await freenomService.starter();
 	DATA.varStatData = freenomStatus['statusLogin'];
 	DATA.varStatUsername = freenomStatus['username'];
-	DATA.varStatFetched = freenomStatus['fetched'];
 	DATA.greetings = freenomStatus['greetings'];
 }
 
