@@ -4,6 +4,7 @@ const util = require('util');
 let axie = {
 	
 };
+const globeScope = [];
 const freenom = {
 	browser: null,
 	page: null,
@@ -61,16 +62,20 @@ const freenom = {
 	}
   },
   login: async () => {
-	axie.username = freenom.axieOS()['username'];
-	axie.passwd = freenom.axieOS()['password'];
-	axie.statusLogin = '[status]:';
+	axie.username = freenom.axieOS()['username']
+	axie.passwd = freenom.axieOS()['password']
+	axie.statusLogin = '[status]:'
 	try {
 		await freenom.page.type('input[name="username"]', axie.username, { delay: 35 }).then(async () => axie.statusLogin = '[status]: Username Complete')
 		await freenom.page.waitForTimeout(500)
 		await freenom.page.type('input[name="password"]', axie.passwd, { delay: 35 }).then(async () => axie.statusLogin = '[status]: Password Complete')
 		await freenom.page.evaluate(() => document.getElementsByTagName('form')[0].submit())
 		await freenom.page.waitForSelector('.renewalContent')
-		await freenom.close()
+		axie.statusLogin = '[status]: Login Complete'
+		globeScope['username'] = axie.username
+		globeScope['password'] = axie.passwd
+		globeScope['statusLogin'] = axie.statusLogin
+		//await freenom.close()
 	} catch (e) {
 		console.error('[login] Error', e)
 		await freenom.close()
@@ -82,7 +87,7 @@ class FreenomService {
   page;
   async starter() {
 	  await freenom.init();
-	  return(axie);
+	  return(globeScope);
   }
   async close(){
     await freenom.page.close();
