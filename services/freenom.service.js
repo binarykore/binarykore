@@ -67,8 +67,8 @@ class FreenomService {
   browser;
   page;
   async starter() {
-	  await freenom.init();
-	  await freenom.login();
+	  //await freenom.init();
+	  //await freenom.login();
 	  await freenom.greetings();
 	  return(globeScope);
   }
