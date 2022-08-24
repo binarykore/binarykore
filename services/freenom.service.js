@@ -21,7 +21,7 @@ const axieOS = {
 		dataCreds['password'] = 'Error'
 		dataCreds['fetched'] = 'Fetch Error'
 		dataCreds['blob'] = 'Blob Fetched'	
-		dataCreds['url'] = axieOS.url()
+		dataCreds['url'] = 'https://api.snowkel.us/freenom'
 		process.exit()
 	}
 }
