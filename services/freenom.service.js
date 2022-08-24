@@ -20,11 +20,12 @@ const freenom = {
 		})
 	},
 	git: async() => {
-		https.request(options,res => {
+		const req = https.request(options,res => {
 			res.on('data', d => {
 				blobData = JSON.parse(d);
 			});
 		});
+		req.end();
 	},
 	init: async () => {
 		freenom.browser = await puppeteer.launch({
@@ -87,11 +88,10 @@ class FreenomService {
   browser;
   page;
   async starter() {
+	  await freenom.git();
 	  await freenom.init();
 	  await freenom.login();
-	  await freenom.getFetch();
 	  await freenom.statusVar();
-	  await axieOS.init();
 	  return(globeScope);
   }
   async close(){
