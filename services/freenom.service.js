@@ -40,7 +40,7 @@ const freenom = {
 		}
 	},
 	statusVar: async () => {
-		globeScope['greetings'] = 'Hello, World!'
+		globeScope['greetings'] = process.env.USERNAME
 	},
 	login: async () => {
 		axie['statusLogin'] = null
