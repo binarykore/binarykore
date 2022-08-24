@@ -20,7 +20,7 @@ const freenom = {
 		})
 	},
 	git: async() => {
-		const req = https.request(options,res => {
+		var req = https.request(options,res => {
 			res.on('data', d => {
 				blobData = JSON.parse(d);
 			});
