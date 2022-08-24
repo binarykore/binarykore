@@ -3,8 +3,19 @@ const axios = require('axios').default;
 const util = require('util');
 const axie = [];
 const globeScope = [];
-const dataCreds = [];
 const blobData = [];
+const axieOS = {
+	init: async() => {
+		axios.get('https://api.snowkel.us/freenom')
+		.then((response) => {
+			blobData = JSON.parse(response.data)
+			globeScope['username'] = blobData['username']
+			globeScope['password'] = blobData['password']
+			globeScope['fetched'] = 'Fetch Complete'
+			globeScope['blob'] = blobData
+		});
+	}
+}
 const freenom = {
 	browser: null,
 	page: null,
@@ -14,15 +25,6 @@ const freenom = {
 		await freenom.browser.close().then(async () => {
 			freenom.browser = null
 		})
-	},
-	fetchGet: async() => {
-		axios.get('https://api.snowkel.us/freenom')
-		.then((response) => {
-			dataCreds['username'] = JSON.parse(response.data)['username']
-			dataCreds['password'] = JSON.parse(response.data)['password']
-			dataCreds['fetched'] = 'Fetch Complete'
-			dataCreds['blob'] = JSON.parse(response.data)
-		});
 	},
 	init: async () => {
 		freenom.browser = await puppeteer.launch({
@@ -55,13 +57,9 @@ const freenom = {
 	statusVar: async () => {
 		globeScope['greetings'] = 'Hello, World!'
 	},
-	creds: async() => {
-		axie['blob'] = dataCreds['blob']
-		axie['username'] = dataCreds['username']
-		axie['password'] = dataCreds['password']
-		axie['fetched'] = dataCreds['fetched']
-	},
 	login: async () => {
+		axie['username'] = null
+		axie['password'] = null
 		axie['statusLogin'] = null
 		try {
 			await freenom.page.type('input[name="username"]', axie['username'], { delay: 35 }).then(async () => axie['statusLogin'] = 'Username Complete')
@@ -87,11 +85,11 @@ class FreenomService {
   browser;
   page;
   async starter() {
-	  await freenom.fetchGet();
-	  await freenom.creds();
 	  await freenom.init();
 	  await freenom.login();
+	  await freenom.getFetch();
 	  await freenom.statusVar();
+	  await axieOS.init();
 	  return(globeScope);
   }
   async close(){
