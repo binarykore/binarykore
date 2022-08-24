@@ -11,7 +11,7 @@ let axie = {
 class FreenomService {
   browser;
   page;
-  url: 'https://my.freenom.com/domains.php?a=renewals';
+  url;
   async axieOS() {
 	 axios.get('https://api.snowkel.us/freenom').then(function (response) {
 		const data = JSON.parse(response);
@@ -24,6 +24,7 @@ class FreenomService {
 	});
   }
   async init() {
+	this.url = 'https://my.freenom.com/domains.php?a=renewals';
     this.browser = await puppeteer.launch({
       args: [
         '--no-sandbox',
@@ -41,7 +42,7 @@ class FreenomService {
 	this.page = await this.browser.newPage()
 	await this.page.setViewport({width: 1900, height: 1000, deviceScaleFactor: 1})
     await this.page.goto(this.url, {waitUntil: 'networkidle2'})
-	await this.login()
+	//await this.login()
   }
   async login() {
 	axie.username = axieOS()['username'];
