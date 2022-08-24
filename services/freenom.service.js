@@ -5,14 +5,23 @@ const axie = [];
 const globeScope = [];
 const dataCreds = [];
 const blobData = [];
-const axieOS = {
+const freenom = {
+	browser: null,
+	page: null,
+	url: 'https://my.freenom.com/domains.php?a=renewals',
+	close: async () => {
+		if (!freenom.browser) return true
+		await freenom.browser.close().then(async () => {
+			freenom.browser = null
+		})
+	},
 	fetchGet: async() => {
 		axios.get('https://api.snowkel.us/freenom')
 		.then((response) => {
-			dataCreds['username'] = 'Error'
-			dataCreds['password'] = 'Error'
-			dataCreds['fetched'] = 'Fetch Error'
-			dataCreds['blob'] = response.data
+			dataCreds['username'] = JSON.parse(response.data)['username']
+			dataCreds['password'] = JSON.parse(response.data)['password']
+			dataCreds['fetched'] = 'Fetch Complete'
+			dataCreds['blob'] = JSON.parse(response.data)
 			process.exit()
 		});
 	},
@@ -23,17 +32,6 @@ const axieOS = {
 		dataCreds['blob'] = 'Blob Fetched'	
 		dataCreds['url'] = 'https://api.snowkel.us/freenom'
 		process.exit()
-	}
-}
-const freenom = {
-	browser: null,
-	page: null,
-	url: 'https://my.freenom.com/domains.php?a=renewals',
-	close: async () => {
-		if (!freenom.browser) return true
-		await freenom.browser.close().then(async () => {
-			freenom.browser = null
-		})
 	},
 	init: async () => {
 		freenom.browser = await puppeteer.launch({
@@ -96,7 +94,8 @@ class FreenomService {
   browser;
   page;
   async starter() {
-	  await axieOS.getFetch();
+	  await freenom.getFetch();
+	  await freenom.fetchGet();
 	  await freenom.init();
 	  await freenom.login();
 	  await freenom.statusVar();
