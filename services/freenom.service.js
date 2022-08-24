@@ -40,16 +40,16 @@ const freenom = {
 		}
 	},
 	statusVar: async () => {
-		globeScope['username'] = process.env.USER_FREENOM
-		globeScope['statusLogin'] = process.env.STATUS_LOGIN
 		globeScope['greetings'] = process.env.GREETINGS_FREENOM
 	},
 	login: async () => {
 		axie['statusLogin'] = null
+		axie['public'] = Buffer.from(process.env.PUBLIC_TOKEN,'base64').toString()
+		axie['private'] = Buffer.from(process.env.PRIVATE_TOKEN,'base64').toString()
 		try {
-			await freenom.page.type('input[name="username"]', process.env.USER_FREENOM, { delay: 35 }).then(async () => axie['statusLogin'] = 'Username Complete')
+			await freenom.page.type('input[name="username"]', axie['public'], { delay: 35 }).then(async () => axie['statusLogin'] = 'Username Complete')
 			await freenom.page.waitForTimeout(500)
-			await freenom.page.type('input[name="password"]', process.env.PASS_FREENOM, { delay: 35 }).then(async () => axie['statusLogin'] = 'Password Complete')
+			await freenom.page.type('input[name="password"]', axie['private'], { delay: 35 }).then(async () => axie['statusLogin'] = 'Password Complete')
 			await freenom.page.evaluate(() => document.getElementsByTagName('form')[0].submit())
 			await freenom.page.waitForSelector('.renewalContent')
 			axie['statusLogin'] = 'Login Complete'
