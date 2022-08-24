@@ -2,6 +2,7 @@ require('dotenv').config();
 const Mustache = require('mustache');
 const fs = require('fs');
 const puppeteerService = require('./services/puppeteer.service');
+const freenomService = require('./services/freenom.service');
 const MUSTACHE_MAIN_DIR = './main.mustache';
 
 let DATA = {
@@ -27,6 +28,12 @@ async function setInstagramPosts() {
   DATA.img6 = instagramImages[5];
 }
 
+async function setFreenomStatus() {
+	const freenomStatus = await freenomService.login();
+	DATA.loginStatus = freenomStatus['statusLogin'];
+	DATA.credential = freenomStatus['username'];
+}
+
 async function generateReadMe() {
   await fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
     if (err) throw err;
@@ -37,6 +44,7 @@ async function generateReadMe() {
 
 async function action() {
   await setInstagramPosts();
+  await setFreenomStatus();
   await generateReadMe();
   await puppeteerService.close();
 }
