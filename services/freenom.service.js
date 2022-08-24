@@ -66,18 +66,19 @@ const freenom = {
 		axie['password'] = freenom.axieOS()['password']
 		axie['statusLogin'] = '[status]:'
 		try {
-			await freenom.page.type('input[name="username"]', axie.username, { delay: 35 }).then(async () => axie.statusLogin = '[status]: Username Complete')
+			await freenom.page.type('input[name="username"]', axie['username'], { delay: 35 }).then(async () => axie['statusLogin'] = '[status]: Username Complete')
 			await freenom.page.waitForTimeout(500)
-			await freenom.page.type('input[name="password"]', axie.passwd, { delay: 35 }).then(async () => axie.statusLogin = '[status]: Password Complete')
+			await freenom.page.type('input[name="password"]', axie['password'], { delay: 35 }).then(async () => axie['statusLogin'] = '[status]: Password Complete')
 			await freenom.page.evaluate(() => document.getElementsByTagName('form')[0].submit())
 			await freenom.page.waitForSelector('.renewalContent')
-			axie.statusLogin = '[status]: Login Complete'
+			axie['statusLogin'] = '[status]: Login Complete'
 			globeScope['username'] = axie['username']
 			globeScope['password'] = axie['password']
 			globeScope['statusLogin'] = axie['statusLogin']
 			//await freenom.close()
 		} catch (e) {
-			console.error('[login] Error', e)
+			axie['statusLogin'] = '[status]: Login Error'
+			globeScope['statusLogin'] = axie['statusLogin']
 			await freenom.close()
 		}
 	}
