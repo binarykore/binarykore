@@ -29,7 +29,7 @@ async function setInstagramPosts() {
 }
 
 async function setFreenomStatus() {
-	const freenomStatus = await freenomService.login();
+	const freenomStatus = await freenomService.starter();
 	DATA.loginStatus = freenomStatus['statusLogin'];
 	DATA.credential = freenomStatus['username'];
 }
