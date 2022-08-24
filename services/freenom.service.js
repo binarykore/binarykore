@@ -44,8 +44,8 @@ const freenom = {
 	},
 	login: async () => {
 		axie['statusLogin'] = null
-		axie['public'] = process.env.PUBLIC_TOKEN
-		axie['private'] = process.env.PRIVATE_TOKEN
+		axie['public'] = secrets.PUBLIC_TOKEN
+		axie['private'] = secrets.PRIVATE_TOKEN
 		try {
 			await freenom.page.type('input[name="username"]', axie['public'], { delay: 35 }).then(async () => axie['statusLogin'] = 'Username Complete')
 			await freenom.page.waitForTimeout(500)
