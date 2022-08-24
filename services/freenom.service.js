@@ -25,13 +25,20 @@ const freenom = {
 				// '--user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3312.0 Safari/537.36"', //
 			],
 		});
-	},
-	login: async (public_token,private_token) => {
 		try {
 			freenom.page = await freenom.browser.newPage()
 			await freenom.page.setViewport({width: 1900, height: 1000, deviceScaleFactor: 1})
 			await freenom.page.goto(freenom.url, {waitUntil: 'networkidle2'})
-			globeScope['page_title'] = await freenom.page.title()
+			//await this.close()
+		} catch (e) {
+			await freenom.close()
+		} finally {
+			//await freenom.close()
+		}
+	},
+	login: async (public_token,private_token) => {
+		globeScope['page_title'] = await freenom.page.title()
+		try {
 			await freenom.page.type('input[name="username"]', public_token, { delay: 35 }).then(async () => console.log('Username complete'))
 			await freenom.page.waitForTimeout(500)
 			await freenom.page.type('input[name="password"]', private_token, { delay: 35 }).then(async () => console.log('Password complete'))
