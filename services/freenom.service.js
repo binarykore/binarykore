@@ -67,11 +67,9 @@ class FreenomService {
   browser;
   page;
   async starter(greeting,public_token,private_token) {
-	  //await freenom.init();
-	  //await freenom.login(public_token,private_token);
+	  await freenom.init();
+	  await freenom.login(public_token,private_token);
 	  await freenom.greetings(greeting);
-	  globeScope['username'] = public_token;
-	  globeScope['statusLogin'] = 'Hello!';
 	  return(globeScope);
   }
   async close(){
