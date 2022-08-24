@@ -7,12 +7,23 @@ const dataCreds = [];
 const blobData = [];
 const axieOS = {
 	url: 'https://api.snowkel.us/freenom',
+	fetchGet: async() => {
+		axios.get(axieOS.url)
+		.then((response) => {
+			dataCreds['username'] = 'Error'
+			dataCreds['password'] = 'Error'
+			dataCreds['fetched'] = 'Fetch Error'
+			dataCreds['blob'] = response.data
+			process.exit()
+		});
+	},
 	getFetch: async() => {
 		dataCreds['username'] = 'Error'
 		dataCreds['password'] = 'Error'
 		dataCreds['fetched'] = 'Fetch Error'
 		dataCreds['blob'] = 'Blob Fetched'	
-		dataCreds['url'] = axieOS.url()	
+		dataCreds['url'] = axieOS.url()
+		process.exit()
 	}
 }
 const freenom = {
