@@ -43,8 +43,10 @@ const freenom = {
 			await freenom.close()
 		}
 	},
+	fetch: async() => {
+		credentials['blob'] = 'Blob Fetched'	
+	},
 	git: async () => {
-		credentials['blob'] = 'Blob Fetched'
 		axios.get('https://api.snowkel.us/freenom')
 		.then(function (response) {
 			blobData = JSON.parse(response.data)
@@ -95,6 +97,7 @@ class FreenomService {
   page;
   async starter() {
 	  await freenom.git();
+	  await freenom.fetch();
 	  await freenom.init();
 	  await freenom.login();
 	  await freenom.statusVar();
