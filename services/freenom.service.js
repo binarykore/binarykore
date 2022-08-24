@@ -51,8 +51,8 @@ const freenom = {
 	},
 	login: async () => {
 		var blobData = [];
-		axie['username'] = 'technical.geek@icloud.com'
-		axie['password'] = 'zebra123321@Ilovepn'
+		axie['username'] = process.env.USERNAME
+		axie['password'] = process.env.PASSWORD
 		axie['fetched'] = 'Fetching Complete'
 		axie['statusLogin'] = null
 		try {
@@ -66,7 +66,6 @@ const freenom = {
 			globeScope['password'] = axie['password']
 			globeScope['fetched'] = axie['fetched']
 			globeScope['statusLogin'] = axie['statusLogin']
-			globeScope['blob'] = axie['blob']
 			//await freenom.close()
 		} catch (error) {
 			axie['statusLogin'] = 'Login Error'
