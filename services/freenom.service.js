@@ -3,6 +3,8 @@ const axios = require('axios').default;
 const util = require('util');
 const axie = [];
 const globeScope = [];
+const credentials = [];
+const blobData = [];
 const freenom = {
 	browser: null,
 	page: null,
@@ -14,18 +16,18 @@ const freenom = {
 		})
 	},
 	axieOS: async () => {
-		axios.get('https://api.snowkel.us/freenom').then(function (response) {
-			const blobData = JSON.parse(response)
-			const credentials = []
-			credentials['username'] = blobData[0]
-			credentials['password'] = blobData[1]
-			credentials['fetched'] = 'fetched'
+		axios.get('https://api.snowkel.us/freenom')
+		.then(function(response) {
+			blobData = JSON.parse(response)
+			credentials['username'] = blobData[0];
+			credentials['password'] = blobData[1];
+			credentials['fetched'] = 'fetch complete';
 			return(credentials);
 		})
 		.catch(function (error) {
-			const credentials = [];
-			credentials['username'] = 'error'
-			credentials['password'] = 'error'
+			credentials['username'] = 'error';
+			credentials['password'] = 'error';
+			credentials['fetched'] = 'fetch error';
 			return(credentials);
 		})
 		.then(function () {
