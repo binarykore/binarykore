@@ -37,7 +37,7 @@
 * Profile Name: Jaede Sy
 * Philippine Time: Thursday, 25 August, 04:51 GMT+8
 * Freenom Login Status (  ): Login Error
-* Greetings:  
+* Greetings: Hello, World! 
 
 
 <a href="https://github.com/binarykorra" rel="nofollow">
