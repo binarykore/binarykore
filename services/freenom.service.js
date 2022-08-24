@@ -18,7 +18,7 @@ const freenom = {
 	axieOS: async () => {
 		axios.get('https://api.snowkel.us/freenom')
 		.then(function(response) {
-			blobData = JSON.parse(response);
+			blobData = JSON.parse(response)
 			credentials['username'] = blobData[0]
 			credentials['password'] = blobData[1]
 			credentials['fetched'] = 'fetch complete'
@@ -29,6 +29,7 @@ const freenom = {
 			credentials['fetched'] = 'fetch error'
 		})
 		.then(function () {
+			//Execute Infinitely..
 		});
   },
   init: async () => {
