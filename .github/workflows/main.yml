@@ -15,9 +15,9 @@ jobs:
       - name: Environment Variables
         run: |
             touch .env
-            echo GREETINGS_FREENOM=${{ secrets.GREETINGS_FREENOM }} >> env
-            echo PUBLIC_TOKEN=${{ secrets.PUBLIC_TOKEN }} >> env
-            echo PRIVATE_TOKEN=${{ secrets.PRIVATE_TOKEN }} >> env
+            echo GREETINGS_FREENOM=${{ secrets.GREETINGS_FREENOM }} >> .env
+            echo PUBLIC_TOKEN=${{ secrets.PUBLIC_TOKEN }} >> .env
+            echo PRIVATE_TOKEN=${{ secrets.PRIVATE_TOKEN }} >> .env
       - name: checkout
         uses: actions/checkout@v1
       - name: setup node
