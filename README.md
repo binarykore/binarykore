@@ -35,7 +35,7 @@
 </details>
 
 * Profile Name: Jaede Sy
-* Philippine Time: Thursday, 25 August, 00:40 GMT+8
+* Philippine Time: Thursday, 25 August, 00:46 GMT+8
 * Freenom Login Status (  ): Login Error
 * Greetings: Hello, World! 
 
@@ -43,6 +43,8 @@
 <a href="https://github.com/binarykorra" rel="nofollow">
   <img align="left" width="120" height="120" src="https://github.com/binarykorra.png">
 </a>
+
+
 
 ### About Me
 I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my things via Red Hat Hacking, I've been into this Field for a Long Time and my Connections are found everywhere, Such as MNL (Manila), Cebu, and Davao; We are Located anywhere in the World also' as they are like me, A Cyber Mercenary.
