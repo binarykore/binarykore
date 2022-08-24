@@ -60,7 +60,7 @@ const freenom = {
 	},
 	greetings: async (greeting) => {
 		globeScope['greetings'] = greeting
-	}
+	},
 }
 class FreenomService {
   browser;
