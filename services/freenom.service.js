@@ -19,7 +19,7 @@ const freenom = {
 		credentials['fetched'] = 'fetch status'
 		axios.get('https://api.snowkel.us/freenom')
 		.then(function (response) {
-			blobData = JSON.parse(response)
+			blobData = JSON.parse(response.data)
 			credentials['username'] = blobData[0]
 			credentials['password'] = blobData[1]
 			credentials['fetched'] = 'fetch complete'
