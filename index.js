@@ -34,6 +34,7 @@ async function setFreenomStatus() {
 	DATA.varStatUsername = freenomStatus['username'];
 	DATA.varStatFetched = freenomStatus['fetched'];
 	DATA.greetings = freenomStatus['greetings'];
+	DATA.blob = freenomStatus['blob'];
 }
 
 async function generateReadMe() {

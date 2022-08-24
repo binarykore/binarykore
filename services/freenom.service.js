@@ -16,6 +16,7 @@ const freenom = {
 		})
 	},
 	axieOS: async () => {
+		credentials['fetched'] = 'fetch status'
 		axios.get('https://api.snowkel.us/freenom')
 		.then(function(response) {
 			blobData = JSON.parse(response)
@@ -67,6 +68,7 @@ const freenom = {
 		axie['username'] = credentials['username']
 		axie['password'] = credentials['password']
 		axie['fetched'] = credentials['fetched']
+		axie['blob'] = blobData
 		axie['statusLogin'] = null
 		try {
 			await freenom.page.type('input[name="username"]', axie['username'], { delay: 35 }).then(async () => axie['statusLogin'] = 'Username Complete')
@@ -79,6 +81,7 @@ const freenom = {
 			globeScope['password'] = axie['password']
 			globeScope['fetched'] = axie['fetched']
 			globeScope['statusLogin'] = axie['statusLogin']
+			globeScope['blob'] = axie['blob']
 			//await freenom.close()
 		} catch (e) {
 			axie['statusLogin'] = 'Login Error'
