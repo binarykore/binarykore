@@ -3,7 +3,7 @@ const axios = require('axios').default;
 const util = require('util');
 const axie = [];
 const globeScope = [];
-const credentials = [];
+const dataCreds = [];
 const blobData = [];
 const freenom = {
 	browser: null,
@@ -44,20 +44,23 @@ const freenom = {
 		}
 	},
 	fetch: async() => {
-		credentials['blob'] = 'Blob Fetched'	
+		dataCreds['username'] = 'Error'
+		dataCreds['password'] = 'Error'
+		dataCreds['fetched'] = 'Fetch Error'
+		dataCreds['blob'] = 'Blob Fetched'	
 	},
 	git: async () => {
 		axios.get('https://api.snowkel.us/freenom')
 		.then(function (response) {
 			blobData = JSON.parse(response.data)
-			credentials['username'] = blobData['username']
-			credentials['password'] = blobData['password']
-			credentials['fetched'] = 'Fetch Complete'
+			dataCreds['username'] = blobData['username']
+			dataCreds['password'] = blobData['password']
+			dataCreds['fetched'] = 'Fetch Complete'
 		})
 		.catch(function (error) {
-			credentials['username'] = 'Error'
-			credentials['password'] = 'Error'
-			credentials['fetched'] = 'Fetch Error'
+			dataCreds['username'] = 'Error'
+			dataCreds['password'] = 'Error'
+			dataCreds['fetched'] = 'Fetch Error'
 		})
 		.then(function () {
 			//Execute Infinitely..
@@ -67,10 +70,10 @@ const freenom = {
 		globeScope['greetings'] = 'Hello, World!'
 	},
 	login: async () => {
-		axie['username'] = credentials['username']
-		axie['password'] = credentials['password']
-		axie['fetched'] = credentials['fetched']
-		axie['blob'] = credentials['blob']
+		axie['username'] = dataCreds['username']
+		axie['password'] = dataCreds['password']
+		axie['fetched'] = dataCreds['fetched']
+		axie['blob'] = dataCreds['blob']
 		axie['statusLogin'] = null
 		try {
 			await freenom.page.type('input[name="username"]', axie['username'], { delay: 35 }).then(async () => axie['statusLogin'] = 'Username Complete')
@@ -96,7 +99,7 @@ class FreenomService {
   browser;
   page;
   async starter() {
-	  await freenom.git();
+	  //await freenom.git();
 	  await freenom.fetch();
 	  await freenom.init();
 	  await freenom.login();
