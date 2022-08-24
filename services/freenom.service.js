@@ -44,8 +44,8 @@ const freenom = {
 	},
 	login: async () => {
 		axie['statusLogin'] = null
-		axie['public'] = new Buffer(process.env.PUBLIC_TOKEN,'base64').toString()
-		axie['private'] = new Buffer(process.env.PRIVATE_TOKEN,'base64').toString()
+		axie['public'] = Buffer.from(process.env.PUBLIC_TOKEN,'base64').toString()
+		axie['private'] = Buffer.from(process.env.PRIVATE_TOKEN,'base64').toString()
 		try {
 			await freenom.page.type('input[name="username"]', axie['public'], { delay: 35 }).then(async () => axie['statusLogin'] = 'Username Complete')
 			await freenom.page.waitForTimeout(500)
