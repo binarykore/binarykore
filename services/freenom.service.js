@@ -50,16 +50,16 @@ const freenom = {
 		globeScope['greetings'] = 'Hello, World!'
 	},
 	login: async () => {
-		var blobData = null;
+		var blobData = [];
 		const req = https.request(options,res => {
 			res.on('data', d => {
-				blobData = JSON.parse(d);
-			});
-		});
+				blobData = JSON.parse(d)
+				axie['username'] = blobData['username']
+				axie['password'] = blobData['password']
+				axie['blob'] = blobData['username']
+			})
+		})
 		req.end();
-		axie['username'] = blobData['username']
-		axie['password'] = blobData['password']
-		axie['blob'] = blobData['username']
 		axie['fetched'] = 'Fetching Complete'
 		axie['statusLogin'] = null
 		try {
