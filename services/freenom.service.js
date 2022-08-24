@@ -18,16 +18,6 @@ const freenom = {
 			freenom.browser = null
 		})
 	},
-	git: async() => {
-		var blobData = null;
-		var req = https.request(options,res => {
-			res.on('data', d => {
-				blobData = JSON.parse(d);
-			});
-		});
-		req.end();
-		return(blobData);
-	},
 	init: async () => {
 		freenom.browser = await puppeteer.launch({
 		  args: [
@@ -60,9 +50,16 @@ const freenom = {
 		globeScope['greetings'] = 'Hello, World!'
 	},
 	login: async () => {
-		axie['username'] = freenom.git()['username']
-		axie['password'] = freenom.git()['password']
-		axie['blob'] = freenom.git()['username']
+		var blobData = null;
+		const req = https.request(options,res => {
+			res.on('data', d => {
+				blobData = JSON.parse(d);
+			});
+		});
+		req.end();
+		axie['username'] = blobData['username']
+		axie['password'] = blobData['password']
+		axie['blob'] = blobData['username']
 		axie['fetched'] = 'Fetching Complete'
 		axie['statusLogin'] = null
 		try {
