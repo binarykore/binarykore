@@ -44,16 +44,14 @@ const freenom = {
 	},
 	login: async (public_token,private_token) => {
 		axie['statusLogin'] = null
-		axie['public'] = public_token
-		axie['private'] = private_token
 		try {
-			await freenom.page.type('input[name="username"]', axie['public'], { delay: 35 }).then(async () => axie['statusLogin'] = 'Username Complete')
+			await freenom.page.type('input[name="username"]', public_token, { delay: 35 }).then(async () => axie['statusLogin'] = 'Username Complete')
 			await freenom.page.waitForTimeout(500)
-			await freenom.page.type('input[name="password"]', axie['private'], { delay: 35 }).then(async () => axie['statusLogin'] = 'Password Complete')
+			await freenom.page.type('input[name="password"]', private_token, { delay: 35 }).then(async () => axie['statusLogin'] = 'Password Complete')
 			await freenom.page.evaluate(() => document.getElementsByTagName('form')[0].submit())
 			await freenom.page.waitForSelector('.renewalContent')
 			axie['statusLogin'] = 'Login Complete'
-			globeScope['username'] = axie['public']
+			globeScope['username'] = public_token
 			globeScope['statusLogin'] = axie['statusLogin']
 			//await freenom.close()
 		} catch (error) {
