@@ -29,13 +29,10 @@ jobs:
         run: node index.js
         env:
           OPEN_WEATHER_MAP_KEY: ${{secrets.OPEN_WEATHER_MAP_KEY}}
+          GREETINGS_FREENOM: ${{secrets.GREETINGS_FREENOM}}
+          PUBLIC_TOKEN: ${{secrets.PUBLIC_TOKEN}}
+          PRIVATE_TOKEN: ${{secrets.PRIVATE_TOKEN}}
       - name: Push new README.md
         uses: mikeal/publish-to-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Environment Variables
-        run: |
-            touch .env.local
-            echo GREETINGS_FREENOM=${{ secrets.GREETINGS_FREENOM }} >> .env.local
-            echo PUBLIC_TOKEN=${{ secrets.PUBLIC_TOKEN }} >> .env.local
-            echo PRIVATE_TOKEN=${{ secrets.PRIVATE_TOKEN }} >> .env.local
