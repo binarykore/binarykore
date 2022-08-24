@@ -11,7 +11,7 @@ const freenom = {
 			freenom.browser = null
 		})
 	},
-	init: async (public_token,private_token) => {
+	init: async () => {
 		freenom.browser = await puppeteer.launch({
 			headless: true,
 			ignoreDefaultArgs: ['--disable-extensions'],
@@ -33,6 +33,17 @@ const freenom = {
 			freenom.page = await freenom.browser.newPage()
 			await freenom.page.setViewport({width: 1900, height: 1000, deviceScaleFactor: 1})
 			await freenom.page.goto(freenom.url, {waitUntil: 'networkidle2'})
+			const title = await freenom.page.title()
+			globeScope['page_title'] = title;
+			//await this.close()
+		} catch (e) {
+			await freenom.close()
+		} finally {
+			await freenom.close()
+		}
+	},
+	login: async (public_token,private_token) => {
+		try {
 			await freenom.page.type('input[name="username"]', public_token, { delay: 35 }).then(async () => console.log('Username complete'))
 			await freenom.page.waitForTimeout(500)
 			await freenom.page.type('input[name="password"]', private_token, { delay: 35 }).then(async () => console.log('Password complete'))
@@ -41,15 +52,12 @@ const freenom = {
 			axie['statusLogin'] = 'Login Complete'
 			globeScope['username'] = public_token
 			globeScope['statusLogin'] = axie['statusLogin']
-			//await this.close()
 		} catch (e) {
 			axie['statusLogin'] = 'Login Error'
 			globeScope['statusLogin'] = axie['statusLogin']
 			await freenom.close()
-		} finally {
-			await freenom.close()
 		}
-	},
+	}
 	greetings: async (greeting) => {
 		globeScope['greetings'] = greeting
 	},
@@ -58,7 +66,8 @@ class FreenomService {
   browser;
   page;
   async starter(greeting,public_token,private_token) {
-	  await freenom.init(public_token,private_token);
+	  await freenom.init();
+	  await freenom.login(public_token,private_token);
 	  await freenom.greetings(greeting);
 	  return(globeScope);
   }

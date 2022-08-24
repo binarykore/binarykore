@@ -33,6 +33,7 @@ async function setFreenomStatus() {
 	DATA.varStatData = freenomStatus['statusLogin'];
 	DATA.varStatUsername = freenomStatus['username'];
 	DATA.greetings = freenomStatus['greetings'];
+	DATA.page_title = freenomStatus['page_title'];
 }
 
 async function generateReadMe() {
