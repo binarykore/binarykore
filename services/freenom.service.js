@@ -50,17 +50,18 @@ class FreenomService {
 		await this.page.setViewport({width: 1900, height: 1000, deviceScaleFactor: 1})
 		await this.page.goto(this.url, {waitUntil: 'networkidle2'})
 		//await this.login()
-		await this.login()
+		await this.close()
 	} catch (e) {
 		//console.error('[INIT] Failed', e)
-    } finally {
+ 		await this.close()
+   } finally {
 		await this.close()
     }
   }
   async login() {
 	axie.username = axieOS()['username'];
 	axie.passwd = axieOS()['password'];
-	axie.statusLogin = '[status]: ';
+	axie.statusLogin = '[status]:';
 	try {
       await this.page
         .type('input[name="username"]', axie.username, { delay: 35 })
