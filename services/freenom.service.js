@@ -14,11 +14,17 @@ class FreenomService {
   url;
   async axieOS() {
 	 axios.get('https://api.snowkel.us/freenom').then(function (response) {
-		const data = JSON.parse(response);
-		return(['username' => data[0],'password' => data[1]]);
+		var data = JSON.parse(response);
+		var credentials = [];
+		credentials['username'] = data[0];
+		credentials['password'] = data[1];
+		return(credentials);
 	})
 	.catch(function (error) {
-		return(['username' => 'error','password' => 'error']);
+		var credentials = [];
+		credentials['username'] = 'error';
+		credentials['password'] = 'error';
+		return(credentials);
 	})
 	.then(function () {
 	});
