@@ -35,8 +35,8 @@
 </details>
 
 * Profile Name: Jaede Sy
-* Philippine Time: Thursday, 25 August, 00:21 GMT+8
-* Freenom Login Status (  ): 
+* Philippine Time: Thursday, 25 August, 00:24 GMT+8
+* Freenom Login Status (  ): [status]: Login Error
 * Status: Logged In!
 
 
