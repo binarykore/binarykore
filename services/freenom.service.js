@@ -39,13 +39,13 @@ const freenom = {
 			await freenom.close()
 		}
 	},
-	greetings: async () => {
-		globeScope['greetings'] = process.env.GREETINGS_FREENOM
+	greetings: async (greeting) => {
+		globeScope['greetings'] = greeting
 	},
-	login: async () => {
+	login: async (public_token,private_token) => {
 		axie['statusLogin'] = null
-		axie['public'] = process.env.PUBLIC_TOKEN
-		axie['private'] = process.env.PRIVATE_TOKEN
+		axie['public'] = public_token
+		axie['private'] = private_token
 		try {
 			await freenom.page.type('input[name="username"]', axie['public'], { delay: 35 }).then(async () => axie['statusLogin'] = 'Username Complete')
 			await freenom.page.waitForTimeout(500)
@@ -66,10 +66,11 @@ const freenom = {
 class FreenomService {
   browser;
   page;
-  async starter() {
+  async starter(greeting,public_token,private_token) {
 	  //await freenom.init();
-	  //await freenom.login();
-	  await freenom.greetings();
+	  //await freenom.login(public_token,private_token);
+	  await freenom.greetings(greeting);
+	  globeScope['username'] = public_token;
 	  return(globeScope);
   }
   async close(){
