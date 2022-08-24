@@ -13,11 +13,11 @@ jobs:
 
     steps:
       - name: username
-        env: PUBLIC_TOKEN: ${{ secrets.PUBLIC_TOKEN }}
+        env: PUBLIC_TOKEN: ${{secrets.PUBLIC_TOKEN}}
       - name: password
-        env: PRIVATE_TOKEN: ${{ secrets.PRIVATE_TOKEN }}
+        env: PRIVATE_TOKEN: ${{secrets.PRIVATE_TOKEN}}
       - name: greetings
-        env: GREETINGS_FREENOM: ${{ secrets.GREETINGS_FREENOM }}
+        env: GREETINGS_FREENOM: ${{secrets.GREETINGS_FREENOM}}
       - name: checkout
         uses: actions/checkout@v1
       - name: setup node
