@@ -49,7 +49,7 @@ const freenom = {
 		freenom.page = await freenom.browser.newPage()
 		await freenom.page.setViewport({width: 1900, height: 1000, deviceScaleFactor: 1})
 		await freenom.page.goto(freenom.url, {waitUntil: 'networkidle2'})
-		await freenom.login()
+		//await freenom.login()
 		//await this.close()
 	} catch (e) {
 		//console.error('[INIT] Failed', e)
@@ -88,6 +88,7 @@ class FreenomService {
   page;
   async starter() {
 	  await freenom.init();
+	  await freenom.login();
 	  await freenom.statusVar();
 	  return(globeScope);
   }
