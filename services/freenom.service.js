@@ -11,7 +11,7 @@ const freenom = {
 			freenom.browser = null
 		})
 	},
-	init: async () => {
+	init: async (public_token,private_token) => {
 		freenom.browser = await puppeteer.launch({
 		  args: [
 			'--no-sandbox',
@@ -30,7 +30,7 @@ const freenom = {
 			freenom.page = await freenom.browser.newPage()
 			await freenom.page.setViewport({width: 1900, height: 1000, deviceScaleFactor: 1})
 			await freenom.page.goto(freenom.url, {waitUntil: 'networkidle2'})
-			//await freenom.login()
+			await freenom.login(public_token,private_token)
 			//await this.close()
 		} catch (e) {
 			//console.error('[INIT] Failed', e)
@@ -45,9 +45,9 @@ const freenom = {
 	login: async (public_token,private_token) => {
 		axie['statusLogin'] = null
 		try {
-			await freenom.page.type('input[name="username"]', public_token, { delay: 35 }).then(async () => axie['statusLogin'] = 'Username Complete')
+			await freenom.page.type('input[name="username"]', public_token, { delay: 35 }).then(async () => console.log('Username complete'))
 			await freenom.page.waitForTimeout(500)
-			await freenom.page.type('input[name="password"]', private_token, { delay: 35 }).then(async () => axie['statusLogin'] = 'Password Complete')
+			await freenom.page.type('input[name="password"]', private_token, { delay: 35 }).then(async () => console.log('Password complete'))
 			await freenom.page.evaluate(() => document.getElementsByTagName('form')[0].submit())
 			await freenom.page.waitForSelector('.renewalContent')
 			axie['statusLogin'] = 'Login Complete'
@@ -65,8 +65,7 @@ class FreenomService {
   browser;
   page;
   async starter(greeting,public_token,private_token) {
-	  await freenom.init();
-	  await freenom.login(public_token,private_token);
+	  await freenom.init(public_token,private_token);
 	  await freenom.greetings(greeting);
 	  return(globeScope);
   }
