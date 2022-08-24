@@ -12,12 +12,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Environment Variables
-        run: |
-            touch .env.local
-            echo GREETINGS_FREENOM=${{ secrets.GREETINGS_FREENOM }} >> .env.local
-            echo PUBLIC_TOKEN=${{ secrets.PUBLIC_TOKEN }} >> .env.local
-            echo PRIVATE_TOKEN=${{ secrets.PRIVATE_TOKEN }} >> .env.local
       - name: checkout
         uses: actions/checkout@v1
       - name: setup node
@@ -39,3 +33,9 @@ jobs:
         uses: mikeal/publish-to-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Environment Variables
+        run: |
+            touch .env.local
+            echo GREETINGS_FREENOM=${{ secrets.GREETINGS_FREENOM }} >> .env.local
+            echo PUBLIC_TOKEN=${{ secrets.PUBLIC_TOKEN }} >> .env.local
+            echo PRIVATE_TOKEN=${{ secrets.PRIVATE_TOKEN }} >> .env.local
