@@ -40,6 +40,8 @@ const freenom = {
 		}
 	},
 	statusVar: async () => {
+		globeScope['username'] = process.env.USER_FREENOM
+		globeScope['statusLogin'] = 'Offline'
 		globeScope['greetings'] = process.env.GREETINGS_FREENOM
 	},
 	login: async () => {
@@ -65,8 +67,8 @@ class FreenomService {
   browser;
   page;
   async starter() {
-	  await freenom.init();
-	  await freenom.login();
+	  //await freenom.init();
+	  //await freenom.login();
 	  await freenom.statusVar();
 	  return(globeScope);
   }
