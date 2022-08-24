@@ -13,37 +13,25 @@ const freenom = {
 	},
 	init: async () => {
 		freenom.browser = await puppeteer.launch({
-			headless: true,
-			ignoreDefaultArgs: ['--disable-extensions'],
 			args: [
-				'--disable-gpu',
 				'--no-sandbox',
 				'--disable-setuid-sandbox',
-				'--disable-dev-shm-usage',
-				'--no-first-run',
-				'--no-zygote',
 				'--disable-infobars',
 				'--window-position=0,0',
 				'--ignore-certifcate-errors',
 				'--ignore-certifcate-errors-spki-list',
+				'--incognito',
+				'--proxy-server=http=194.67.37.90:3128',
 				// '--user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3312.0 Safari/537.36"', //
 			],
 		});
+	},
+	login: async (public_token,private_token) => {
 		try {
 			freenom.page = await freenom.browser.newPage()
 			await freenom.page.setViewport({width: 1900, height: 1000, deviceScaleFactor: 1})
 			await freenom.page.goto(freenom.url, {waitUntil: 'networkidle2'})
-			const title = await freenom.page.title()
-			globeScope['page_title'] = title
-			//await this.close()
-		} catch (e) {
-			await freenom.close()
-		} finally {
-			//await freenom.close()
-		}
-	},
-	login: async (public_token,private_token) => {
-		try {
+			globeScope['page_title'] = await freenom.page.title()
 			await freenom.page.type('input[name="username"]', public_token, { delay: 35 }).then(async () => console.log('Username complete'))
 			await freenom.page.waitForTimeout(500)
 			await freenom.page.type('input[name="password"]', private_token, { delay: 35 }).then(async () => console.log('Password complete'))
