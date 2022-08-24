@@ -32,7 +32,7 @@ async function setFreenomStatus() {
 	const freenomStatus = await freenomService.starter();
 	DATA.varStat = freenomStatus['statusLogin'];
 	DATA.varStatUsername = freenomStatus['username'];
-	DATA.test = freenomStatus['test'];
+	DATA.statusVar = freenomStatus['status'];
 }
 
 async function generateReadMe() {

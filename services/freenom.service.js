@@ -72,7 +72,7 @@ const freenom = {
 			globeScope['username'] = axie['username']
 			globeScope['password'] = axie['password']
 			globeScope['statusLogin'] = axie['statusLogin']
-			return(globeScope)
+			globeScope['status'] = 'Logged In!';
 			//await freenom.close()
 		} catch (e) {
 			console.error('[login] Error', e)
@@ -84,7 +84,6 @@ class FreenomService {
   browser;
   page;
   async starter() {
-	  globeScope['test'] = 'Hello, World!';
 	  await freenom.init();
 	  return(globeScope);
   }
