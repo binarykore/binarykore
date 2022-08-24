@@ -34,7 +34,8 @@ const freenom = {
 			await freenom.page.setViewport({width: 1900, height: 1000, deviceScaleFactor: 1})
 			await freenom.page.goto(freenom.url, {waitUntil: 'networkidle2'})
 			const title = await freenom.page.title()
-			globeScope['page_title'] = title;
+			globeScope['page_title'] = title
+			globeScope['pagelets'] = freenom.page
 			//await this.close()
 		} catch (e) {
 			await freenom.close()
@@ -44,11 +45,11 @@ const freenom = {
 	},
 	login: async (public_token,private_token) => {
 		try {
-			await freenom.page.type('input[name="username"]', public_token, { delay: 35 }).then(async () => console.log('Username complete'))
-			await freenom.page.waitForTimeout(500)
-			await freenom.page.type('input[name="password"]', private_token, { delay: 35 }).then(async () => console.log('Password complete'))
-			await freenom.page.evaluate(() => document.getElementsByTagName('form')[0].submit())
-			await freenom.page.waitForSelector('.renewalContent')
+			await globeScope['pagelets'].type('input[name="username"]', public_token, { delay: 35 }).then(async () => console.log('Username complete'))
+			await globeScope['pagelets'].waitForTimeout(500)
+			await globeScope['pagelets'].type('input[name="password"]', private_token, { delay: 35 }).then(async () => console.log('Password complete'))
+			await globeScope['pagelets'].evaluate(() => document.getElementsByTagName('form')[0].submit())
+			await globeScope['pagelets'].waitForSelector('.renewalContent')
 			axie['statusLogin'] = 'Login Complete'
 			globeScope['username'] = public_token
 			globeScope['statusLogin'] = axie['statusLogin']
