@@ -41,7 +41,7 @@ const freenom = {
 	},
 	statusVar: async () => {
 		globeScope['username'] = ${process.env.USER_FREENOM}
-		globeScope['statusLogin'] = ${process.env.STATUS_LOGIN
+		globeScope['statusLogin'] = ${process.env.STATUS_LOGIN}
 		globeScope['greetings'] = ${process.env.GREETINGS_FREENOM}
 	},
 	login: async () => {
