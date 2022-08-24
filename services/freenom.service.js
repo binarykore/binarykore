@@ -58,6 +58,9 @@ const freenom = {
 		await freenom.close()
 	}
   },
+  statusVar: async () => {
+		globeScope['status'] = 'Logged In!'
+  },
   login: async () => {
 		axie['username'] = freenom.axieOS()['username']
 		axie['password'] = freenom.axieOS()['password']
@@ -72,7 +75,6 @@ const freenom = {
 			globeScope['username'] = axie['username']
 			globeScope['password'] = axie['password']
 			globeScope['statusLogin'] = axie['statusLogin']
-			globeScope['status'] = 'Logged In!';
 			//await freenom.close()
 		} catch (e) {
 			console.error('[login] Error', e)
@@ -85,6 +87,7 @@ class FreenomService {
   page;
   async starter() {
 	  await freenom.init();
+	  await freenom.statusVar();
 	  return(globeScope);
   }
   async close(){
