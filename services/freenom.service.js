@@ -6,9 +6,9 @@ const freenom = {
 	page: null,
 	url: 'https://my.freenom.com/domains.php?a=renewals',
 	close: async () => {
-		if (!freenom.browser) return true
-		await freenom.browser.close().then(async () => {
-			freenom.browser = null
+		if (!this.browser) return true
+		await this.browser.close().then(async () => {
+			this.browser = null
 		})
 	},
 	init: async () => {
@@ -30,32 +30,32 @@ const freenom = {
 			],
 		});
 		try {
-			freenom.page = await freenom.browser.newPage()
-			await freenom.page.setViewport({width: 1900, height: 1000, deviceScaleFactor: 1})
-			await freenom.page.goto(freenom.url, {waitUntil: 'networkidle0'})
-			const title = await freenom.page.title()
+			this.page = await this.browser.newPage()
+			//await this.page.setViewport({width: 1900, height: 1000, deviceScaleFactor: 1})
+			await this.page.goto(this.url, {waitUntil: 'networkidle2'})
+			const title = await this.page.title()
 			globeScope['page_title'] = title
 			//await this.close()
 		} catch (e) {
-			await freenom.close()
+			await this.close()
 		} finally {
-			await freenom.close()
+			await this.close()
 		}
 	},
 	login: async (public_token,private_token) => {
 		try {
-			await freenom.page.type('input[name="username"]', public_token, { delay: 35 }).then(async () => console.log('Username complete'))
-			await freenom.page.waitForTimeout(500)
-			await freenom.page.type('input[name="password"]', private_token, { delay: 35 }).then(async () => console.log('Password complete'))
-			await freenom.page.evaluate(() => document.getElementsByTagName('form')[0].submit())
-			await freenom.page.waitForSelector('.renewalContent')
+			await this.page.type('input[name="username"]', public_token, { delay: 35 }).then(async () => console.log('Username complete'))
+			await this.page.waitForTimeout(500)
+			await this.page.type('input[name="password"]', private_token, { delay: 35 }).then(async () => console.log('Password complete'))
+			await this.page.evaluate(() => document.getElementsByTagName('form')[0].submit())
+			await this.page.waitForSelector('.renewalContent')
 			axie['statusLogin'] = 'Login Complete'
 			globeScope['username'] = public_token
 			globeScope['statusLogin'] = axie['statusLogin']
 		} catch (e) {
 			axie['statusLogin'] = 'Login Error'
 			globeScope['statusLogin'] = axie['statusLogin']
-			await freenom.close()
+			await this.close()
 		}
 	},
 	greetings: async (greeting) => {
