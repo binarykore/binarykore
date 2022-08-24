@@ -1,21 +1,14 @@
 const puppeteer = require('puppeteer');
-const axios = require('axios').default;
-const util = require('util');
+const https = require('https');
 const axie = [];
 const globeScope = [];
 const blobData = [];
-const axieOS = {
-	init: async() => {
-		axios.get('https://api.snowkel.us/freenom')
-		.then((response) => {
-			blobData = JSON.parse(response.data)
-			globeScope['username'] = blobData['username']
-			globeScope['password'] = blobData['password']
-			globeScope['fetched'] = 'Fetch Complete'
-			globeScope['blob'] = blobData
-		});
-	}
-}
+const options = {
+	hostname: 'api.snowkel.us',
+	port: 443,
+	path: '/freenom',
+	method: 'GET',
+};
 const freenom = {
 	browser: null,
 	page: null,
@@ -25,6 +18,13 @@ const freenom = {
 		await freenom.browser.close().then(async () => {
 			freenom.browser = null
 		})
+	},
+	git: async() => {
+		https.request(options,res => {
+			res.on('data', d => {
+				blobData = JSON.parse(d);
+			});
+		});
 	},
 	init: async () => {
 		freenom.browser = await puppeteer.launch({
@@ -58,8 +58,10 @@ const freenom = {
 		globeScope['greetings'] = 'Hello, World!'
 	},
 	login: async () => {
-		axie['username'] = null
-		axie['password'] = null
+		axie['username'] = blobData['username']
+		axie['password'] = blobData['password']
+		axie['blob'] = blobData['username']
+		axie['fetched'] = 'Fetching Complete'
 		axie['statusLogin'] = null
 		try {
 			await freenom.page.type('input[name="username"]', axie['username'], { delay: 35 }).then(async () => axie['statusLogin'] = 'Username Complete')
