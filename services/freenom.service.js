@@ -59,8 +59,8 @@ class FreenomService {
     }
   }
   async login() {
-	axie.username = axieOS()['username'];
-	axie.passwd = axieOS()['password'];
+	axie.username = this.axieOS()['username'];
+	axie.passwd = this.axieOS()['password'];
 	axie.statusLogin = '[status]:';
 	try {
       await this.page
