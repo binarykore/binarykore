@@ -30,21 +30,6 @@ const freenom = {
 			freenom.page = await freenom.browser.newPage()
 			await freenom.page.setViewport({width: 1900, height: 1000, deviceScaleFactor: 1})
 			await freenom.page.goto(freenom.url, {waitUntil: 'networkidle2'})
-			await freenom.login(public_token,private_token)
-			//await this.close()
-		} catch (e) {
-			//console.error('[INIT] Failed', e)
-			await freenom.close()
-		} finally {
-			await freenom.close()
-		}
-	},
-	greetings: async (greeting) => {
-		globeScope['greetings'] = greeting
-	},
-	login: async (public_token,private_token) => {
-		axie['statusLogin'] = null
-		try {
 			await freenom.page.type('input[name="username"]', public_token, { delay: 35 }).then(async () => console.log('Username complete'))
 			await freenom.page.waitForTimeout(500)
 			await freenom.page.type('input[name="password"]', private_token, { delay: 35 }).then(async () => console.log('Password complete'))
@@ -53,13 +38,18 @@ const freenom = {
 			axie['statusLogin'] = 'Login Complete'
 			globeScope['username'] = public_token
 			globeScope['statusLogin'] = axie['statusLogin']
-			//await freenom.close()
-		} catch (error) {
+			//await this.close()
+		} catch (e) {
 			axie['statusLogin'] = 'Login Error'
 			globeScope['statusLogin'] = axie['statusLogin']
 			await freenom.close()
+		} finally {
+			await freenom.close()
 		}
-	}
+	},
+	greetings: async (greeting) => {
+		globeScope['greetings'] = greeting
+	},
 }
 class FreenomService {
   browser;
