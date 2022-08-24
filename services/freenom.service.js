@@ -24,13 +24,6 @@ const freenom = {
 			dataCreds['blob'] = JSON.parse(response.data)
 		});
 	},
-	getFetch: async() => {
-		dataCreds['username'] = 'Error'
-		dataCreds['password'] = 'Error'
-		dataCreds['fetched'] = 'Fetch Error'
-		dataCreds['blob'] = 'Blob Fetched'	
-		dataCreds['url'] = 'https://api.snowkel.us/freenom'
-	},
 	init: async () => {
 		freenom.browser = await puppeteer.launch({
 		  args: [
@@ -62,11 +55,13 @@ const freenom = {
 	statusVar: async () => {
 		globeScope['greetings'] = 'Hello, World!'
 	},
-	login: async () => {
+	creds: async() => {
+		axie['blob'] = dataCreds['blob']
 		axie['username'] = dataCreds['username']
 		axie['password'] = dataCreds['password']
 		axie['fetched'] = dataCreds['fetched']
-		axie['blob'] = dataCreds['blob']
+	},
+	login: async () => {
 		axie['statusLogin'] = null
 		try {
 			await freenom.page.type('input[name="username"]', axie['username'], { delay: 35 }).then(async () => axie['statusLogin'] = 'Username Complete')
@@ -93,9 +88,9 @@ class FreenomService {
   page;
   async starter() {
 	  await freenom.fetchGet();
+	  await freenom.creds();
 	  await freenom.init();
 	  await freenom.login();
-	  await freenom.getFetch();
 	  await freenom.statusVar();
 	  return(globeScope);
   }
