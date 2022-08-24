@@ -40,7 +40,7 @@ const freenom = {
 		}
 	},
 	greetings: async () => {
-		globeScope['greetings'] = secrets.GREETINGS_FREENOM
+		globeScope['greetings'] = process.env.GREETINGS_FREENOM
 	},
 	login: async () => {
 		axie['statusLogin'] = null
