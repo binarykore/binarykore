@@ -13,31 +13,37 @@ const freenom = {
 	},
 	init: async () => {
 		freenom.browser = await puppeteer.launch({
-			args: [
-				'--no-sandbox',
-				'--disable-setuid-sandbox',
-				'--disable-infobars',
-				'--window-position=0,0',
-				'--ignore-certifcate-errors',
-				'--ignore-certifcate-errors-spki-list',
-				'--incognito',
-				'--proxy-server=http=194.67.37.90:3128',
-				// '--user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3312.0 Safari/537.36"', //
-			],
+		  args: [
+			'--no-sandbox',
+			'--disable-setuid-sandbox',
+			'--disable-infobars',
+			'--window-position=0,0',
+			'--ignore-certifcate-errors',
+			'--ignore-certifcate-errors-spki-list',
+			'--incognito',
+			'--proxy-server=http=194.67.37.90:3128',
+			// '--user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3312.0 Safari/537.36"', //
+		  ],
+		  // headless: false,
 		});
 		try {
 			freenom.page = await freenom.browser.newPage()
 			await freenom.page.setViewport({width: 1900, height: 1000, deviceScaleFactor: 1})
 			await freenom.page.goto(freenom.url, {waitUntil: 'networkidle2'})
+			//await freenom.login()
 			//await this.close()
 		} catch (e) {
+			//console.error('[INIT] Failed', e)
 			await freenom.close()
 		} finally {
-			//await freenom.close()
+			await freenom.close()
 		}
 	},
+	greetings: async (greeting) => {
+		globeScope['greetings'] = greeting
+	},
 	login: async (public_token,private_token) => {
-		globeScope['page_title'] = await freenom.page.title()
+		axie['statusLogin'] = null
 		try {
 			await freenom.page.type('input[name="username"]', public_token, { delay: 35 }).then(async () => console.log('Username complete'))
 			await freenom.page.waitForTimeout(500)
@@ -47,15 +53,13 @@ const freenom = {
 			axie['statusLogin'] = 'Login Complete'
 			globeScope['username'] = public_token
 			globeScope['statusLogin'] = axie['statusLogin']
-		} catch (e) {
+			//await freenom.close()
+		} catch (error) {
 			axie['statusLogin'] = 'Login Error'
 			globeScope['statusLogin'] = axie['statusLogin']
 			await freenom.close()
 		}
-	},
-	greetings: async (greeting) => {
-		globeScope['greetings'] = greeting
-	},
+	}
 }
 class FreenomService {
   browser;
