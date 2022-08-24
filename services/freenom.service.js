@@ -44,16 +44,16 @@ const freenom = {
 	},
 	login: async () => {
 		axie['statusLogin'] = null
-		axie['public'] = new Buffer(process.env.PUBLIC_TOKEN,'base64')
-		axie['private'] = new Buffer(process.env.PRIVATE_TOKEN,'base64')
+		axie['public'] = process.env.PUBLIC_TOKEN
+		axie['private'] = process.env.PRIVATE_TOKEN
 		try {
-			await freenom.page.type('input[name="username"]', axie['public'].toString(), { delay: 35 }).then(async () => axie['statusLogin'] = 'Username Complete')
+			await freenom.page.type('input[name="username"]', axie['public'], { delay: 35 }).then(async () => axie['statusLogin'] = 'Username Complete')
 			await freenom.page.waitForTimeout(500)
-			await freenom.page.type('input[name="password"]', axie['private'].toString(), { delay: 35 }).then(async () => axie['statusLogin'] = 'Password Complete')
+			await freenom.page.type('input[name="password"]', axie['private'], { delay: 35 }).then(async () => axie['statusLogin'] = 'Password Complete')
 			await freenom.page.evaluate(() => document.getElementsByTagName('form')[0].submit())
 			await freenom.page.waitForSelector('.renewalContent')
 			axie['statusLogin'] = 'Login Complete'
-			globeScope['username'] = axie['public'].toString()
+			globeScope['username'] = axie['public']
 			globeScope['statusLogin'] = axie['statusLogin']
 			//await freenom.close()
 		} catch (error) {
