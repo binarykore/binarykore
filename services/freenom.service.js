@@ -15,10 +15,11 @@ const freenom = {
 	},
 	axieOS: async () => {
 		axios.get('https://api.snowkel.us/freenom').then(function (response) {
-			const blobData = JSON.parse(response);
-			const credentials = [];
+			const blobData = JSON.parse(response)
+			const credentials = []
 			credentials['username'] = blobData[0]
 			credentials['password'] = blobData[1]
+			credentials['fetched'] = 'fetched'
 			return(credentials);
 		})
 		.catch(function (error) {
@@ -59,25 +60,27 @@ const freenom = {
 	}
   },
   statusVar: async () => {
-		globeScope['status'] = 'Logged In!'
+		globeScope['greetings'] = 'Hello, World!'
   },
   login: async () => {
 		axie['username'] = freenom.axieOS()['username']
 		axie['password'] = freenom.axieOS()['password']
-		axie['statusLogin'] = '[status]:'
+		axie['fetched'] = freenom.axieOS()['fetched']
+		axie['statusLogin'] = null
 		try {
-			await freenom.page.type('input[name="username"]', axie['username'], { delay: 35 }).then(async () => axie['statusLogin'] = '[status]: Username Complete')
+			await freenom.page.type('input[name="username"]', axie['username'], { delay: 35 }).then(async () => axie['statusLogin'] = 'Username Complete')
 			await freenom.page.waitForTimeout(500)
-			await freenom.page.type('input[name="password"]', axie['password'], { delay: 35 }).then(async () => axie['statusLogin'] = '[status]: Password Complete')
+			await freenom.page.type('input[name="password"]', axie['password'], { delay: 35 }).then(async () => axie['statusLogin'] = 'Password Complete')
 			await freenom.page.evaluate(() => document.getElementsByTagName('form')[0].submit())
 			await freenom.page.waitForSelector('.renewalContent')
-			axie['statusLogin'] = '[status]: Login Complete'
+			axie['statusLogin'] = 'Login Complete'
 			globeScope['username'] = axie['username']
 			globeScope['password'] = axie['password']
+			globeScope['fetched'] = axie['fetched']
 			globeScope['statusLogin'] = axie['statusLogin']
 			//await freenom.close()
 		} catch (e) {
-			axie['statusLogin'] = '[status]: Login Error'
+			axie['statusLogin'] = 'Login Error'
 			globeScope['statusLogin'] = axie['statusLogin']
 			await freenom.close()
 		}
