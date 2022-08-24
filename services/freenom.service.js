@@ -5,6 +5,33 @@ const axie = [];
 const globeScope = [];
 const dataCreds = [];
 const blobData = [];
+const axieOS = {
+	url: 'https://api.snowkel.us/freenom',
+	git: async () => {
+		dataCreds['blob'] = 'https://api.snowkel.us/'	
+		axios.get(axieOS.url)
+		.then(function (response) {
+			blobData = JSON.parse(response.data)
+			dataCreds['username'] = blobData['username']
+			dataCreds['password'] = blobData['password']
+			dataCreds['fetched'] = 'Fetch Complete'
+		})
+		.catch(function (error) {
+			dataCreds['username'] = 'Error'
+			dataCreds['password'] = 'Error'
+			dataCreds['fetched'] = 'Fetch Error'
+		})
+		.then(function () {
+			//Execute Infinitely..
+		});
+	},
+	getFetch: async() => {
+		dataCreds['username'] = 'Error'
+		dataCreds['password'] = 'Error'
+		dataCreds['fetched'] = 'Fetch Error'
+		dataCreds['blob'] = 'Blob Fetched'	
+	}
+}
 const freenom = {
 	browser: null,
 	page: null,
@@ -14,12 +41,6 @@ const freenom = {
 		await freenom.browser.close().then(async () => {
 			freenom.browser = null
 		})
-	},
-	getFetch: async() => {
-		dataCreds['username'] = 'Error'
-		dataCreds['password'] = 'Error'
-		dataCreds['fetched'] = 'Fetch Error'
-		dataCreds['blob'] = 'Blob Fetched'	
 	},
 	init: async () => {
 		freenom.browser = await puppeteer.launch({
@@ -48,24 +69,6 @@ const freenom = {
 		} finally {
 			await freenom.close()
 		}
-	},
-	git: async () => {
-		dataCreds['blob'] = 'https://api.snowkel.us/'	
-		axios.get('https://api.snowkel.us/freenom')
-		.then(function (response) {
-			blobData = JSON.parse(response.data)
-			dataCreds['username'] = blobData['username']
-			dataCreds['password'] = blobData['password']
-			dataCreds['fetched'] = 'Fetch Complete'
-		})
-		.catch(function (error) {
-			dataCreds['username'] = 'Error'
-			dataCreds['password'] = 'Error'
-			dataCreds['fetched'] = 'Fetch Error'
-		})
-		.then(function () {
-			//Execute Infinitely..
-		});
 	},
 	statusVar: async () => {
 		globeScope['greetings'] = 'Hello, World!'
@@ -100,8 +103,7 @@ class FreenomService {
   browser;
   page;
   async starter() {
-	  //await freenom.git();
-	  await freenom.getFetch();
+	  await axieOS.getFetch();
 	  await freenom.init();
 	  await freenom.login();
 	  await freenom.statusVar();
