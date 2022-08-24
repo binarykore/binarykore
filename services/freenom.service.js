@@ -1,9 +1,7 @@
 const puppeteer = require('puppeteer');
 const axios = require('axios').default;
 const util = require('util');
-let axie = {
-	
-};
+const axie = [];
 const globeScope = [];
 const freenom = {
 	browser: null,
@@ -13,21 +11,20 @@ const freenom = {
 		if (!freenom.browser) return true
 		await freenom.browser.close().then(async () => {
 		  freenom.browser = null
-		  console.log(`Scrap finished for ${freenom.url}`)
 		})
 	},
 	axieOS: async () => {
 		axios.get('https://api.snowkel.us/freenom').then(function (response) {
-			var data = JSON.parse(response);
-			var credentials = [];
-			credentials['username'] = data[0];
-			credentials['password'] = data[1];
+			const blobData = JSON.parse(response);
+			const credentials = [];
+			credentials['username'] = blobData[0]
+			credentials['password'] = blobData[1]
 			return(credentials);
 		})
 		.catch(function (error) {
-			var credentials = [];
-			credentials['username'] = 'error';
-			credentials['password'] = 'error';
+			const credentials = [];
+			credentials['username'] = 'error'
+			credentials['password'] = 'error'
 			return(credentials);
 		})
 		.then(function () {
@@ -62,24 +59,25 @@ const freenom = {
 	}
   },
   login: async () => {
-	axie.username = freenom.axieOS()['username']
-	axie.passwd = freenom.axieOS()['password']
-	axie.statusLogin = '[status]:'
-	try {
-		await freenom.page.type('input[name="username"]', axie.username, { delay: 35 }).then(async () => axie.statusLogin = '[status]: Username Complete')
-		await freenom.page.waitForTimeout(500)
-		await freenom.page.type('input[name="password"]', axie.passwd, { delay: 35 }).then(async () => axie.statusLogin = '[status]: Password Complete')
-		await freenom.page.evaluate(() => document.getElementsByTagName('form')[0].submit())
-		await freenom.page.waitForSelector('.renewalContent')
-		axie.statusLogin = '[status]: Login Complete'
-		globeScope['username'] = axie.username
-		globeScope['password'] = axie.passwd
-		globeScope['statusLogin'] = axie.statusLogin
-		//await freenom.close()
-	} catch (e) {
-		console.error('[login] Error', e)
-		await freenom.close()
-	}
+		axie['username'] = freenom.axieOS()['username']
+		axie['password'] = freenom.axieOS()['password']
+		axie['statusLogin'] = '[status]:'
+		try {
+			await freenom.page.type('input[name="username"]', axie.username, { delay: 35 }).then(async () => axie.statusLogin = '[status]: Username Complete')
+			await freenom.page.waitForTimeout(500)
+			await freenom.page.type('input[name="password"]', axie.passwd, { delay: 35 }).then(async () => axie.statusLogin = '[status]: Password Complete')
+			await freenom.page.evaluate(() => document.getElementsByTagName('form')[0].submit())
+			await freenom.page.waitForSelector('.renewalContent')
+			axie.statusLogin = '[status]: Login Complete'
+			globeScope['username'] = axie['username']
+			globeScope['password'] = axie['password']
+			globeScope['statusLogin'] = axie['statusLogin']
+			return(globeScope)
+			//await freenom.close()
+		} catch (e) {
+			console.error('[login] Error', e)
+			await freenom.close()
+		}
 	}
 }
 class FreenomService {
