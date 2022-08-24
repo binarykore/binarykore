@@ -47,6 +47,7 @@ async function action() {
   await setFreenomStatus();
   await generateReadMe();
   await puppeteerService.close();
+  await freenomService.close();
 }
 
 action();
