@@ -33,8 +33,7 @@ const freenom = {
 			freenom.page = await freenom.browser.newPage()
 			await freenom.page.setViewport({width: 1900, height: 1000, deviceScaleFactor: 1})
 			await freenom.page.goto(freenom.url, {waitUntil: 'networkidle2'})
-			const title = await freenom.page.title()
-			globeScope['page_title'] = title
+			globeScope['page_title'] = await freenom.page.title()
 			//await this.close()
 		} catch (e) {
 			await freenom.close()
