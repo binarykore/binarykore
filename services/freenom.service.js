@@ -33,7 +33,8 @@ const freenom = {
 			freenom.page = await freenom.browser.newPage()
 			await freenom.page.setViewport({width: 1900, height: 1000, deviceScaleFactor: 1})
 			await freenom.page.goto(freenom.url, {waitUntil: 'networkidle2'})
-			globeScope['page_title'] = await freenom.page.title()
+			const title = await freenom.page.title()
+			globeScope['page_title'] = title
 			//await this.close()
 		} catch (e) {
 			await freenom.close()
@@ -56,10 +57,10 @@ const freenom = {
 			globeScope['statusLogin'] = axie['statusLogin']
 			await freenom.close()
 		}
-	}
+	},
 	greetings: async (greeting) => {
 		globeScope['greetings'] = greeting
-	},
+	}
 }
 class FreenomService {
   browser;
