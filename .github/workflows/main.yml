@@ -28,7 +28,6 @@ jobs:
       - name: Generate README file
         run: node index.js
         env:
-          OPEN_WEATHER_MAP_KEY: ${{secrets.OPEN_WEATHER_MAP_KEY}}
           GREETINGS_FREENOM: ${{secrets.GREETINGS_FREENOM}}
           PUBLIC_TOKEN: ${{secrets.PUBLIC_TOKEN}}
           PRIVATE_TOKEN: ${{secrets.PRIVATE_TOKEN}}
