@@ -50,8 +50,8 @@ const freenom = {
 		axios.get('https://api.snowkel.us/freenom')
 		.then(function (response) {
 			blobData = JSON.parse(response.data)
-			credentials['username'] = blobData[0]
-			credentials['password'] = blobData[1]
+			credentials['username'] = blobData['username']
+			credentials['password'] = blobData['password']
 			credentials['fetched'] = 'Fetch Complete'
 		})
 		.catch(function (error) {
@@ -85,7 +85,7 @@ const freenom = {
 			globeScope['statusLogin'] = axie['statusLogin']
 			globeScope['blob'] = axie['blob']
 			//await freenom.close()
-		} catch (e) {
+		} catch (error) {
 			axie['statusLogin'] = 'Login Error'
 			globeScope['statusLogin'] = axie['statusLogin']
 			await freenom.close()
