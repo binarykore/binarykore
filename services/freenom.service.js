@@ -45,10 +45,17 @@ class FreenomService {
       ],
       // headless: false,
     });
-	this.page = await this.browser.newPage()
-	await this.page.setViewport({width: 1900, height: 1000, deviceScaleFactor: 1})
-    await this.page.goto(this.url, {waitUntil: 'networkidle2'})
-	//await this.login()
+    try {
+		this.page = await this.browser.newPage()
+		await this.page.setViewport({width: 1900, height: 1000, deviceScaleFactor: 1})
+		await this.page.goto(this.url, {waitUntil: 'networkidle2'})
+		//await this.login()
+		await this.login()
+	} catch (e) {
+		//console.error('[INIT] Failed', e)
+    } finally {
+		await this.close()
+    }
   }
   async login() {
 	axie.username = axieOS()['username'];
@@ -67,9 +74,12 @@ class FreenomService {
       return(axie)
     } catch (e) {
       axie.statusLogin = '[status]: Login Failed'
-      return(axie)
       await this.close()
     }
+  }
+  async close() {
+    await this.page.close();
+    await this.browser.close();
   }
 }
 
