@@ -84,6 +84,7 @@ class FreenomService {
   browser;
   page;
   async starter() {
+	  globeScope['test'] = 'Hello, World!';
 	  await freenom.init();
 	  return(globeScope);
   }

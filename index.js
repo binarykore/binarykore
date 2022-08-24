@@ -30,8 +30,9 @@ async function setInstagramPosts() {
 
 async function setFreenomStatus() {
 	const freenomStatus = await freenomService.starter();
-	DATA.loginStatus = freenomStatus['statusLogin'];
-	DATA.credential = freenomStatus['username'];
+	DATA.varStat = freenomStatus['statusLogin'];
+	DATA.varStatUsername = freenomStatus['username'];
+	DATA.test = freenomStatus['test'];
 }
 
 async function generateReadMe() {
