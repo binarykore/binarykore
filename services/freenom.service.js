@@ -74,7 +74,7 @@ class FreenomService {
       await this.page.waitForSelector('.renewalContent')
       return(axie)
     } catch (e) {
-      axie.statusLogin = '[status]: Login Failed'
+      console.error('[login] Error', e)
       await this.close()
     }
   }
