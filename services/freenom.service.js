@@ -6,9 +6,8 @@ const globeScope = [];
 const dataCreds = [];
 const blobData = [];
 const axieOS = {
-	url: 'https://api.snowkel.us/freenom',
 	fetchGet: async() => {
-		axios.get(axieOS.url)
+		axios.get('https://api.snowkel.us/freenom')
 		.then((response) => {
 			dataCreds['username'] = 'Error'
 			dataCreds['password'] = 'Error'
