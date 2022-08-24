@@ -15,60 +15,60 @@ const freenom = {
 			freenom.browser = null
 		})
 	},
-	axieOS: async () => {
-		credentials['fetched'] = 'fetch status'
+	init: async () => {
+		freenom.browser = await puppeteer.launch({
+		  args: [
+			'--no-sandbox',
+			'--disable-setuid-sandbox',
+			'--disable-infobars',
+			'--window-position=0,0',
+			'--ignore-certifcate-errors',
+			'--ignore-certifcate-errors-spki-list',
+			'--incognito',
+			'--proxy-server=http=194.67.37.90:3128',
+			// '--user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3312.0 Safari/537.36"', //
+		  ],
+		  // headless: false,
+		});
+		try {
+			freenom.page = await freenom.browser.newPage()
+			await freenom.page.setViewport({width: 1900, height: 1000, deviceScaleFactor: 1})
+			await freenom.page.goto(freenom.url, {waitUntil: 'networkidle2'})
+			//await freenom.login()
+			//await this.close()
+		} catch (e) {
+			//console.error('[INIT] Failed', e)
+			await freenom.close()
+		} finally {
+			await freenom.close()
+		}
+	},
+	git: async () => {
+		credentials['blob'] = 'Blob Fetched'
 		axios.get('https://api.snowkel.us/freenom')
 		.then(function (response) {
 			blobData = JSON.parse(response.data)
 			credentials['username'] = blobData[0]
 			credentials['password'] = blobData[1]
-			credentials['fetched'] = 'fetch complete'
+			credentials['fetched'] = 'Fetch Complete'
 		})
 		.catch(function (error) {
-			credentials['username'] = 'error'
-			credentials['password'] = 'error'
-			credentials['fetched'] = 'fetch error'
+			credentials['username'] = 'Error'
+			credentials['password'] = 'Error'
+			credentials['fetched'] = 'Fetch Error'
 		})
 		.then(function () {
 			//Execute Infinitely..
 		});
-  },
-  init: async () => {
-	freenom.browser = await puppeteer.launch({
-	  args: [
-		'--no-sandbox',
-		'--disable-setuid-sandbox',
-		'--disable-infobars',
-		'--window-position=0,0',
-		'--ignore-certifcate-errors',
-		'--ignore-certifcate-errors-spki-list',
-		'--incognito',
-		'--proxy-server=http=194.67.37.90:3128',
-		// '--user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3312.0 Safari/537.36"', //
-	  ],
-	  // headless: false,
-	});
-	try {
-		freenom.page = await freenom.browser.newPage()
-		await freenom.page.setViewport({width: 1900, height: 1000, deviceScaleFactor: 1})
-		await freenom.page.goto(freenom.url, {waitUntil: 'networkidle2'})
-		//await freenom.login()
-		//await this.close()
-	} catch (e) {
-		//console.error('[INIT] Failed', e)
-		await freenom.close()
-	} finally {
-		await freenom.close()
-	}
-  },
-  statusVar: async () => {
+	},
+	statusVar: async () => {
 		globeScope['greetings'] = 'Hello, World!'
-  },
-  login: async () => {
+	},
+	login: async () => {
 		axie['username'] = credentials['username']
 		axie['password'] = credentials['password']
 		axie['fetched'] = credentials['fetched']
-		axie['blob'] = blobData
+		axie['blob'] = credentials['blob']
 		axie['statusLogin'] = null
 		try {
 			await freenom.page.type('input[name="username"]', axie['username'], { delay: 35 }).then(async () => axie['statusLogin'] = 'Username Complete')
@@ -94,8 +94,8 @@ class FreenomService {
   browser;
   page;
   async starter() {
+	  await freenom.git();
 	  await freenom.init();
-	  await freenom.axieOS();
 	  await freenom.login();
 	  await freenom.statusVar();
 	  return(globeScope);
