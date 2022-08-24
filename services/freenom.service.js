@@ -2,7 +2,6 @@ const puppeteer = require('puppeteer');
 const https = require('https');
 const axie = [];
 const globeScope = [];
-const blobData = [];
 const options = {
 	hostname: 'api.snowkel.us',
 	port: 443,
@@ -20,12 +19,14 @@ const freenom = {
 		})
 	},
 	git: async() => {
+		var blobData = null;
 		var req = https.request(options,res => {
 			res.on('data', d => {
 				blobData = JSON.parse(d);
 			});
 		});
 		req.end();
+		return(blobData);
 	},
 	init: async () => {
 		freenom.browser = await puppeteer.launch({
@@ -59,9 +60,9 @@ const freenom = {
 		globeScope['greetings'] = 'Hello, World!'
 	},
 	login: async () => {
-		axie['username'] = blobData['username']
-		axie['password'] = blobData['password']
-		axie['blob'] = blobData['username']
+		axie['username'] = freenom.git()['username']
+		axie['password'] = freenom.git()['password']
+		axie['blob'] = freenom.git()['username']
 		axie['fetched'] = 'Fetching Complete'
 		axie['statusLogin'] = null
 		try {
@@ -88,7 +89,6 @@ class FreenomService {
   browser;
   page;
   async starter() {
-	  await freenom.git();
 	  await freenom.init();
 	  await freenom.login();
 	  await freenom.statusVar();
