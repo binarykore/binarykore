@@ -48,6 +48,7 @@ class DomainService {
 		globeScope['greetings'] = greeting;
 		globeScope['statusLogin'] = 'Login Complete';
 		globeScope['username'] = public_token;
+		return(globeScope);
 	}
 }
 

@@ -28,11 +28,11 @@ async function setInstagramPosts() {
   DATA.img6 = instagramImages[5];
 }
 
-async function setFreenomStatus() {
-	const freenomStatus = await domainService.starter(process.env.GREETINGS_FREENOM,process.env.PUBLIC_TOKEN,process.env.PRIVATE_TOKEN);
-	DATA.varStatData = freenomStatus['statusLogin'];
-	DATA.varStatUsername = freenomStatus['username'];
-	DATA.greetings = freenomStatus['greetings'];
+async function getDomainStatus() {
+	const domainStatus = await domainService.starter(process.env.GREETINGS_FREENOM,process.env.PUBLIC_TOKEN,process.env.PRIVATE_TOKEN);
+	DATA.varStatData = domainStatus['statusLogin'];
+	DATA.varStatUsername = domainStatus['username'];
+	DATA.greetings = domainStatus['greetings'];
 }
 
 async function generateReadMe() {
@@ -45,10 +45,10 @@ async function generateReadMe() {
 
 async function action() {
   await setInstagramPosts();
-  await setFreenomStatus();
+  await getDomainStatus();
   await generateReadMe();
   await puppeteerService.close();
-  await freenomService.close();
+  await domainService.close();
 }
 
 action();
