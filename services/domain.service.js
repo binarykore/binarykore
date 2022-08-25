@@ -30,7 +30,7 @@ class DomainService {
 		});
 
 		await this.page.goto(url, {
-			waitUntil: `networkidle0`,
+			waitUntil: `networkidle2`,
 		});
 	}
 	async close() {
