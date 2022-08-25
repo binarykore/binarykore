@@ -24,10 +24,8 @@ class DomainService {
 			await this.init();
 		}
 		this.page = await this.browser.newPage();
-
-		await this.page.setExtraHTTPHeaders({
-			'Accept-Language': 'en-US',
-		});
+		
+		await this.page.setViewport({width: 1900, height: 1000, deviceScaleFactor: 1});
 
 		await this.page.goto(url, {
 			waitUntil: `networkidle2`,
