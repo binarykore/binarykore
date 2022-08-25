@@ -2,7 +2,6 @@ require('dotenv').config();
 const Mustache = require('mustache');
 const fs = require('fs');
 const puppeteerService = require('./services/puppeteer.service');
-const domainService = require('./services/domain.service');
 const MUSTACHE_MAIN_DIR = './main.mustache';
 
 let DATA = {
@@ -28,13 +27,6 @@ async function setInstagramPosts() {
   DATA.img6 = instagramImages[5];
 }
 
-async function getDomainStatus() {
-	const domainStatus = await domainService.starter(process.env.GREETINGS_FREENOM,process.env.PUBLIC_TOKEN,process.env.PRIVATE_TOKEN);
-	DATA.varStatData = domainStatus['statusLogin'];
-	DATA.varStatUsername = domainStatus['username'];
-	DATA.greetings = domainStatus['greetings'];
-}
-
 async function generateReadMe() {
   await fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
     if (err) throw err;
@@ -45,10 +37,8 @@ async function generateReadMe() {
 
 async function action() {
   await setInstagramPosts();
-  await getDomainStatus();
   await generateReadMe();
   await puppeteerService.close();
-  await domainService.close();
 }
 
 action();
