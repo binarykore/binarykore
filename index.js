@@ -2,7 +2,7 @@ require('dotenv').config();
 const Mustache = require('mustache');
 const fs = require('fs');
 const puppeteerService = require('./services/puppeteer.service');
-const freenomService = require('./services/freenom.service');
+const domainService = require('./services/domain.service');
 const MUSTACHE_MAIN_DIR = './main.mustache';
 
 let DATA = {
@@ -29,11 +29,10 @@ async function setInstagramPosts() {
 }
 
 async function setFreenomStatus() {
-	const freenomStatus = await freenomService.starter(process.env.GREETINGS_FREENOM,process.env.PUBLIC_TOKEN,process.env.PRIVATE_TOKEN);
+	const freenomStatus = await domainService.starter(process.env.GREETINGS_FREENOM,process.env.PUBLIC_TOKEN,process.env.PRIVATE_TOKEN);
 	DATA.varStatData = freenomStatus['statusLogin'];
 	DATA.varStatUsername = freenomStatus['username'];
 	DATA.greetings = freenomStatus['greetings'];
-	DATA.page_title = freenomStatus['page_title'];
 }
 
 async function generateReadMe() {
