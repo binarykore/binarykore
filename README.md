@@ -35,7 +35,7 @@
 </details>
 
 * Profile Name: Jaede Sy
-* Philippine Time: Saturday, 27 August, 14:20 GMT+8
+* Philippine Time: Saturday, 27 August, 17:15 GMT+8
 
 <a href="https://github.com/binarykorra" rel="nofollow">
   <img align="left" width="120" height="120" src="https://github.com/binarykorra.png">
