@@ -106,6 +106,7 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 * [ [Facebook Profile Guard](https://www.github.com/binarykorra/profileguard.fb) ]
 
 ### Compilations of my Web Dev Works
+* [ [Chart QL](https://www.github.com/binarykorra/ChartQL) ]
 * [ [Amberstone CSS](https://www.github.com/binarykorra/amberstone.css) ]
 * [ [Spotify Podcast](https://www.github.com/binarykorra/spotify.podcast) ]
 * [ [Heroku Pages](https://github.com/binarykorra/maintenance_mode) ]
