@@ -35,7 +35,7 @@
 </details>
 
 * Profile Name: Jaede Sy
-* Philippine Time: Monday, 12 September, 02:22 GMT+8
+* Philippine Time: Monday, 12 September, 03:30 GMT+8
 
 <a href="https://github.com/binarykorra" rel="nofollow">
   <img align="left" width="120" height="120" src="https://github.com/binarykorra.png">
@@ -106,7 +106,6 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 * [ [Facebook Profile Guard](https://www.github.com/binarykorra/profileguard.fb) ]
 
 ### Compilations of my Web Dev Works
-* [ [Chart QL](https://www.github.com/binarykorra/ChartQL) ]
 * [ [Amberstone CSS](https://www.github.com/binarykorra/amberstone.css) ]
 * [ [Spotify Podcast](https://www.github.com/binarykorra/spotify.podcast) ]
 * [ [Heroku Pages](https://github.com/binarykorra/maintenance_mode) ]
