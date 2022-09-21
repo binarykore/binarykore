@@ -112,6 +112,9 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 * [ [ Image Cropping Tool ](https://github.com/binarykorra/imagecropping.tool)]
 * [ [ CSS Text Portrait Generator ](https://github.com/binarykorra/corsair.tg)]
 
+### Compilations of my Composer Packages
+* [ [Composer - Hello World](https://www.github.com/binarykorra/helloworld.composer) ]
+
 ### Compilations of my Cyber Security works (InfoSec):
 * [ [ Rabbit Hole Algorithm ](https://github.com/binarykorra/rabbit.hole)]
 * [ [ Raspberry Pi - Samba Server ](https://github.com/binarykorra/RPiSambaServer.sh)]
