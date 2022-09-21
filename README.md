@@ -35,7 +35,7 @@
 </details>
 
 * Profile Name: Jaede Sy
-* Philippine Time: Wednesday, 21 September, 20:41 GMT+8
+* Philippine Time: Wednesday, 21 September, 21:07 GMT+8
 
 <a href="https://github.com/binarykorra" rel="nofollow">
   <img align="left" width="120" height="120" src="https://github.com/binarykorra.png">
@@ -111,9 +111,6 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 * [ [Heroku Pages](https://github.com/binarykorra/maintenance_mode) ]
 * [ [ Image Cropping Tool ](https://github.com/binarykorra/imagecropping.tool)]
 * [ [ CSS Text Portrait Generator ](https://github.com/binarykorra/corsair.tg)]
-
-### Compilations of my Composer Packages
-* [ [Composer - Hello World](https://www.github.com/binarykorra/helloworld.composer) ]
 
 ### Compilations of my Cyber Security works (InfoSec):
 * [ [ Rabbit Hole Algorithm ](https://github.com/binarykorra/rabbit.hole)]
