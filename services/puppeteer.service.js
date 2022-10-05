@@ -73,7 +73,7 @@ class PuppeteerService {
     }
   }
   
-  async getLatestForexCount(url, n) {
+  async getLatestForexCount(url) {
     try {
       const page = url;
       await this.goToPage(page);
@@ -84,13 +84,13 @@ class PuppeteerService {
       // 🔽 Doesn't seem to be needed
       // await this.page.waitForFunction(`document.body.scrollHeight > ${previousHeight}`);
       await this.page.waitFor(1000);
-
-      const nodes = await this.page.evaluate(() => {
-        const forexCount = document.querySelectorAll(`.js-symbol-last`);
-        return [].map.call(forexCount, div => div.textContent.toString());
-      });
-
-      return nodes.slice(0, 2);
+		
+	  const nodes = await this.page.evaluate(() => {
+		var forexVal = document.querySelectorAll(`.js-symbol-last`)[0].textContent.toString();
+		return(forexVal);
+	  });
+	  
+      return nodes;
     } catch (error) {
       console.log('Error', error);
       process.exit();
