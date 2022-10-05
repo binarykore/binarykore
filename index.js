@@ -29,7 +29,7 @@ async function setInstagramPosts() {
 
 async function setForexPosts() {
   const forexUSDPHP = await puppeteerService.getLatestForexCount('https://www.tradingview.com/symbols/USDPHP/');
-  DATA.forexUSD = forexUSDPHP;
+  DATA.forexUSD = 3;
 }
 
 async function generateReadMe() {
