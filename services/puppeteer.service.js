@@ -73,24 +73,22 @@ class PuppeteerService {
     }
   }
   
-  async getLatestForexCount(url, n) {
+  async getLatestForexCount(url) {
     try {
       const page = url;
       await this.goToPage(page);
       let previousHeight;
-
+	  const forexSelector = '.js-symbol-open';
       previousHeight = await this.page.evaluate(`document.body.scrollHeight`);
       await this.page.evaluate(`window.scrollTo(0, document.body.scrollHeight)`);
       // 🔽 Doesn't seem to be needed
       // await this.page.waitForFunction(`document.body.scrollHeight > ${previousHeight}`);
       await this.page.waitFor(1000);
-
-      const nodes = await this.page.evaluate(() => {
-        const forexCount = document.querySelectorAll(`.js-symbol-open`);
-        return [].map.call(forexCount, div => div.innerHTML);
-      });
-
-      return nodes.slice(0, 1);
+	  const forexCell = await page.waitForSelector(forexSelector, {
+			visible: true
+	  });
+	  const forexVal = await page.evaluate(forexSelector => Array.from(document.querySelectorAll(`${forexSelector}`)).map(el => el.textContent), forexSelector);
+	  return(forexVal);
     } catch (error) {
       console.log('Error', error);
       process.exit();

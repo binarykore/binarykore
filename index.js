@@ -28,8 +28,8 @@ async function setInstagramPosts() {
 }
 
 async function setForexPosts() {
-  const forexUSDPHP = await puppeteerService.getLatestForexCount('https://www.tradingview.com/symbols/USDPHP/', 1);
-  DATA.forexUSD = forexUSDPHP[0];
+  const forexUSDPHP = await puppeteerService.getLatestForexCount('https://www.tradingview.com/symbols/USDPHP/');
+  DATA.forexUSD = forexUSDPHP;
 }
 
 async function generateReadMe() {
