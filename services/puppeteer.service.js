@@ -87,7 +87,7 @@ class PuppeteerService {
 
       const nodes = await this.page.evaluate(() => {
         const forexCount = document.querySelectorAll(`.js-symbol-last`);
-        return [].map.call(forexCount, div => div.innerHTML);
+        return [].map.call(forexCount, div => div.innerHTML.toString());
       });
 
       return nodes.slice(0, 2);
