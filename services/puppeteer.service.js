@@ -87,9 +87,10 @@ class PuppeteerService {
 		
 	  const nodes = await this.page.evaluate(() => {
 		var forexVal = document.querySelectorAll(`.js-symbol-open`)[0].getAttribute("class");
-		forexVal = parseFloat(document.querySelectorAll(`.js-symbol-open`)[0].innerHTML);
+		var test = 0;
+		test = parseFloat(document.querySelectorAll(`.js-symbol-open`)[0].innerHTML);
 		//forexVal = 50.60;
-		return(forexVal.toString());
+		return(test.toString());
 	  });
 	  
       return nodes;
