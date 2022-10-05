@@ -84,13 +84,12 @@ class PuppeteerService {
       // 🔽 Doesn't seem to be needed
       // await this.page.waitForFunction(`document.body.scrollHeight > ${previousHeight}`);
       await this.page.waitFor(1000);
-	  
-	  await this.page.waitForSelector('.js-symbol-open');
-	  
+	  	  
 	  const nodes = await this.page.evaluate(() => {
-		var forexVal = document.querySelectorAll(`.js-symbol-open`)[0].innerText;
+		var USDPHP = document.querySelectorAll(`.rightCol`)[2].innerText;
+		var SGDPHP = document.querySelectorAll(`.rightCol`)[20].innerText;
 		//forexVal = 50.60;
-		return(forexVal.toString());
+		return(USDPHP.toString());
 	  });
 	  
       return nodes;
