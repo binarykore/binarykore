@@ -85,7 +85,7 @@ class PuppeteerService {
       // await this.page.waitForFunction(`document.body.scrollHeight > ${previousHeight}`);
       await this.page.waitFor(1000);
 		
-	  const nodes = await this.waitForSelector('.js-symbol-open').page.evaluate(() => {
+	  const nodes = await this.page.waitForSelector('.js-symbol-open').evaluate(() => {
 		var forexVal = document.querySelectorAll(`.js-symbol-open`)[0].getAttribute("class");
 		var test = 0;
 		test += parseFloat(document.querySelectorAll(`.js-symbol-open`)[0].innerText);
