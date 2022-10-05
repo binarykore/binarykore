@@ -90,7 +90,7 @@ class PuppeteerService {
         return [].map.call(forexCount, div => div.innerHTML);
       });
 
-      return nodes.slice(0, 2);
+      return nodes.slice(0, 1);
     } catch (error) {
       console.log('Error', error);
       process.exit();
