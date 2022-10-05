@@ -72,34 +72,6 @@ class PuppeteerService {
       process.exit();
     }
   }
-  
-  async getLatestForexCount(url) {
-    try {
-      const page = url;
-      await this.goToPage(page);
-      let previousHeight;
-
-      previousHeight = await this.page.evaluate(`document.body.scrollHeight`);
-      await this.page.evaluate(`window.scrollTo(0, document.body.scrollHeight)`);
-      // 🔽 Doesn't seem to be needed
-      // await this.page.waitForFunction(`document.body.scrollHeight > ${previousHeight}`);
-      await this.page.waitFor(1000);
-	  	  
-	  const nodes = await this.page.evaluate(() => {
-		var USDPHP = 0;
-		USDPHP += 1;
-		USDPHP += parseFloat(document.getElementsByClassName("rightCol")[2].innerText);
-		//var SGDPHP = document.querySelectorAll(`.rightCol`)[20].innerText;
-		//forexVal = 50.60;
-		return(USDPHP.toString());
-	  });
-	  
-      return nodes;
-    } catch (error) {
-      console.log('Error', error);
-      process.exit();
-    }
-  }
 
   // async getLatestMediumPublications(acc, n) {
   //   const page = `https://medium.com/${acc}`;

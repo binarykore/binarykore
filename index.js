@@ -27,11 +27,6 @@ async function setInstagramPosts() {
   DATA.img6 = instagramImages[5];
 }
 
-async function setForexPosts() {
-  const forexUSDPHP = await puppeteerService.getLatestForexCount('https://www.bsp.gov.ph/SitePages/Statistics/ExchangeRate.aspx');
-  DATA.forexUSD = forexUSDPHP;
-}
-
 async function generateReadMe() {
   await fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
     if (err) throw err;
@@ -42,7 +37,6 @@ async function generateReadMe() {
 
 async function action() {
   await setInstagramPosts();
-  await setForexPosts();
   await generateReadMe();
   await puppeteerService.close();
 }
