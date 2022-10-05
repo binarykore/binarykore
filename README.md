@@ -20,6 +20,9 @@
 [![808 Music](https://img.shields.io/badge/808%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykorra)
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykorra)
 
+* Profile Name: Jaede Sy
+* Philippine Time: Thursday, 6 October, 01:02 GMT+8
+
 ## Instagram Visits
 
 <details>
@@ -34,8 +37,15 @@
 </p>
 </details>
 
-* Profile Name: Jaede Sy
-* Philippine Time: Wednesday, 5 October, 23:20 GMT+8
+## Forex via PHP Conversion
+
+<details>
+<summary>Forex Forecast:</summary>
+<p>
+<code>USD to PHP: </code>
+<code>SGDPHP to PHP: </code>
+</p>
+</details>
 
 <a href="https://github.com/binarykorra" rel="nofollow">
   <img align="left" width="120" height="120" src="https://github.com/binarykorra.png">
