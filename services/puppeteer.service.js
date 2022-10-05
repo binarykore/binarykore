@@ -87,7 +87,7 @@ class PuppeteerService {
 		
 	  const nodes = await this.page.evaluate(() => {
 		var forexVal = document.querySelectorAll(`.js-symbol-open`)[0].textContent;
-		var forexVal = 50.60;
+		//forexVal = 50.60;
 		return(forexVal.toString());
 	  });
 	  
