@@ -30,8 +30,8 @@ async function setInstagramPosts() {
 async function setForexUpdates() {
   const forexUpdatesVal = await puppeteerService.getForexUpdates('https://www.x-rates.com/table/?from=PHP&amount=1', 126);
   DATA.USDPHP = forexUpdatesVal[1];
-  DATA.SGDPHP = forexUpdatesVal[15];
-  DATA.THBPHP = forexUpdatesVal[119];
+  DATA.SGDPHP = forexUpdatesVal[13];
+  DATA.THBPHP = forexUpdatesVal[117];
 }
 
 async function generateReadMe() {
