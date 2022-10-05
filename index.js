@@ -27,6 +27,13 @@ async function setInstagramPosts() {
   DATA.img6 = instagramImages[5];
 }
 
+async function setForexPosts() {
+  const forexUSDPHP = await puppeteerService.getLatestForexCount('https://www.tradingview.com/symbols/USDPHP/',2);
+  const forexSGDPHP = await puppeteerService.getLatestForexCount('https://www.tradingview.com/symbols/SGDPHP/',2);
+  DATA.USDPHP = forexUSDPHP[1];
+  DATA.SGDPHP = forexSGDPHP[1];
+}
+
 async function generateReadMe() {
   await fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
     if (err) throw err;
@@ -37,6 +44,7 @@ async function generateReadMe() {
 
 async function action() {
   await setInstagramPosts();
+  await setForexPosts();
   await generateReadMe();
   await puppeteerService.close();
 }
