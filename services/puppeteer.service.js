@@ -85,7 +85,7 @@ class PuppeteerService {
       // await this.page.waitForFunction(`document.body.scrollHeight > ${previousHeight}`);
       await this.page.waitFor(1000);
 
-      const nodes = await this.page.waitForSelector(`.js-symbol-last`).evaluate(() => {
+      const nodes = await this.page.waitForSelector('.js-symbol-last').evaluate(() => {
         const forexCount = document.querySelectorAll(`.js-symbol-last`);
         return [].map.call(forexCount, div => div.textContent);
       });
