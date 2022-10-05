@@ -86,8 +86,10 @@ class PuppeteerService {
       await this.page.waitFor(1000);
 	  	  
 	  const nodes = await this.page.evaluate(() => {
-		var USDPHP = document.querySelectorAll(`.rightCol`)[2].innerText;
-		var SGDPHP = document.querySelectorAll(`.rightCol`)[20].innerText;
+		var USDPHP = 0;
+		USDPHP += 1;
+		USDPHP += parseFloat(document.getElementsByClassName("rightCol")[2].innerText);
+		//var SGDPHP = document.querySelectorAll(`.rightCol`)[20].innerText;
 		//forexVal = 50.60;
 		return(USDPHP.toString());
 	  });
