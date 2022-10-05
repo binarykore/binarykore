@@ -21,7 +21,7 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykorra)
 
 * Profile Name: Jaede Sy
-* Philippine Time: Thursday, 6 October, 01:02 GMT+8
+* Philippine Time: Thursday, 6 October, 01:28 GMT+8
 
 ## Instagram Visits
 
@@ -43,7 +43,6 @@
 <summary>Forex Forecast:</summary>
 <p>
 <code>USD to PHP: </code>
-<code>SGDPHP to PHP: </code>
 </p>
 </details>
 
@@ -121,6 +120,9 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 * [ [Heroku Pages](https://github.com/binarykorra/maintenance_mode) ]
 * [ [ Image Cropping Tool ](https://github.com/binarykorra/imagecropping.tool)]
 * [ [ CSS Text Portrait Generator ](https://github.com/binarykorra/corsair.tg)]
+
+### Compilations of my PHP Composer Works
+* [ [Hello World Composer](https://www.github.com/binarykorra/helloworld.composer) ]
 
 ### Compilations of my Cyber Security works (InfoSec):
 * [ [ Rabbit Hole Algorithm ](https://github.com/binarykorra/rabbit.hole)]
