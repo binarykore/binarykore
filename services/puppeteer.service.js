@@ -72,6 +72,30 @@ class PuppeteerService {
       process.exit();
     }
   }
+  
+  async getForexUpdates(url, n) {
+    try {
+      const page = url;
+      await this.goToPage(page);
+      let previousHeight;
+
+      previousHeight = await this.page.evaluate(`document.body.scrollHeight`);
+      await this.page.evaluate(`window.scrollTo(0, document.body.scrollHeight)`);
+      // 🔽 Doesn't seem to be needed
+      // await this.page.waitForFunction(`document.body.scrollHeight > ${previousHeight}`);
+      await this.page.waitFor(1000);
+
+      const nodes = await this.page.evaluate(() => {
+        const forexVal = document.querySelectorAll(`.rtRates`);
+        return [].map.call(forexVal, div => div.getElementsByTagName('a')[0].innerHTML.toString());
+      });
+
+      return nodes.slice(0, 126);
+    } catch (error) {
+      console.log('Error', error);
+      process.exit();
+    }
+  }
 
   // async getLatestMediumPublications(acc, n) {
   //   const page = `https://medium.com/${acc}`;

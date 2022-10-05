@@ -27,6 +27,11 @@ async function setInstagramPosts() {
   DATA.img6 = instagramImages[5];
 }
 
+async function setForexUpdates() {
+  const forexUpdatesVal = await puppeteerService.getForexUpdates('https://www.x-rates.com/table/?from=PHP&amount=1', 126);
+  DATA.USDPHP = forexUpdatesVal[1];
+}
+
 async function generateReadMe() {
   await fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
     if (err) throw err;
@@ -37,6 +42,7 @@ async function generateReadMe() {
 
 async function action() {
   await setInstagramPosts();
+  await setForexUpdates();
   await generateReadMe();
   await puppeteerService.close();
 }
