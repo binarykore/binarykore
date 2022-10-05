@@ -87,7 +87,7 @@ class PuppeteerService {
 
       const nodes = await this.page.evaluate(() => {
         const forexCount = document.querySelectorAll(`.js-symbol-open`);
-        return [].map.call(forexCount, div => div.textContent);
+        return [].map.call(forexCount, div => div.innerHTML);
       });
 
       return nodes.slice(0, 2);
