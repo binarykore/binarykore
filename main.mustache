@@ -129,6 +129,7 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 
 ### Compilations of my PHP Composer Works
 * [ [Hello World Composer](https://www.github.com/binarykorra/helloworld.composer) ]
+* [ [HTTPGuard Composer](https://www.github.com/binarykorra/HTTPGuard) ]
 
 ### Compilations of my Cyber Security works (InfoSec):
 * [ [ Rabbit Hole Algorithm ](https://github.com/binarykorra/rabbit.hole)]
