@@ -21,7 +21,7 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykorra)
 
 * Profile Name: Jaede Sy
-* Philippine Time: Tuesday, 8 November, 19:16 GMT+8
+* Philippine Time: Tuesday, 8 November, 20:38 GMT+8
 
 ## Instagram Visits
 
@@ -42,13 +42,13 @@
 <details>
 <summary>Forex Updates:</summary>
 <p>
-<code>USD (American Dollar) to PHP: 58.250211</code>
+<code>USD (American Dollar) to PHP: 58.238346</code>
 </p>
 <p>
-<code>SGD (Singaporean Dollar) to PHP: 41.532383</code>
+<code>SGD (Singaporean Dollar) to PHP: 41.518296</code>
 </p>
 <p>
-<code>THB (Thai Baht) to PHP: 1.562694</code>
+<code>THB (Thai Baht) to PHP: 1.564392</code>
 </p>
 </details>
 
@@ -88,6 +88,8 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
 * [ [Simple Interest Calculator](https://tools.technicalgeek.ml/calculator/si) ]
   
 * [ [Store Debt Calculator](https://tools.technicalgeek.ml/calculator/debt) ]
+
+* [ [Forex Exchange Calculator](https://tools.technicalgeek.ml/calculator/forex) ]
   
 * [ [Age Calculator](https://tools.technicalgeek.ml/calculator/age) ]
   
