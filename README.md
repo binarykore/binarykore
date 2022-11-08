@@ -21,7 +21,7 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykorra)
 
 * Profile Name: Jaede Sy
-* Philippine Time: Tuesday, 8 November, 17:18 GMT+8
+* Philippine Time: Tuesday, 8 November, 19:14 GMT+8
 
 ## Instagram Visits
 
@@ -42,13 +42,13 @@
 <details>
 <summary>Forex Updates:</summary>
 <p>
-<code>USD (American Dollar) to PHP: 58.277582</code>
+<code>USD (American Dollar) to PHP: 58.249690</code>
 </p>
 <p>
-<code>SGD (Singaporean Dollar) to PHP: 41.506387</code>
+<code>SGD (Singaporean Dollar) to PHP: 41.534254</code>
 </p>
 <p>
-<code>THB (Thai Baht) to PHP: 1.558942</code>
+<code>THB (Thai Baht) to PHP: 1.562494</code>
 </p>
 </details>
 
@@ -91,7 +91,7 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
   
 * [ [Age Calculator](https://tools.technicalgeek.ml/calculator/age) ]
   
-* [ [Whitepaper Beta](https://tools.technicalgeek.ml/whitepaper.beta) ]
+* [ [Whitepaper Beta](https://tools.technicalgeek.ml/whitepaper) ]
 
 * Password for the Whitepaper is "whitepaper", all small letters.
 
