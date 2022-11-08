@@ -89,6 +89,8 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
   
 * [ [Store Debt Calculator](https://tools.technicalgeek.ml/calculator/debt) ]
   
+* [ [Forex Exchange Calculator](https://tools.technicalgeek.ml/calculator/forex) ]
+  
 * [ [Age Calculator](https://tools.technicalgeek.ml/calculator/age) ]
   
 * [ [Whitepaper Beta](https://tools.technicalgeek.ml/whitepaper) ]
