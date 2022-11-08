@@ -91,7 +91,7 @@ I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my thi
   
 * [ [Age Calculator](https://tools.technicalgeek.ml/calculator/age) ]
   
-* [ [Whitepaper Beta](https://tools.technicalgeek.ml/whitepaper) ]
+* [ [Whitepaper Beta](https://tools.technicalgeek.ml/whitepaper.beta) ]
 
 * Password for the Whitepaper is "whitepaper", all small letters.
 
