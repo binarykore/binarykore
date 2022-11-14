@@ -21,7 +21,7 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykorra)
 
 * Profile Name: Jaede Sy
-* Philippine Time: Monday, 14 November, 17:18 GMT+8
+* Philippine Time: Monday, 14 November, 20:37 GMT+8
 
 ## Instagram Visits
 
@@ -42,13 +42,13 @@
 <details>
 <summary>Forex Updates:</summary>
 <p>
-<code>USD (American Dollar) to PHP: 57.171989</code>
+<code>USD (American Dollar) to PHP: 57.222551</code>
 </p>
 <p>
-<code>SGD (Singaporean Dollar) to PHP: 41.606750</code>
+<code>SGD (Singaporean Dollar) to PHP: 41.631695</code>
 </p>
 <p>
-<code>THB (Thai Baht) to PHP: 1.592984</code>
+<code>THB (Thai Baht) to PHP: 1.595693</code>
 </p>
 </details>
 
