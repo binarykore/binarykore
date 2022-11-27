@@ -25,7 +25,7 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykorra)
 
 * Profile Name: Jaede Sy
-* Philippine Time: Sunday, 27 November, 17:13 GMT+8
+* Philippine Time: Sunday, 27 November, 17:14 GMT+8
 
 ## Instagram Visits
 
