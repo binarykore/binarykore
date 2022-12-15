@@ -46,13 +46,13 @@
 <details>
 <summary>Forex Updates:</summary>
 <p>
-<code>USD (American Dollar) to PHP: 55.825311</code>
+<code>USD (American Dollar) to PHP: 55.831944</code>
 </p>
 <p>
-<code>SGD (Singaporean Dollar) to PHP: 41.191750</code>
+<code>SGD (Singaporean Dollar) to PHP: 41.192371</code>
 </p>
 <p>
-<code>THB (Thai Baht) to PHP: 1.595747</code>
+<code>THB (Thai Baht) to PHP: 1.596064</code>
 </p>
 </details>
 
