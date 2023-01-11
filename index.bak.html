@@ -20,7 +20,6 @@
 		<link rel="stylesheet" href="//cdn.snowkel.us/acss/remotefork.stylesheet"/>
 		<link rel="stylesheet" href="//cdn.snowkel.us/acss/wafer.stylesheet"/>
 		<link rel="stylesheet" href="//cdn.snowkel.us/acss/icons.elements.stylesheet"/>
-		<link rel='stylesheet' href='//cdn.snowkel.us/acss/hero.stylesheet'/>
 		<title>[ Digital Shadow ]</title>
 	</head>
 	<body>
@@ -32,7 +31,9 @@
 			<div desktop>
 				<div stretch>
 					<code desktop>
-						<code horizontal sling="left"><a href="/" sidebar hero><span hero>Home</span></a></code>
+						<code horizontal sling="left"><a href="/" active sidebar>Home</a></code>
+						<code horizontal sling="left"><a href="/music" sidebar>Podcast</a></code>
+						<code horizontal sling="left"><a href="/new" sidebar>New</a></code>
 					</code>
 				</div>
 			</div>
@@ -40,7 +41,16 @@
 				<div stretch>
 					<code mobile>
 						<div width="20" height="100" pos="rel" align="center" sling="left">
-							<code vertical><a href="/" sidebar hero><span hero>Home</span></a></code>
+							<code vertical><a href="/" active sidebar>Home</a></code>
+						</div>
+						<div width="60" height="100" flat dropdown sling="left" overflow="hidden">
+							<div collapse>
+								<code vertical sling="left"><a href="/music" sidebar>Podcast</a></code>
+								<code vertical sling="left"><a href="/new" sidebar>New</a></code>
+							</div>
+						</div>
+						<div width="20" align="center" height="100" pos="rel" sling="right">
+							<code sidebar toggle="sidebar"><label for="mobile" sidebar></label></code>
 						</div>
 					</code>
 				</div>
@@ -49,7 +59,7 @@
 		<label root dark for="mobile">
       <div footer>
         <code footer>
-          <a footer>Developed By:</a>
+          <a footer>Developed by:</a>
           <code margin> | </code>
           <a footer-link href='//www.twitter.com/binarykorra' contact>@binarykorra</a>
           <code margin> | </code>
