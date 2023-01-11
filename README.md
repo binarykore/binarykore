@@ -24,7 +24,7 @@
 [![808 Music](https://img.shields.io/badge/808%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykorra)
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykorra)
 
-* Profile Name: Jaede Sy
+* Profile Name: Digital Korra
 * Philippine Time: Friday, 6 January, 11:15 GMT+8
 
 ## Instagram Visits
@@ -164,12 +164,10 @@ Alternative
 <details>
 <summary>Support Channel:</summary>
 
-* GCash: 09225205353
+* GCash: +639225205353
 * Paypal: digitalshadow@icloud.com
-* Payoneer: digitalshadow@icloud.com
-* Skrill: digitalshadow@icloud.com
-* Email: binarykorra@icloud.com
-* Contact Number: 09225205353
+* Contact Email: binarykorra@snowkel.us
+* Contact Number: +639225205353
 * [ [Chat Support](https://github.com/binarykorra/binarykorra/issues) ]
 
 ### Copyright since ( 2019 )
