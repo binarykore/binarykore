@@ -1,4 +1,4 @@
-name: README build
+name: Binary Korra (Profile Update)
 
 on:
   push:
