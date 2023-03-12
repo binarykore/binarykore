@@ -9,4 +9,4 @@ jobs:
       - name: Call endpoint to keep the planetscale database alive #PlanetScale Ping
         run: |
           curl --request PUT \
-            --url '${{ secrets.SITE_URL }}/api/keep-alive'
+            --url '${{ secrets.SITE_URL }}/api/sleepercell'
