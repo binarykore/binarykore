@@ -1,7 +1,7 @@
-name: PlanetScale
+name: PlanetScale (Sleepercell Ping)
 on:
   schedule:
-    - cron: '0 12 * * *' # daily https://crontab.guru/#0_12_*_*_*
+    - cron: '0 12 * * *' #Daily https://crontab.guru/#0_12_*_*_*
 jobs:
   cron:
     runs-on: ubuntu-latest
