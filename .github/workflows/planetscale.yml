@@ -8,9 +8,9 @@ on:
 jobs:
     cron:
         runs-on: ubuntu-latest
-    steps:
-        - name: Sleeper Cell Ping
-        run: |
-            curl --request PUT \
-            --header 'authorization: ${{ secrets.AUTHORIZATION }}' \
-            --url '${{ secrets.SITE_URL }}/api/sleepercell'
+        steps:
+            - name: Sleeper Cell Ping
+            run: |
+                curl --request PUT \
+                --header 'authorization: ${{ secrets.AUTHORIZATION }}' \
+                --url '${{ secrets.SITE_URL }}/api/sleepercell'
