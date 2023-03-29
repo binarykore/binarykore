@@ -64,6 +64,12 @@
 ### About Me
 I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my things via Red Hat Hacking, I've been into this Field for a Long Time and my Connections are found everywhere, Such as MNL (Manila), Cebu, and Davao; We are Located anywhere in the World also' as they are like me, A Cyber Mercenary.
 
+<details>
+<summary>Github Actions:</summary>
+
+* [![PlanetScale (Sleepercell Ping)](https://github.com/binarykorra/binarykorra/actions/workflows/planetscale.yml/badge.svg)](https://github.com/binarykorra/binarykorra/actions/workflows/planetscale.yml)
+
+</details>
 
 <details>
 <summary>Tools and Works:</summary>
