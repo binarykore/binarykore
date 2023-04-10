@@ -2,6 +2,7 @@ require('dotenv').config();
 const Mustache = require('mustache');
 const fs = require('fs');
 const puppeteerService = require('./services/puppeteer.service');
+const axioService = require('./services/axios.service');
 const MUSTACHE_MAIN_DIR = './main.mustache';
 
 let DATA = {
@@ -28,10 +29,12 @@ async function setInstagramPosts() {
 }
 
 async function setForexUpdates() {
-  const forexUpdatesVal = await puppeteerService.getForexUpdates('https://www.x-rates.com/table/?from=PHP&amount=1', 126);
-  DATA.USDPHP = forexUpdatesVal[1];//2 is equals to 1
-  DATA.SGDPHP = forexUpdatesVal[13];//14 is equals to 13
-  DATA.THBPHP = forexUpdatesVal[117];//118 is equals to 117
+  const forexForecast = await axioService.getForexUpdates('https://watch.snowkel.us/api/watch', 4);
+  DATA.USDPHP = forexForecast[0];//USD to PHP
+  DATA.THBPHP = forexForecast[1];//THB to PHP
+  DATA.IDRPHP = forexForecast[2];//IDR to PHP
+  DATA.SGDPHP = forexForecast[3];//SGD to PHP
+  DATA.EURPHP = forexForecast[4];//EUR to PHP
 }
 
 async function generateReadMe() {
