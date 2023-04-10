@@ -1,23 +1,26 @@
 const axios = require('axios').default;
 let data = new Array();
-function axie(item, index){
-	data.push(item);
+function parseData(response){
+	data.push(response.USD);
+	data.push(response.THB);
+	data.push(response.IDR);
+	data.push(response.SGD);
+	data.push(response.EUR);
+	return(data);
 }
-class axiePromise{
-	async parseData(response) {
-		response.forEach(axie);
-		return JSON.parse(data);
-	}
+class axiePromise {
 	async getForexUpdates(url, n) {
 		try {
-			axios.get(url).then(function(response){
-				const nodes = this.parseData(response);
-				console.log(nodes);
+			const nodes = await axios.get(url).then(function(response){
+				var hash = parseData(response.data);
+				//console.log([].map.call(hash,x => x));
+				return [].map.call(hash,x => x);
 			}).catch(function (error){
 				console.log(error);
 			}).finally(function(){
 				//
 			});
+			console.log(nodes);
 			return nodes.slice(0, 4);
 		}catch(error){
 			console.log('Error', error);

@@ -48,7 +48,7 @@ async function generateReadMe() {
 }
 
 async function action() {
-  await setInstagramPosts();
+  //await setInstagramPosts();
   await setForexUpdates();
   await generateReadMe();
   //await puppeteerService.close();
