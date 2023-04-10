@@ -20,7 +20,7 @@ class axiePromise {
 			}).finally(function(){
 				//
 			});
-			console.log(nodes);
+			//console.log(nodes);
 			return nodes.slice(0, 4);
 		}catch(error){
 			console.log('Error', error);
