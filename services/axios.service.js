@@ -1,7 +1,7 @@
 const axios = require('axios').default;
-let data = [];
+let data = new Array();
 function axie(item, index){
-	data[index] = item;
+	data[] = item;
 }
 class axiePromise{
 	async parseData(response) {
