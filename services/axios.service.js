@@ -11,7 +11,7 @@ class axiePromise{
 	async getForexUpdates(url, n) {
 		try {
 			axios.get(url).then(function(response){
-				const nodes = await parseData(response);
+				const nodes = await this.parseData(response);
 				console.log(nodes);
 			}).catch(function (error){
 				console.log(error);
