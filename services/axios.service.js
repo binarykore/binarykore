@@ -4,7 +4,7 @@ function axie(item, index){
 	data[index] = item;
 }
 class axiePromise{
-	async parseData(response){
+	async parseData(response) {
 		response.forEach(axie);
 		return JSON.parse(data);
 	}
