@@ -31,7 +31,7 @@ async function setInstagramPosts() {
 */
 
 async function setForexUpdates() {
-  const forexForecast = await axioService.getForexUpdates('https://watch.snowkel.us/api/watch', 4);
+  const forexForecast = await axioService.getForexUpdates('https://watch.snowkel.us/api/watch', 5);
   DATA.USDPHP = forexForecast[0];//USD to PHP
   DATA.THBPHP = forexForecast[1];//THB to PHP
   DATA.IDRPHP = forexForecast[2];//IDR to PHP
