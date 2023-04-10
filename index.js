@@ -1,7 +1,7 @@
 require('dotenv').config();
 const Mustache = require('mustache');
 const fs = require('fs');
-const puppeteerService = require('./services/puppeteer.service');
+//const puppeteerService = require('./services/puppeteer.service');
 const axioService = require('./services/axios.service');
 const MUSTACHE_MAIN_DIR = './main.mustache';
 
@@ -18,6 +18,7 @@ let DATA = {
 	}),
 };
 
+/*
 async function setInstagramPosts() {
   const instagramImages = await puppeteerService.getLatestInstagramPostsFromAccount('binarymako.ph', 6);
   DATA.img1 = instagramImages[0];
@@ -27,6 +28,7 @@ async function setInstagramPosts() {
   DATA.img5 = instagramImages[4];
   DATA.img6 = instagramImages[5];
 }
+*/
 
 async function setForexUpdates() {
   const forexForecast = await axioService.getForexUpdates('https://watch.snowkel.us/api/watch', 4);
@@ -49,7 +51,7 @@ async function action() {
   await setInstagramPosts();
   await setForexUpdates();
   await generateReadMe();
-  await puppeteerService.close();
+  //await puppeteerService.close();
 }
 
 action();

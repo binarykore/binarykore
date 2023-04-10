@@ -4,14 +4,14 @@ function axie(item, index){
 	data[index] = item;
 }
 class axiePromise{
-	async parseData(response){
+	async function parseData(response){
 		response.forEach(axie);
 		return JSON.parse(data);
 	}
 	async getForexUpdates(url, n) {
 		try {
 			axios.get(url).then(function(response){
-				const nodes = this.parseData(response);
+				const nodes = await this.parseData(response);
 				console.log(nodes);
 			}).catch(function (error){
 				console.log(error);
