@@ -1,11 +1,11 @@
 const axios = require('axios').default;
 let data = [];
 function axie(item, index){
-	data[] = item;
+	data[index] = item;
 }
 class axiePromise{
 	async parseData(response){
-		response.forEach(axie)
+		response.forEach(axie);
 		return JSON.parse(data);
 	}
 	async getForexUpdates(url, n) {
