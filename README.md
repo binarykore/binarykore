@@ -25,7 +25,7 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykorra)
 
 * Profile Name: Digital Korra
-* Philippine Time: Wednesday, 12 April, 02:15 GMT+8
+* Philippine Time: Wednesday, 12 April, 05:13 GMT+8
 
 ## Instagram Visits
 
@@ -46,19 +46,19 @@
 <details>
 <summary>Forex Updates:</summary>
 <p>
-<code>USD (American Dollar) to PHP: 55.058278</code>
+<code>USD (American Dollar) to PHP: 55.052250</code>
 </p>
 <p>
-<code>THB (Thai Baht) to PHP: 1.606657</code>
+<code>THB (Thai Baht) to PHP: 1.606149</code>
 </p>
 <p>
-<code>IDR (Indonesian Rupiah) to PHP: 0.003692</code>
+<code>IDR (Indonesian Rupiah) to PHP: 0.003690</code>
 </p>
 <p>
-<code>SGD (Singaporean Dollar) to PHP: 41.311776</code>
+<code>SGD (Singaporean Dollar) to PHP: 41.306846</code>
 </p>
 <p>
-<code>EUR (European Pounds) to PHP: 60.059698</code>
+<code>EUR (European Pounds) to PHP: 60.079100</code>
 </p>
 </details>
 
