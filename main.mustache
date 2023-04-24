@@ -1,6 +1,6 @@
 ## Binary Korra ( Digital Korra ) - Programmer, Hacker, Developer
 
-[![Header](https://helixcdn.snowkel.us/cdn/icon/animation/dark/glow)](https://github.com/binarykorra)
+[![Header](https://cdn.snowkel.us/cdn/icon/animation/helix/glow)](https://github.com/binarykorra)
 
 ### Social Media Links:
 
