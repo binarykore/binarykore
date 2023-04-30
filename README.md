@@ -25,15 +25,9 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykorra)
 
 * Profile Name: Digital Korra
-<<<<<<< HEAD
-* Philippine Time: Sunday, 30 April at 17:58 GMT+8
+* Philippine Time: Sunday, 30 April, 18:01 GMT+8
 
-## Forex Watch ( Sunday, 30 April at 17:58 GMT+8 )
-=======
-* Philippine Time: Sunday, 30 April, 17:36 GMT+8
-
-## Forex Watch ( Sunday, 30 April, 17:36 GMT+8 )
->>>>>>> 3314c513b53bc67865a3d9309fb63f84f9a4c9c5
+## Forex Watch ( Sunday, 30 April, 18:01 GMT+8 )
 
 <details>
 <summary>Forex Updates:</summary>
