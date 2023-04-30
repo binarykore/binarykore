@@ -13,6 +13,7 @@ class axiePromise {
 		try {
 			const nodes = await axios.get(url).then(function(response){
 				var hash = parseData(Object.values(response.data));
+				//console.log(response.data);
 				//console.log([].map.call(hash,x => x));
 				return [].map.call(hash,x => x);
 			}).catch(function (error){
