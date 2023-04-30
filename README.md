@@ -27,21 +27,7 @@
 * Profile Name: Digital Korra
 * Philippine Time: Sunday, 30 April, 17:12 GMT+8
 
-## Instagram Visits
-
-<details>
-<summary>Binary Mako PH:</summary>
-<p>
-<img width="420" src=""/>
-<img width="420" src=""/>
-<img width="420" src=""/>
-<img width="420" src=""/>
-<img width="420" src=""/>
-<img width="420" src=""/>
-</p>
-</details>
-
-## Forex Updates Forecast
+## Forex Watch ( Sunday, 30 April, 17:12 GMT+8 )
 
 <details>
 <summary>Forex Updates:</summary>
