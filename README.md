@@ -16,7 +16,7 @@
 
 ## Talks, and Consultancy Services:
 
-[![Gitter](https://badges.gitter.im/binarymakotech/community.svg)](https://gitter.im/binarymakotech/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Gitter](https://badges.gitter.im/binarymako/community.svg)](https://gitter.im/binarymako/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ## Currently Listening to these Audio Sets:
 [![Acoustic](https://img.shields.io/badge/Acoustic-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykorra)
