@@ -25,26 +25,26 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykorra)
 
 * Profile Name: Digital Korra
-* Philippine Time: Wednesday, 17 May, 02:16 GMT+8
+* Philippine Time: Wednesday, 17 May, 09:10 GMT+8
 
-## Forex Watch ( Wednesday, 17 May, 02:16 GMT+8 )
+## Forex Watch ( Wednesday, 17 May, 09:10 GMT+8 )
 
 <details>
 <summary>Forex Updates:</summary>
 <p>
-<code>USD (American Dollar) to PHP: 56.181663</code>
+<code>USD (American Dollar) to PHP: 56.206401</code>
 </p>
 <p>
-<code>THB (Thai Baht) to PHP: 1.646299</code>
+<code>THB (Thai Baht) to PHP: 1.646686</code>
 </p>
 <p>
-<code>IDR (Indonesian Rupiah) to PHP: 0.003782</code>
+<code>IDR (Indonesian Rupiah) to PHP: 0.003783</code>
 </p>
 <p>
-<code>SGD (Singaporean Dollar) to PHP: 41.923252</code>
+<code>SGD (Singaporean Dollar) to PHP: 41.942976</code>
 </p>
 <p>
-<code>EUR (European Pounds) to PHP: 61.041797</code>
+<code>EUR (European Pounds) to PHP: 61.098125</code>
 </p>
 </details>
 
