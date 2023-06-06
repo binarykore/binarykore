@@ -6,7 +6,7 @@ const axioService = require('./services/axios.service');
 const MUSTACHE_MAIN_DIR = './main.mustache';
 
 let DATA = {
-	profile_name: 'Digital Korra',
+	profile_name: 'Digital Kore',
 	refresh_date: new Date().toLocaleDateString('en-GB', {
 		weekday: 'long',
 		month: 'long',
