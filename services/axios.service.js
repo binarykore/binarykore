@@ -13,7 +13,7 @@ class axiePromise {
 		try {
 			const nodes = await axios.get(url).then(function(response){
 				var hash = parseData(Object.values(response.data));
-				//console.log(response.data);
+				console.log(response.data);
 				//console.log([].map.call(hash,x => x));
 				return [].map.call(hash,x => x);
 			}).catch(function (error){
@@ -21,7 +21,7 @@ class axiePromise {
 			}).finally(function(){
 				//
 			});
-			//console.log(nodes);
+			console.log(nodes);
 			return nodes.slice(0, 5);
 		}catch(error){
 			console.log('Error', error);
