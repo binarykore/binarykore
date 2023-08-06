@@ -25,9 +25,9 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykore)
 
 * Profile Name: Digital Kore
-* Philippine Time: Sunday, 6 August, 23:54 GMT+8
+* Philippine Time: Sunday, 6 August, 23:55 GMT+8
 
-## Deep Sight: ( Sunday, 6 August, 23:54 GMT+8 )
+## Deep Sight: ( Sunday, 6 August, 23:55 GMT+8 )
 
 <details>
 <summary>Foreign Exchange:</summary>
@@ -54,7 +54,7 @@
 
 
 ### About Me
-I am a PHP Developer, InfoSec, Reverse Engineering Hacker. Sometimes I do my things via Red Hat Hacking, I've been into this Field for a Long Time and my Connections are found everywhere, Such as MNL (Manila), Cebu, and Davao; We are Located anywhere in the World also' as they are like me, A Cyber Mercenary.
+I am a PHP Developer, Info Sec (Information Security), Reverse Engineering Hacker. Sometimes I do my things via Red Hat Hacking, I've been into this Field for a Long Time and my Connections are found everywhere, Such as MNL (Manila), Cebu, and Davao; We are Located anywhere in the World also' as they are like me, A Cyber Mercenary.
 
 
 <details>
