@@ -25,26 +25,26 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykore)
 
 * Profile Name: Digital Kore
-* Philippine Time: Friday, 29 September, 02:16 GMT+8
+* Philippine Time: Friday, 29 September, 03:26 GMT+8
 
-## Deep Sight: ( Friday, 29 September, 02:16 GMT+8 )
+## Deep Sight: ( Friday, 29 September, 03:26 GMT+8 )
 
 <details>
 <summary>Foreign Exchange:</summary>
 <p>
-<code>USD (American Dollar) to PHP: 56.698278</code>
+<code>USD (American Dollar) to PHP: 56.690704</code>
 </p>
 <p>
-<code>THB (Thai Baht) to PHP: 1.549992</code>
+<code>THB (Thai Baht) to PHP: 1.550537</code>
 </p>
 <p>
-<code>IDR (Indonesian Rupiah) to PHP: 0.003660</code>
+<code>IDR (Indonesian Rupiah) to PHP: 0.003665</code>
 </p>
 <p>
-<code>SGD (Singaporean Dollar) to PHP: 41.480351</code>
+<code>SGD (Singaporean Dollar) to PHP: 41.483246</code>
 </p>
 <p>
-<code>EUR (European Pounds) to PHP: 59.858902</code>
+<code>EUR (European Pounds) to PHP: 59.847638</code>
 </p>
 </details>
 
@@ -89,6 +89,8 @@ I am a PHP Developer, Info Sec (Information Security), Reverse Engineering Hacke
 * [ [CPM (Click per Minute) Calculator](https://keycalc.vercel.app/calculator/cpm) ]
 
 * [ [Simple Interest Calculator](https://keycalc.vercel.app/calculator/si) ]
+
+* [ [Compouns Interest Calculator](https://keycalc.vercel.app/calculator/ci) ]
   
 * [ [Store Debt Calculator](https://keycalc.vercel.app/calculator/debt) ]
 
@@ -164,6 +166,7 @@ Alternative
 <summary>Support Channel:</summary>
 
 * GCash: +639225205353
+* Maya: +639225205353 / @binarymako
 * Paypal: @binarymako
 * Contact Email: redkrakensec@snowkel.us
 * Contact Number: +639225205353
@@ -178,6 +181,6 @@ Alternative
 
 [ ![MD5 Central](https://discordapp.com/api/guilds/953149401428275211/widget.png?style=banner2) ](https://dsc.gg/itdenphilippines)
 
-### Official HackTheBox Account
+### Official Hack The Box Account
 
-![BinaryKorra](https://www.hackthebox.eu/badge/image/529594)
+![BinaryKore](https://www.hackthebox.eu/badge/image/529594)
