@@ -31,7 +31,7 @@ jobs:
           GREETINGS_FREENOM: ${{secrets.GREETINGS_FREENOM}}
           PUBLIC_TOKEN: ${{secrets.PUBLIC_TOKEN}}
           PRIVATE_TOKEN: ${{secrets.PRIVATE_TOKEN}}
-      - name: Push new README.md
-        uses: mikeal/publish-to-github-action@master
+      - name: Deploying README.md
+        uses: snowkelus/sven@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
