@@ -25,26 +25,26 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykore)
 
 * Profile Name: Digital Kore
-* Philippine Time: Saturday, 7 October, 15:07 GMT+8
+* Philippine Time: Saturday, 7 October, 15:16 GMT+8
 
-## Deep Sight: ( Saturday, 7 October, 15:07 GMT+8 )
+## Deep Sight: ( Saturday, 7 October, 15:16 GMT+8 )
 
 <details>
 <summary>Foreign Exchange:</summary>
 <p>
-<code>USD (American Dollar) to PHP: 56.694242</code>
+<code>USD (American Dollar) to PHP: 56.685163</code>
 </p>
 <p>
-<code>THB (Thai Baht) to PHP: 1.534447</code>
+<code>THB (Thai Baht) to PHP: 1.533942</code>
 </p>
 <p>
 <code>IDR (Indonesian Rupiah) to PHP: 0.003622</code>
 </p>
 <p>
-<code>SGD (Singaporean Dollar) to PHP: 41.576001</code>
+<code>SGD (Singaporean Dollar) to PHP: 41.560771</code>
 </p>
 <p>
-<code>EUR (European Pounds) to PHP: 60.022233</code>
+<code>EUR (European Pounds) to PHP: 60.021868</code>
 </p>
 </details>
 
@@ -98,7 +98,7 @@ I am a PHP Developer, Info Sec (Information Security), Reverse Engineering Hacke
   
 * [ [Age Calculator](https://keycalc.vercel.app/calculator/age) ]
   
-* [ [Whitepaper Beta](https://keycalc.vercel.app/whitepaper.beta) ]
+* [ [Whitepaper](https://keycalc.vercel.app/whitepaper.beta) ]
 
 * Password for the Whitepaper is "whitepaper", all small letters.
 
