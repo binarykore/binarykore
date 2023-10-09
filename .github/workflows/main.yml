@@ -4,7 +4,13 @@ on:
   push:
     branches:
       - master
+  pull:
+    branches:
+      - master
   pull_request:
+    branches:
+      - master
+  fork:
     branches:
       - master
   schedule:
