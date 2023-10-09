@@ -6,7 +6,12 @@ on:
       - master
   schedule:
     - cron: '0 */3 * * *'
-
+  pull_request:
+    branches:
+      - master
+  schedule:
+    - cron: '0 */3 * * *'
+    
 jobs:
   build:
     runs-on: ubuntu-latest
