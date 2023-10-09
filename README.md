@@ -25,26 +25,26 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykore)
 
 * Profile Name: Digital Kore
-* Philippine Time: Monday, 9 October, 08:59 GMT+8
+* Philippine Time: Monday, 9 October, 09:23 GMT+8
 
-## Deep Sight: ( Monday, 9 October, 08:59 GMT+8 )
+## Deep Sight: ( Monday, 9 October, 09:23 GMT+8 )
 
 <details>
 <summary>Foreign Exchange:</summary>
 <p>
-<code>USD (American Dollar) to PHP: 56.691823</code>
+<code>USD (American Dollar) to PHP: 56.828168</code>
 </p>
 <p>
-<code>THB (Thai Baht) to PHP: 1.533794</code>
+<code>THB (Thai Baht) to PHP: 1.533740</code>
 </p>
 <p>
-<code>IDR (Indonesian Rupiah) to PHP: 0.003631</code>
+<code>IDR (Indonesian Rupiah) to PHP: 0.003629</code>
 </p>
 <p>
-<code>SGD (Singaporean Dollar) to PHP: 41.505919</code>
+<code>SGD (Singaporean Dollar) to PHP: 41.574375</code>
 </p>
 <p>
-<code>EUR (European Pounds) to PHP: 59.932895</code>
+<code>EUR (European Pounds) to PHP: 60.027885</code>
 </p>
 </details>
 
@@ -128,7 +128,7 @@ I am a PHP Developer, Info Sec (Information Security), Reverse Engineering Hacke
 * [ [Facebook Profile Guard](https://www.github.com/binarykore/profileguard.fb) ]
 
 ### Compilations of my Web Dev Works
-* [ [Helix - CDN](https://www.github.com/binarykore/amberstone.css) ]
+* [ [Helix - CDN](https://www.github.com/binarykore/helixcdn) ]
 * [ [Spotify Podcast](https://www.github.com/binarykore/spotify.podcast) ]
 * [ [Heroku Pages](https://github.com/binarykore/maintenance_mode) ]
 * [ [ Image Cropping Tool ](https://github.com/binarykore/imagecropping.tool)]
