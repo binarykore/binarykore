@@ -25,26 +25,26 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykore)
 
 * Profile Name: Digital Kore
-* Philippine Time: Wednesday, 11 October, 23:03 GMT+8
+* Philippine Time: Wednesday, 11 October, 23:47 GMT+8
 
-## Deep Sight: ( Wednesday, 11 October, 23:03 GMT+8 )
+## Deep Sight: ( Wednesday, 11 October, 23:47 GMT+8 )
 
 <details>
 <summary>Foreign Exchange:</summary>
 <p>
-<code>USD (American Dollar) to PHP: 56.732926</code>
+<code>USD (American Dollar) to PHP: 56.729230</code>
 </p>
 <p>
-<code>THB (Thai Baht) to PHP: 1.561256</code>
+<code>THB (Thai Baht) to PHP: 1.559760</code>
 </p>
 <p>
-<code>IDR (Indonesian Rupiah) to PHP: 0.003621</code>
+<code>IDR (Indonesian Rupiah) to PHP: 0.003617</code>
 </p>
 <p>
-<code>SGD (Singaporean Dollar) to PHP: 41.654760</code>
+<code>SGD (Singaporean Dollar) to PHP: 41.624682</code>
 </p>
 <p>
-<code>EUR (European Pounds) to PHP: 60.269486</code>
+<code>EUR (European Pounds) to PHP: 60.218823</code>
 </p>
 </details>
 
@@ -171,6 +171,39 @@ Alternative
 * Contact Email: redkrakensec@snowkel.us
 * Contact Number: +639225205353
 * [ [Chat Support](https://github.com/binarykore/binarykore/issues) ]
+
+
+### Donations and Payments:
+<details>
+<summary>Donations and Payments</summary>
+<p>
+  <code>EWallet - Send Money</code>
+  <br/>
+  <br/>
+  <code>Send Money: 09225205353 (GCash)</code>
+  <br/>
+  <code>Send Money: 09225205353 (Maya, soon)</code>
+  <br/>
+  <code>Send Money: 09225205353 (Coins PH)</code>
+  <br/>
+  <code>Send Money: 09225205353 (Palawan Pay)</code>
+  <br/>
+  <code>Remittance: 09225205353 (7/11 > GCash / Coins PH / Maya, soon)</code>
+  <br/>
+  <code>Remittance: 09225205353 (Palawan > GCash / Coins PH / Maya, soon)</code>
+  <br/>
+  <code>Remittance: 09225205353 (Cebuana > GCash / Coins PH / Maya, soon)</code>
+  <br/>
+  <code>Remittance: 09225205353 (MLhuillier > GCash / Coins PH / Maya, soon)</code>
+</p>
+<br/>
+<p>
+  <code>QR Code (GCash):</code>
+</p>
+<p>
+  <img src="https://cdn.snowkel.us/image/redirect/gcash"></img>
+</p>
+</details>
 
 ### Copyright since ( 2019 )
 ( C ) - [Binary Kore](https://github.com/binarykore), 09225205353
