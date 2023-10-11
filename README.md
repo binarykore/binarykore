@@ -25,26 +25,26 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykore)
 
 * Profile Name: Digital Kore
-* Philippine Time: Wednesday, 11 October, 23:47 GMT+8
+* Philippine Time: Wednesday, 11 October, 23:50 GMT+8
 
-## Deep Sight: ( Wednesday, 11 October, 23:47 GMT+8 )
+## Deep Sight: ( Wednesday, 11 October, 23:50 GMT+8 )
 
 <details>
 <summary>Foreign Exchange:</summary>
 <p>
-<code>USD (American Dollar) to PHP: 56.729230</code>
+<code>USD (American Dollar) to PHP: 56.728003</code>
 </p>
 <p>
-<code>THB (Thai Baht) to PHP: 1.559760</code>
+<code>THB (Thai Baht) to PHP: 1.559691</code>
 </p>
 <p>
 <code>IDR (Indonesian Rupiah) to PHP: 0.003617</code>
 </p>
 <p>
-<code>SGD (Singaporean Dollar) to PHP: 41.624682</code>
+<code>SGD (Singaporean Dollar) to PHP: 41.621334</code>
 </p>
 <p>
-<code>EUR (European Pounds) to PHP: 60.218823</code>
+<code>EUR (European Pounds) to PHP: 60.220867</code>
 </p>
 </details>
 
@@ -171,7 +171,7 @@ Alternative
 * Contact Email: redkrakensec@snowkel.us
 * Contact Number: +639225205353
 * [ [Chat Support](https://github.com/binarykore/binarykore/issues) ]
-
+</details>
 
 ### Donations and Payments:
 <details>
@@ -207,8 +207,6 @@ Alternative
 
 ### Copyright since ( 2019 )
 ( C ) - [Binary Kore](https://github.com/binarykore), 09225205353
-
-</details>
 
 ### Official Discord Server
 
