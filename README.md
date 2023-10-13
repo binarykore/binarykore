@@ -25,26 +25,26 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykore)
 
 * Profile Name: Digital Kore
-* Philippine Time: Saturday, 14 October, 05:10 GMT+8
+* Philippine Time: Saturday, 14 October, 05:22 GMT+8
 
-## Deep Sight: ( Saturday, 14 October, 05:10 GMT+8 )
+## Deep Sight: ( Saturday, 14 October, 05:22 GMT+8 )
 
 <details>
 <summary>Foreign Exchange:</summary>
 <p>
-<code>USD (American Dollar) to PHP: 56.790341</code>
+<code>USD (American Dollar) to PHP: 56.789659</code>
 </p>
 <p>
-<code>THB (Thai Baht) to PHP: 1.565196</code>
+<code>THB (Thai Baht) to PHP: 1.564142</code>
 </p>
 <p>
 <code>IDR (Indonesian Rupiah) to PHP: 0.003617</code>
 </p>
 <p>
-<code>SGD (Singaporean Dollar) to PHP: 41.425170</code>
+<code>SGD (Singaporean Dollar) to PHP: 41.424188</code>
 </p>
 <p>
-<code>EUR (European Pounds) to PHP: 59.691303</code>
+<code>EUR (European Pounds) to PHP: 59.688947</code>
 </p>
 </details>
 
@@ -177,7 +177,7 @@ Alternative
 <details>
 <summary>Donations and Payments</summary>
 <p>
-  <code>EWallet - Send Money</code>
+  <code>E-Wallet - Send Money:</code>
   <br/>
   <br/>
   <code>Send Money: 09225205353 (GCash)</code>
@@ -187,6 +187,9 @@ Alternative
   <code>Send Money: 09225205353 (Coins PH)</code>
   <br/>
   <code>Send Money: 09225205353 (Palawan Pay)</code>
+  <br/>
+  <code>E-Wallet - Remittance:</code>
+  <br/>
   <br/>
   <code>Remittance: 09225205353 (7/11 > GCash / Coins PH / Maya, soon)</code>
   <br/>
