@@ -188,6 +188,7 @@ Alternative
   <br/>
   <code>Send Money: 09225205353 (Palawan Pay)</code>
   <br/>
+  <br/>
   <code>E-Wallet - Remittance:</code>
   <br/>
   <br/>
