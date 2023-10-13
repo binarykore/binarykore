@@ -25,26 +25,26 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykore)
 
 * Profile Name: Digital Kore
-* Philippine Time: Saturday, 14 October, 05:24 GMT+8
+* Philippine Time: Saturday, 14 October, 05:25 GMT+8
 
-## Deep Sight: ( Saturday, 14 October, 05:24 GMT+8 )
+## Deep Sight: ( Saturday, 14 October, 05:25 GMT+8 )
 
 <details>
 <summary>Foreign Exchange:</summary>
 <p>
-<code>USD (American Dollar) to PHP: 56.801173</code>
+<code>USD (American Dollar) to PHP: 56.795563</code>
 </p>
 <p>
-<code>THB (Thai Baht) to PHP: 1.565015</code>
+<code>THB (Thai Baht) to PHP: 1.564542</code>
 </p>
 <p>
 <code>IDR (Indonesian Rupiah) to PHP: 0.003617</code>
 </p>
 <p>
-<code>SGD (Singaporean Dollar) to PHP: 41.426972</code>
+<code>SGD (Singaporean Dollar) to PHP: 41.430282</code>
 </p>
 <p>
-<code>EUR (European Pounds) to PHP: 59.701953</code>
+<code>EUR (European Pounds) to PHP: 59.697472</code>
 </p>
 </details>
 
@@ -187,6 +187,7 @@ Alternative
   <code>Send Money: 09225205353 (Coins PH)</code>
   <br/>
   <code>Send Money: 09225205353 (Palawan Pay)</code>
+  <br/>
   <br/>
   <code>E-Wallet - Remittance:</code>
   <br/>
