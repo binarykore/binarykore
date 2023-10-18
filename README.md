@@ -25,26 +25,26 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykore)
 
 * Profile Name: Digital Kore
-* Philippine Time: Wednesday, 18 October, 20:19 GMT+8
+* Philippine Time: Wednesday, 18 October, 23:06 GMT+8
 
-## Deep Sight: ( Wednesday, 18 October, 20:19 GMT+8 )
+## Deep Sight: ( Wednesday, 18 October, 23:06 GMT+8 )
 
 <details>
 <summary>Foreign Exchange:</summary>
 <p>
-<code>USD (American Dollar) to PHP: 56.739130</code>
+<code>USD (American Dollar) to PHP: 56.825224</code>
 </p>
 <p>
-<code>THB (Thai Baht) to PHP: 1.563686</code>
+<code>THB (Thai Baht) to PHP: 1.563519</code>
 </p>
 <p>
-<code>IDR (Indonesian Rupiah) to PHP: 0.003600</code>
+<code>IDR (Indonesian Rupiah) to PHP: 0.003595</code>
 </p>
 <p>
-<code>SGD (Singaporean Dollar) to PHP: 41.433153</code>
+<code>SGD (Singaporean Dollar) to PHP: 41.402717</code>
 </p>
 <p>
-<code>EUR (European Pounds) to PHP: 59.973211</code>
+<code>EUR (European Pounds) to PHP: 59.900026</code>
 </p>
 </details>
 
@@ -116,7 +116,7 @@ I am a PHP Developer, Info Sec (Information Security), Reverse Engineering Hacke
 
 [![stats](https://github-readme-stats.vercel.app/api?username=binarykore)](https://github.com/binarykore)
   
-[![languages](https://github-readme-stats.vercel.app/api/top-langs/?username=binarykorra)](https://github.com/binarykore)
+[![languages](https://github-readme-stats.vercel.app/api/top-langs/?username=binarykore)](https://github.com/binarykore)
 
 </details>
 
