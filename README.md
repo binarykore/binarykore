@@ -4,7 +4,7 @@
 
 ### Social Media Links:
 
-[![DEV Community Profile](https://img.shields.io/badge/DEV-%23000000.svg?&style=flat-square&logo=dev.to&logoColor=black)](https://dev.to/binarymakk)
+[![DEV Community Profile](https://img.shields.io/badge/DEV-%23000000.svg?&style=flat-square&logo=dev.to&logoColor=black)](https://dev.to/binarymako)
 [![YouTube Profile](https://img.shields.io/badge/YouTube-%23FF0000.svg?&style=flat-square&logo=youtube&logoColor=black)](https://www.youtube.com/@binarymako)
 [![BMC Profile](https://img.shields.io/badge/BuyMeaCoffee-%23FFDD00.svg?&style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://bmc.xyz/binarymako)
 [![Github Profile](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=black)](https://github.com/binarykore)
@@ -25,26 +25,26 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykore)
 
 * Profile Name: Digital Kore
-* Philippine Time: Wednesday, 18 October, 23:21 GMT+8
+* Philippine Time: Wednesday, 18 October, 23:22 GMT+8
 
-## Deep Sight: ( Wednesday, 18 October, 23:21 GMT+8 )
+## Deep Sight: ( Wednesday, 18 October, 23:22 GMT+8 )
 
 <details>
 <summary>Foreign Exchange:</summary>
 <p>
-<code>USD (American Dollar) to PHP: 56.812454</code>
+<code>USD (American Dollar) to PHP: 56.817581</code>
 </p>
 <p>
-<code>THB (Thai Baht) to PHP: 1.561890</code>
+<code>THB (Thai Baht) to PHP: 1.561935</code>
 </p>
 <p>
 <code>IDR (Indonesian Rupiah) to PHP: 0.003594</code>
 </p>
 <p>
-<code>SGD (Singaporean Dollar) to PHP: 41.388584</code>
+<code>SGD (Singaporean Dollar) to PHP: 41.387692</code>
 </p>
 <p>
-<code>EUR (European Pounds) to PHP: 59.859250</code>
+<code>EUR (European Pounds) to PHP: 59.863293</code>
 </p>
 </details>
 
