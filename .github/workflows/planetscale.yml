@@ -1,4 +1,4 @@
-name: PlanetScale (Sleeperless Ping)
+name: PlanetScale (Sleepless Ping)
 on:
   push:
     branches:
