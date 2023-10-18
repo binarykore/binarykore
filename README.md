@@ -12,7 +12,7 @@
 [![Profile Views](https://komarev.com/ghpvc/?username=binarykore&label=Github+Profile+Views&edge_flat=true)](https://github.com/binarykore)
 
 
-[ [Works](http://binarykore.github.io/binarykore/works) ] [ [Zero](http://binarykore.github.io/binarykore/zero) ] [ [WireChat](http://binarykore.github.io/binarykore/wirechat) ] [ [Music Podcast](http://binarykore.github.io/binarykore/music) ] [ [Certificates](http://binarykore.github.io/binarykore/certificates) ]
+[ [Works](http://binarykore.github.io/binarykore/works) ] [ [Zero](http://binarykore.github.io/binarykore/zero) ] [ [Wire Chat](http://binarykore.github.io/binarykore/wirechat) ] [ [Music Podcast](http://binarykore.github.io/binarykore/music) ] [ [Certificates](http://binarykore.github.io/binarykore/certificates) ]
 
 ## Developer Community:
 
@@ -25,26 +25,26 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykore)
 
 * Profile Name: Digital Kore
-* Philippine Time: Thursday, 19 October, 01:25 GMT+8
+* Philippine Time: Thursday, 19 October, 01:34 GMT+8
 
-## Deep Sight: ( Thursday, 19 October, 01:25 GMT+8 )
+## Deep Sight: ( Thursday, 19 October, 01:34 GMT+8 )
 
 <details>
 <summary>Foreign Exchange:</summary>
 <p>
-<code>USD (American Dollar) to PHP: 56.796235</code>
+<code>USD (American Dollar) to PHP: 56.807022</code>
 </p>
 <p>
-<code>THB (Thai Baht) to PHP: 1.563091</code>
+<code>THB (Thai Baht) to PHP: 1.563231</code>
 </p>
 <p>
-<code>IDR (Indonesian Rupiah) to PHP: 0.003596</code>
+<code>IDR (Indonesian Rupiah) to PHP: 0.003594</code>
 </p>
 <p>
-<code>SGD (Singaporean Dollar) to PHP: 41.404517</code>
+<code>SGD (Singaporean Dollar) to PHP: 41.406777</code>
 </p>
 <p>
-<code>EUR (European Pounds) to PHP: 59.922106</code>
+<code>EUR (European Pounds) to PHP: 59.917938</code>
 </p>
 </details>
 
