@@ -6,7 +6,7 @@
 
 [![DEV Community Profile](https://img.shields.io/badge/DEV-%23000000.svg?&style=flat-square&logo=dev.to&logoColor=black)](https://dev.to/binarykorra)
 [![YouTube Profile](https://img.shields.io/badge/YouTube-%23FF0000.svg?&style=flat-square&logo=youtube&logoColor=black)](https://www.youtube.com/channel/UCYbraPQtWy2k-2xGiLzl5WA)
-[![BMC Profile](https://img.shields.io/badge/BuyMeaCoffee-%23FFDD00.svg?&style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://bmc.xyz/binarykorra)
+[![BMC Profile](https://img.shields.io/badge/BuyMeaCoffee-%23FFDD00.svg?&style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://bmc.xyz/binarymako)
 [![Github Profile](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=black)](https://github.com/binarykore)
 [![Profile Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/binarykore/hit-counter&title=Page+Requests&edge_flat=true)](https://github.com/binarykore)
 [![Profile Views](https://komarev.com/ghpvc/?username=binarykore&label=Github+Profile+Views&edge_flat=true)](https://github.com/binarykore)
@@ -25,26 +25,26 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykore)
 
 * Profile Name: Digital Kore
-* Philippine Time: Wednesday, 18 October, 23:18 GMT+8
+* Philippine Time: Wednesday, 18 October, 23:19 GMT+8
 
-## Deep Sight: ( Wednesday, 18 October, 23:18 GMT+8 )
+## Deep Sight: ( Wednesday, 18 October, 23:19 GMT+8 )
 
 <details>
 <summary>Foreign Exchange:</summary>
 <p>
-<code>USD (American Dollar) to PHP: 56.817028</code>
+<code>USD (American Dollar) to PHP: 56.813444</code>
 </p>
 <p>
-<code>THB (Thai Baht) to PHP: 1.561787</code>
+<code>THB (Thai Baht) to PHP: 1.562158</code>
 </p>
 <p>
-<code>IDR (Indonesian Rupiah) to PHP: 0.003593</code>
+<code>IDR (Indonesian Rupiah) to PHP: 0.003594</code>
 </p>
 <p>
-<code>SGD (Singaporean Dollar) to PHP: 41.389989</code>
+<code>SGD (Singaporean Dollar) to PHP: 41.390101</code>
 </p>
 <p>
-<code>EUR (European Pounds) to PHP: 59.875111</code>
+<code>EUR (European Pounds) to PHP: 59.877148</code>
 </p>
 </details>
 
