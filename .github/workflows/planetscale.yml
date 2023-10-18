@@ -1,4 +1,4 @@
-name: PlanetScale (Sleepercell Ping)
+name: PlanetScale (Sleeperless Ping)
 on:
   push:
     branches:
@@ -9,7 +9,7 @@ jobs:
   cron:
     runs-on: ubuntu-latest
     steps:
-      - name: Sleeper Cell Ping
+      - name: Sleepless Ping
         run: |
           curl --request PUT \
             --header 'authorization: ${{ secrets.AUTHORIZATION }}' \
