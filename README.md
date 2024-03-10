@@ -25,9 +25,9 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykore)
 
 * Profile Name: Digital Kore
-* Philippine Time: Sunday, 10 March, 17:04 GMT+8
+* Philippine Time: Sunday, 10 March, 20:09 GMT+8
 
-## Deep Sight: ( Sunday, 10 March, 17:04 GMT+8 )
+## Deep Sight: ( Sunday, 10 March, 20:09 GMT+8 )
 
 <details>
 <summary>Foreign Exchange:</summary>
@@ -35,16 +35,16 @@
 <code>USD (American Dollar) to PHP: 55.748088</code>
 </p>
 <p>
-<code>THB (Thai Baht) to PHP: 1.570577</code>
+<code>THB (Thai Baht) to PHP: 1.570347</code>
 </p>
 <p>
-<code>IDR (Indonesian Rupiah) to PHP: 0.003568</code>
+<code>IDR (Indonesian Rupiah) to PHP: 0.003566</code>
 </p>
 <p>
-<code>SGD (Singaporean Dollar) to PHP: 41.848969</code>
+<code>SGD (Singaporean Dollar) to PHP: 41.870941</code>
 </p>
 <p>
-<code>EUR (European Pounds) to PHP: 60.990635</code>
+<code>EUR (European Pounds) to PHP: 60.938589</code>
 </p>
 </details>
 
