@@ -18,9 +18,9 @@
 
 <details>
 <summary>BBC News</summary>
-<audio controls loop autoplay>
+<video controls loop autoplay>
 <source src="https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8" type="audio/mpeg"></source>
-</audio>
+</video>
 </details>
 
 ## Developer Community:
@@ -34,26 +34,26 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykore)
 
 * Profile Name: Digital Kore
-* Philippine Time: Tuesday, 24 September, 06:26 GMT+8
+* Philippine Time: Tuesday, 24 September, 06:33 GMT+8
 
-## Deep Sight: ( Tuesday, 24 September, 06:26 GMT+8 )
+## Deep Sight: ( Tuesday, 24 September, 06:33 GMT+8 )
 
 <details>
 <summary>Foreign Exchange:</summary>
 <p>
-<code>USD (American Dollar) to PHP: 55.999473</code>
+<code>USD (American Dollar) to PHP: 55.966348</code>
 </p>
 <p>
-<code>THB (Thai Baht) to PHP: 1.700768</code>
+<code>THB (Thai Baht) to PHP: 1.699664</code>
 </p>
 <p>
-<code>IDR (Indonesian Rupiah) to PHP: 0.003690</code>
+<code>IDR (Indonesian Rupiah) to PHP: 0.003684</code>
 </p>
 <p>
-<code>SGD (Singaporean Dollar) to PHP: 43.383871</code>
+<code>SGD (Singaporean Dollar) to PHP: 43.358268</code>
 </p>
 <p>
-<code>EUR (European Pounds) to PHP: 62.233040</code>
+<code>EUR (European Pounds) to PHP: 62.191372</code>
 </p>
 </details>
 
