@@ -16,11 +16,10 @@
 
 ## IPTV Podcast:
 
-<details>
-<summary>BBC News</summary>
-* https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
-* https://github.com/binarykore/binarykore/blob/aad1f3042ed2a6e9b5a5f8e1aec200e7ff047453/RL%20Grime%20-%20Core.m4a
-</details>
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+
+https://github.com/binarykore/binarykore/blob/aad1f3042ed2a6e9b5a5f8e1aec200e7ff047453/RL%20Grime%20-%20Core.m4a
+
 
 ## Developer Community:
 
@@ -33,26 +32,26 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykore)
 
 * Profile Name: Digital Kore
-* Philippine Time: Tuesday, 24 September, 06:50 GMT+8
+* Philippine Time: Tuesday, 24 September, 06:51 GMT+8
 
-## Deep Sight: ( Tuesday, 24 September, 06:50 GMT+8 )
+## Deep Sight: ( Tuesday, 24 September, 06:51 GMT+8 )
 
 <details>
 <summary>Foreign Exchange:</summary>
 <p>
-<code>USD (American Dollar) to PHP: 55.956516</code>
+<code>USD (American Dollar) to PHP: 55.956359</code>
 </p>
 <p>
-<code>THB (Thai Baht) to PHP: 1.699499</code>
+<code>THB (Thai Baht) to PHP: 1.699753</code>
 </p>
 <p>
-<code>IDR (Indonesian Rupiah) to PHP: 0.003683</code>
+<code>IDR (Indonesian Rupiah) to PHP: 0.003684</code>
 </p>
 <p>
-<code>SGD (Singaporean Dollar) to PHP: 43.353739</code>
+<code>SGD (Singaporean Dollar) to PHP: 43.353738</code>
 </p>
 <p>
-<code>EUR (European Pounds) to PHP: 62.183526</code>
+<code>EUR (European Pounds) to PHP: 62.183603</code>
 </p>
 </details>
 
