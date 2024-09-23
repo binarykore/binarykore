@@ -14,10 +14,6 @@
 
 [ [Works](http://binarykore.github.io/binarykore/works) ] [ [Zero](http://binarykore.github.io/binarykore/zero) ] [ [Wire Chat](http://binarykore.github.io/binarykore/wirechat) ] [ [Music Podcast](http://binarykore.github.io/binarykore/music) ] [ [Certificates](http://binarykore.github.io/binarykore/certificates) ]
 
-## IPTV Podcast:
-
-https://github.com/binarykore/binarykore/raw/refs/heads/master/RL%20Grime%20-%20Core.m4a
-
 ## Developer Community:
 
 [![Gitter](https://badges.gitter.im/binarymako/community.svg)](https://gitter.im/binarymako/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
@@ -29,26 +25,26 @@ https://github.com/binarykore/binarykore/raw/refs/heads/master/RL%20Grime%20-%20
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykore)
 
 * Profile Name: Digital Kore
-* Philippine Time: Tuesday, 24 September, 06:55 GMT+8
+* Philippine Time: Tuesday, 24 September, 06:57 GMT+8
 
-## Deep Sight: ( Tuesday, 24 September, 06:55 GMT+8 )
+## Deep Sight: ( Tuesday, 24 September, 06:57 GMT+8 )
 
 <details>
 <summary>Foreign Exchange:</summary>
 <p>
-<code>USD (American Dollar) to PHP: 55.972307</code>
+<code>USD (American Dollar) to PHP: 55.960652</code>
 </p>
 <p>
-<code>THB (Thai Baht) to PHP: 1.700172</code>
+<code>THB (Thai Baht) to PHP: 1.699775</code>
 </p>
 <p>
-<code>IDR (Indonesian Rupiah) to PHP: 0.003686</code>
+<code>IDR (Indonesian Rupiah) to PHP: 0.003685</code>
 </p>
 <p>
-<code>SGD (Singaporean Dollar) to PHP: 43.366340</code>
+<code>SGD (Singaporean Dollar) to PHP: 43.356612</code>
 </p>
 <p>
-<code>EUR (European Pounds) to PHP: 62.198637</code>
+<code>EUR (European Pounds) to PHP: 62.185146</code>
 </p>
 </details>
 
