@@ -25,26 +25,46 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykore)
 
 * Profile Name: Digital Kore
-* Philippine Time: Monday, 30 December, 23:08 GMT+8
+* Philippine Time: Monday, 30 December, 23:55 GMT+8
 
-## Deep Sight: ( Monday, 30 December, 23:08 GMT+8 )
+## Deep Sight: ( Monday, 30 December, 23:55 GMT+8 )
 
 <details>
 <summary>Foreign Exchange:</summary>
 <p>
-<code>USD (American Dollar) to PHP: 57.867334</code>
+<code>USD (American Dollar) to PHP:
+```
+57.909256
+```
+</code>
 </p>
 <p>
-<code>THB (Thai Baht) to PHP: 1.693498</code>
+<code>THB (Thai Baht) to PHP:
+```
+1.690462
+```
+</code>
 </p>
 <p>
-<code>IDR (Indonesian Rupiah) to PHP: 0.003571</code>
+<code>IDR (Indonesian Rupiah) to PHP:
+```
+0.003576
+```
+</code>
 </p>
 <p>
-<code>SGD (Singaporean Dollar) to PHP: 42.617202</code>
+<code>SGD (Singaporean Dollar) to PHP:
+```
+42.585874
+```
+</code>
 </p>
 <p>
-<code>EUR (European Pounds) to PHP: 60.184667</code>
+<code>EUR (European Pounds) to PHP:
+```
+60.090283
+```
+</code>
 </p>
 </details>
 
@@ -210,6 +230,18 @@ Alternative
 
 [![Libera](https://img.shields.io/liberapay/patrons/binarymako.svg?logo=liberapay)](https://liberapay.com/binarymako/donate)
 
+<code>Hotline:</code>
+```
++639923470943
+```
+<code>Email Address:</code>
+```
+binarymako@mail.snowkelus.xyz 
+```
+<code>Website:</code>
+```
+https://business.mail.snowkelus.xyz/binarymako
+```
 </details>
 
 ### Copyright since ( 2019 )
