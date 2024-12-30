@@ -30,42 +30,44 @@
 ## Deep Sight: ( {{refresh_date}} )
 
 <details>
+
+
 <summary>Foreign Exchange:</summary>
-<p>
-<code>USD (American Dollar) to PHP:
+
+```
+https://watch.snowkel.us/api/watch
+```
+
+<p><code>USD (American Dollar) to PHP:</code></p>
+
 ```
 {{USDPHP}}
 ```
-</code>
-</p>
-<p>
-<code>THB (Thai Baht) to PHP:
+
+<p><code>THB (Thai Baht) to PHP:</code></p>
+
 ```
 {{THBPHP}}
 ```
-</code>
-</p>
-<p>
-<code>IDR (Indonesian Rupiah) to PHP:
+
+<p><code>IDR (Indonesian Rupiah) to PHP:</code></p>
+
 ```
 {{IDRPHP}}
 ```
-</code>
-</p>
-<p>
-<code>SGD (Singaporean Dollar) to PHP:
+
+<p><code>SGD (Singaporean Dollar) to PHP:</code></p>
+
 ```
 {{SGDPHP}}
 ```
-</code>
-</p>
-<p>
-<code>EUR (European Pounds) to PHP:
+
+<p><code>EUR (European Pounds) to PHP:</code></p>
+
 ```
 {{EURPHP}}
 ```
-</code>
-</p>
+
 </details>
 
 <a href="https://github.com/binarykore" rel="nofollow">
