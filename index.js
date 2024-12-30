@@ -3,7 +3,7 @@ const Mustache = require('mustache');
 const fs = require('fs');
 //const puppeteerService = require('./services/puppeteer.service');
 const axioService = require('./services/axios.service');
-const MUSTACHE_MAIN_DIR = './main.mustache';
+const MUSTACHE_MAIN_DIR = './silver_crown.pkg';
 
 let DATA = {
 	profile_name: 'Digital Kore',
