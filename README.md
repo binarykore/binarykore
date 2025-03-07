@@ -25,9 +25,9 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykore)
 
 * Profile Name: Digital Kore
-* Philippine Time: Monday, 3 March, 14:13 GMT+8
+* Philippine Time: Saturday, 8 March, 03:54 GMT+8
 
-## Deep Sight: ( Monday, 3 March, 14:13 GMT+8 )
+## Deep Sight: ( Saturday, 8 March, 03:54 GMT+8 )
 
 <details>
 
@@ -41,31 +41,31 @@ https://watch.snowkel.us/api/watch
 <p><code>USD (American Dollar) to PHP:</code></p>
 
 ```
-57.925706
+57.441797
 ```
 
 <p><code>THB (Thai Baht) to PHP:</code></p>
 
 ```
-1.687599
+1.702868
 ```
 
 <p><code>IDR (Indonesian Rupiah) to PHP:</code></p>
 
 ```
-0.003515
+0.003524
 ```
 
 <p><code>SGD (Singaporean Dollar) to PHP:</code></p>
 
 ```
-42.917134
+43.163713
 ```
 
 <p><code>EUR (European Pounds) to PHP:</code></p>
 
 ```
-60.321068
+62.275819
 ```
 
 </details>
@@ -227,7 +227,9 @@ Alternative
   <code>QR Code (GCash):</code>
 </p>
 <p>
+  <a href="https://business.mail.snowkelus.xyz/gcash_api">
   <img src="https://cdn.snowkel.us/image/redirect/gcash"></img>
+  </a>
 </p>
 
 [![Libera](https://img.shields.io/liberapay/patrons/binarymako.svg?logo=liberapay)](https://liberapay.com/binarymako/donate)
@@ -238,7 +240,7 @@ Alternative
 ```
 <code>Email Address:</code>
 ```
-binarymako@mail.snowkelus.xyz 
+bobcat-reborn-skid@duck.com 
 ```
 <code>Website:</code>
 ```
