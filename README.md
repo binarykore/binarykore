@@ -25,9 +25,9 @@
 [![Trap Music](https://img.shields.io/badge/Trap%20Music-%231DB954.svg?&style=flat-square&logo=spotify&logoColor=white)](https://github.com/binarykore)
 
 * Profile Name: Digital Kore
-* Philippine Time: Friday 30 May at 05:09 GMT+8
+* Philippine Time: Friday 30 May at 08:48 GMT+8
 
-## Deep Sight: ( Friday 30 May at 05:09 GMT+8 )
+## Deep Sight: ( Friday 30 May at 08:48 GMT+8 )
 
 <details>
 
@@ -41,31 +41,31 @@ https://watch.snowkel.us/api/watch
 <p><code>USD (American Dollar) to PHP:</code></p>
 
 ```
-55.639701
+55.613394
 ```
 
 <p><code>THB (Thai Baht) to PHP:</code></p>
 
 ```
-1.707523
+1.709749
 ```
 
 <p><code>IDR (Indonesian Rupiah) to PHP:</code></p>
 
 ```
-0.003413
+0.003412
 ```
 
 <p><code>SGD (Singaporean Dollar) to PHP:</code></p>
 
 ```
-43.242677
+43.179081
 ```
 
 <p><code>EUR (European Pounds) to PHP:</code></p>
 
 ```
-63.272317
+63.232242
 ```
 
 </details>
